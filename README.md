@@ -1,91 +1,101 @@
 # Able
 
-Chat-driven track building in Ableton Live 12.4.5 Suite. Claude (or any LLM agent) talks to Live
-through [`ableton-js`](https://github.com/leolabs/ableton-js) - a Remote Script inside Live plus a
-typed Node/TypeScript client. No MCP server, no CLI framework - just scripts in `scripts/`, run
-with `tsx`, that read/write the live Ableton session directly.
+![Live 12](https://img.shields.io/badge/Ableton-Live%2012%20Suite-000000?logo=abletonlive&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)
+![Bridge](https://img.shields.io/badge/bridge-ableton--js-1DB954)
+![Status](https://img.shields.io/badge/status-personal%2C%20live-orange)
 
-Every generated artifact is a file on disk first (`out/*.mid`, `recipes/*.yaml`), pushed to Live
-second. Nothing is hidden in a database - the catalog, the taste graph, the song definitions, all
-plain YAML you can read and edit by hand.
+**Talk to Claude, get a track built - in Arrangement, where it actually counts.**
+
+<p align="center">
+  <a href="#setup">setup</a> ·
+  <a href="#try-it">try it</a> ·
+  <a href="#layout">layout</a> ·
+  <a href="#session-vs-arrangement">session vs. arrangement</a> ·
+  <a href="#what-the-live-api-just-wont-do">what the api won't do</a> ·
+  <a href="#ground-rules">ground rules</a>
+</p>
+
+No plugin, no MCP server - `scripts/` are just TypeScript run with `tsx`, talking to a live
+Ableton Live 12 session over [`ableton-js`](https://github.com/leolabs/ableton-js) (a Remote
+Script + a Node client).
+
+Everything lands on disk first (`out/*.mid`, `recipes/*.yaml`, `catalog/*.yaml`) and gets pushed
+to Live second, so nothing's trapped in a database you can't read.
 
 ## Setup
 
-1. Install deps: `pnpm install`
-2. Copy the Remote Script into Live:
-   `node_modules/ableton-js/midi-script` -> `Documents/Ableton/User Library/Remote Scripts/AbletonJS`
-3. In Live: Preferences > Link, Tempo & MIDI, enable **AbletonJS** as a Control Surface.
-4. Optional patches (idempotent, back up the installed script first):
-   - `python remote-script/patch.py` - groove pool read/write.
-   - `python remote-script/patch-automation.py` - clip automation-envelope writing (Session
-     clips only; see that file's header for why Arrangement automation isn't possible via this
-     API at all).
-   - After either patch: toggle the AbletonJS control surface off/on in Live, or restart Live.
-     Toggling alone does **not** reload changed `.py` files into Live's already-running Python
-     process - only a full restart guarantees it.
-5. Typecheck: `node_modules/.bin/tsc --noEmit`
-
-## Quick start
-
 ```
-node_modules/.bin/tsx scripts/live-tracks.ts                    # smoke test - lists tracks/devices
-node_modules/.bin/tsx scripts/drums.ts ukg --arrangement         # 4-bar drum loop straight into Arrangement
-node_modules/.bin/tsx scripts/loop.ts house --scene 2 --seed 7   # full loop (drums+bass+keys) into a Session scene
-node_modules/.bin/tsx scripts/arrange-build.ts songs/ukg.yaml    # lay built scenes out in the real Arrangement timeline
+pnpm install
 ```
 
-`pnpm exec tsx` doesn't resolve from Git Bash on this machine - use the direct bin path above.
+Copy `node_modules/ableton-js/midi-script` into
+`Documents/Ableton/User Library/Remote Scripts/AbletonJS`, then in Live: Preferences > Link,
+Tempo & MIDI > enable **AbletonJS** as a Control Surface.
+
+Two optional patches on top (both idempotent, both back up the installed script before touching it):
+
+```
+python remote-script/patch.py              # groove pool read/write
+python remote-script/patch-automation.py   # clip automation envelopes (Session clips only)
+```
+
+After either one: toggle AbletonJS off/on in Live's prefs, or just restart Live - toggling alone
+doesn't reload changed `.py` into Live's already-running Python.
+
+## Try it
+
+```
+node_modules/.bin/tsx scripts/live-tracks.ts                     # is Live even listening
+node_modules/.bin/tsx scripts/drums.ts ukg --arrangement          # 4 bars, straight into Arrangement
+node_modules/.bin/tsx scripts/loop.ts house --scene 2 --seed 7    # full loop into a Session scene
+node_modules/.bin/tsx scripts/arrange-build.ts songs/ukg.yaml     # scenes -> real Arrangement timeline
+```
+
+(`pnpm exec tsx` doesn't resolve from Git Bash here - use the bin path.)
 
 ## Layout
 
-- `lib/live.ts` - `withLive(fn)`, `track(live, nameOrIndex)`, `print`.
-- `lib/midi.ts` - `Note`, `pitch()`, `humanise`, `swing`, `writeMidi` (own SMF writer), `pushClip` (writes into a Session clip slot).
-- `lib/song.ts` - track/scene helpers, `fireScene`, `peakLevels`, `nudgeVolume`, `runAutomation` (real-time parameter puppeteering).
-- `lib/envelope.ts` - real clip automation-envelope writing (needs `patch-automation.py`; Session clips only).
-- `lib/patterns.ts` - pattern generators (`trapHats`, `kickSnare`, `bassline`, `chords`, ...).
-- `lib/kits.ts` - reads Drum Rack `.adg` presets off disk to map roles (kick/snare/chat/ohat/...) to pads per kit.
-- `lib/styles.ts` - per-genre style table (bpm, kit, pattern calls) shared by `loop.ts`/`section.ts`/`drums.ts`.
-- `lib/catalog.ts`, `lib/paths.ts`, `lib/browser.ts` - the device/pack catalog, install paths, and Live's Browser API (search + load presets onto a track).
-- `catalog/{instruments,effects,midi-effects,packs}/<id>.yaml` - one tagged entry per device/pack.
-- `graph/` - the taste graph: `verdicts.yaml` (keep/bin/meh on loops/sounds/parts), `loops.yaml`, `chains.yaml` (device-chain pairings), see `graph/README.md`.
-- `scripts/` - the actual CLI surface; see each file's header comment for usage.
-- `recipes/` - saved device chains and pattern parameters (YAML).
-- `songs/*.yaml` - section sequences consumed by `arrange.ts` / `arrange-build.ts`.
-- `docs/design.md` - original design and build order. `docs/mixing-chain.md` - curated mixing chain reference.
+| | |
+|---|---|
+| `lib/live.ts` | `withLive`, `track`, `print` - the connection |
+| `lib/midi.ts` | notes, humanise/swing, `.mid` writer, `pushClip` (Session) |
+| `lib/song.ts` | tracks/scenes, `fireScene`, `peakLevels`, `runAutomation` (live parameter puppeteering) |
+| `lib/envelope.ts` | real clip automation envelopes - needs the automation patch, Session only |
+| `lib/patterns.ts` | `trapHats`, `kickSnare`, `bassline`, `chords`, ... |
+| `lib/kits.ts` | reads `.adg` Drum Racks off disk, maps roles to pads per kit |
+| `lib/styles.ts` | per-genre table (bpm/kit/pattern calls) shared by `loop`/`section`/`drums` |
+| `catalog/` | one tagged YAML per instrument/effect/pack |
+| `graph/` | the taste graph - `keep`/`bin`/`meh` verdicts, chain pairings |
+| `songs/*.yaml` | section sequences for `arrange-build.ts` |
+| `scripts/` | the actual CLI - read each file's header |
 
 ## Session vs. Arrangement
 
-Most early scripts (`loop.ts`, `section.ts`) build into **Session** clip slots and scenes -
-useful for auditioning ideas, but not where a finished track lives. Two paths out of Session:
+`loop.ts` / `section.ts` build into Session scenes - fine for auditioning, not where a track
+lives. To actually land in Arrangement:
 
-- `scripts/drums.ts <style> --arrangement [--start N]` and equivalents write straight into the
-  Arrangement timeline via `Track.createMidiClip`, no scene involved.
-- `scripts/arrange-build.ts <song.yaml>` takes scenes you've already built and copies each
-  track's clip into the Arrangement timeline back to back, via `Track.duplicateClipToArrangement`.
+- `scripts/drums.ts <style> --arrangement [--start N]` writes straight in via `createMidiClip`.
+- `scripts/arrange-build.ts <song.yaml>` copies already-built scene clips into the timeline back
+  to back, via `duplicateClipToArrangement`.
 
-`scripts/arrange.ts` is named misleadingly - it only *performs* a scene sequence live via
-`setTimeout`s, it never touches the Arrangement timeline. Prefer `arrange-build.ts` for anything
-that should actually show up when you open Arrangement view.
+`arrange.ts` is a trap - despite the name it only performs a scene sequence live with
+`setTimeout`s, it never touches Arrangement. Use `arrange-build.ts`.
 
-## Known limits
+## What the Live API just won't do
 
-- **Arrangement automation cannot be written via the Live API**, full stop - it lives on the
-  track's automation lane, not in a clip, and there's no write path to that lane in the Live
-  Object Model (confirmed: it's a years-old open feature request on Ableton's own forum). The
-  only way to get real automation baked into Arrangement is to puppeteer a parameter live
-  (`lib/song.ts`'s `runAutomation`) while Live's own Arrangement recording captures it.
-- Clip-level automation envelopes (`lib/envelope.ts`) only exist for **Session** clips -
-  `Clip.automation_envelope()` returns `None` for Arrangement clips. Unverified whether it's even
-  reachable from a standard Control Surface script at all - see that file's header.
-- `ensureScenes` (`lib/song.ts`) adds exactly the scenes you ask for, computed once up front.
-  Never loop-and-reread scene count after `createScene` - Live applies it a tick later than the
-  socket read returns, and re-checking races into runaway scene creation. Hit this for real once;
-  don't reintroduce it.
+- **No writing automation into Arrangement.** It lives on the track's automation lane, not in a
+  clip - there is no API for that lane. Years-old open ask on Ableton's own forum, still open.
+  The only real path: puppeteer the parameter live (`runAutomation`) while Arrangement recording
+  captures it.
+- Clip envelopes (`lib/envelope.ts`) only exist on **Session** clips - Arrangement clips return
+  `null`. Whether it even works from a plain Control Surface script is unverified - try it.
+- `ensureScenes` adds exactly what you ask for, computed once. Don't loop-and-reread the scene
+  count after `createScene` - Live applies it a beat later than the socket read returns, and
+  that race spammed real scenes into a real set once. Learned that one the hard way.
 
-## Rules
+## Ground rules
 
-- Check `catalog/` before choosing a device; add tags/notes there when you learn something.
-- Before pairing devices, run `scripts/chain.ts with <id>`. Log `keep`/`bin` verdicts
-  (`scripts/verdict.ts`) as soon as you have one - that's the whole point of the taste graph.
-- Live may be open with other work in progress - never delete or overwrite tracks/clips you
-  didn't create in this session.
+- Check `catalog/` before picking a device. `chain.ts with <id>` before pairing two.
+- Log verdicts (`verdict.ts keep|bin|meh`) the moment you have one - that's the whole point.
+- Live's probably open with other stuff going on. Don't touch tracks/clips you didn't create.
