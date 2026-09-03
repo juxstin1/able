@@ -1,0 +1,31 @@
+tags:
+  - fm
+  - synth
+  - bass
+  - "808"
+  - bells
+  - plucks
+  - keys
+  - core
+good_for: 808 sub bass (single sine osc + pitch env), FM bells and plucks, clean
+  sine subs
+avoid: lush pads (Wavetable is easier)
+key_params:
+  - osc A-D level
+  - algorithm
+  - pitch envelope
+  - filter
+  - feedback
+presets: []
+notes: "Classic 808: Osc A sine, pitch env +24 st decaying over 60-120 ms, long
+  amp decay, slight Saturator after."
+id: operator
+kind: instrument
+format: native
+name: Operator
+source: core-library
+load:
+  root: instruments
+  path:
+    - Operator
+  uri: query:Synths#Operator

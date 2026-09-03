@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-expressive-chords
+kind: pack
+format: pack
+name: Expressive Chords
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Expressive Chords
+load:
+  root: packs
+  path:
+    - Expressive Chords
+  uri: query:LivePacks#317

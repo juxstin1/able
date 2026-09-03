@@ -1,0 +1,19 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: fabfilter-volcano-3
+kind: effect
+format: vst3
+name: FabFilter Volcano 3
+source: C:\Program Files\Common Files\VST3\FabFilter Volcano 3.vst3
+unclassified: true
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Volcano 3
+  uri: query:Plugins#VST3:FabFilter:Volcano%203

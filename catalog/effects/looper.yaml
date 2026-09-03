@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: looper
+kind: effect
+format: native
+name: Looper
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Arrangement Looper
+  uri: query:AudioFx#Arrangement%20Looper

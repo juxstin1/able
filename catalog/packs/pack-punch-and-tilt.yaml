@@ -1,0 +1,20 @@
+tags:
+  - drums
+  - racks
+  - transient
+  - eq
+good_for: drum-shaping effect racks
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-punch-and-tilt
+kind: pack
+format: pack
+name: Punch and Tilt
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Punch and Tilt
+load:
+  root: packs
+  path:
+    - Punch and Tilt
+  uri: query:LivePacks#www.ableton.com/256

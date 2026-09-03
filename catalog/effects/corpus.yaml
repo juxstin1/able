@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: corpus
+kind: effect
+format: native
+name: Corpus
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Corpus
+  uri: query:AudioFx#Corpus

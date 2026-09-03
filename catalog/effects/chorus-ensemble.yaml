@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: chorus-ensemble
+kind: effect
+format: native
+name: Chorus-Ensemble
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Chorus-Ensemble
+  uri: query:AudioFx#Chorus-Ensemble

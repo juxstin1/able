@@ -1,0 +1,19 @@
+tags:
+  - component
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: ozone-12-stem-eq
+kind: effect
+format: vst3
+name: Ozone 12 Stem EQ
+source: C:\Program Files\Common Files\VST3\iZotope\Ozone 12 Stem EQ.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Ozone 12 Stem EQ
+  uri: query:Plugins#VST3:iZotope:Ozone%2012%20Stem%20EQ

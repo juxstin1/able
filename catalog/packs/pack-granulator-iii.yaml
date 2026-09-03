@@ -1,0 +1,20 @@
+tags:
+  - granular
+  - m4l
+  - textures
+  - pads
+good_for: granular pads and textures from any sample
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-granulator-iii
+kind: pack
+format: pack
+name: Granulator III
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Granulator III
+load:
+  root: packs
+  path:
+    - Granulator III
+  uri: query:LivePacks#www.ableton.com/311

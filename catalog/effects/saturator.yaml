@@ -1,0 +1,27 @@
+tags:
+  - saturation
+  - distortion
+  - warmth
+  - drive
+  - bass
+  - drums
+  - core
+good_for: adding harmonics to 808s so they read on small speakers; gentle drive on drums
+avoid: ""
+key_params:
+  - drive
+  - curve type
+  - color
+  - soft clip
+presets: []
+notes: ""
+id: saturator
+kind: effect
+format: native
+name: Saturator
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Saturator
+  uri: query:AudioFx#Saturator

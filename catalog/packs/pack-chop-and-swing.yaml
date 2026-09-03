@@ -1,0 +1,21 @@
+tags:
+  - hip-hop
+  - chop
+  - swing
+  - sampling
+  - lo-fi
+good_for: sample-chopping racks and swung grooves
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-chop-and-swing
+kind: pack
+format: pack
+name: Chop and Swing
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Chop and Swing
+load:
+  root: packs
+  path:
+    - Chop and Swing
+  uri: query:LivePacks#www.ableton.com/251

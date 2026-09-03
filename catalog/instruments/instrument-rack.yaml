@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: instrument-rack
+kind: instrument
+format: native
+name: Instrument Rack
+source: core-library
+load:
+  root: instruments
+  path:
+    - Instrument Rack
+  uri: query:Synths#Instrument%20Rack

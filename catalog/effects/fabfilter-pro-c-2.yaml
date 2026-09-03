@@ -1,0 +1,30 @@
+tags:
+  - compressor
+  - sidechain
+  - bus
+  - vocal
+  - mix
+good_for: transparent or characterful compression; styles
+  Clean/Vocal/Punch/Pumping/Bus/Mastering
+avoid: ""
+key_params:
+  - style
+  - threshold
+  - ratio
+  - attack
+  - release
+  - sidechain
+presets: []
+notes: ""
+id: fabfilter-pro-c-2
+kind: effect
+format: vst3
+name: FabFilter Pro-C 2
+source: C:\Program Files\Common Files\VST3\FabFilter Pro-C 2.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Pro-C 2
+  uri: query:Plugins#VST3:FabFilter:Pro-C%202

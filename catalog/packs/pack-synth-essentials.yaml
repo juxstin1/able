@@ -1,0 +1,21 @@
+tags:
+  - synth
+  - presets
+  - bass
+  - leads
+  - pads
+good_for: curated native synth presets by role
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-synth-essentials
+kind: pack
+format: pack
+name: Synth Essentials
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Synth Essentials
+load:
+  root: packs
+  path:
+    - Synth Essentials
+  uri: query:LivePacks#www.ableton.com/250

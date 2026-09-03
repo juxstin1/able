@@ -1,0 +1,20 @@
+tags:
+  - m4l
+  - sequencer
+  - midi
+  - generative
+good_for: step and generative MIDI sequencers
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-sequencers
+kind: pack
+format: pack
+name: Sequencers
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Sequencers
+load:
+  root: packs
+  path:
+    - Sequencers
+  uri: query:LivePacks#314

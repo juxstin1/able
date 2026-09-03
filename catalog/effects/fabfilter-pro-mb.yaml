@@ -1,0 +1,28 @@
+tags:
+  - multiband
+  - compressor
+  - dynamics
+  - master
+  - bass
+good_for: taming low end or harsh highs without touching the rest
+avoid: ""
+key_params:
+  - bands
+  - threshold
+  - range
+  - attack
+  - release
+presets: []
+notes: ""
+id: fabfilter-pro-mb
+kind: effect
+format: vst3
+name: FabFilter Pro-MB
+source: C:\Program Files\Common Files\VST3\FabFilter Pro-MB.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Pro-MB
+  uri: query:Plugins#VST3:FabFilter:Pro-MB

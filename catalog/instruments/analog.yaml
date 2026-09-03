@@ -1,0 +1,27 @@
+tags:
+  - analog
+  - synth
+  - bass
+  - leads
+  - pads
+  - vintage
+  - core
+good_for: vintage analog basses, brass-style leads, detuned 2-osc pads
+avoid: ""
+key_params:
+  - osc shape
+  - filter type
+  - filter env
+  - LFO
+presets: []
+notes: ""
+id: analog
+kind: instrument
+format: native
+name: Analog
+source: core-library
+load:
+  root: instruments
+  path:
+    - Analog
+  uri: query:Synths#Analog

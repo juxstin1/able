@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: external-instrument
+kind: instrument
+format: native
+name: External Instrument
+source: core-library
+load:
+  root: instruments
+  path:
+    - External Instrument
+  uri: query:Synths#External%20Instrument

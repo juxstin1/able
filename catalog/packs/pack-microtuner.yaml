@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-microtuner
+kind: pack
+format: pack
+name: Microtuner
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Microtuner
+load:
+  root: packs
+  path:
+    - Microtuner
+  uri: query:LivePacks#www.ableton.com/292

@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: tuner
+kind: effect
+format: native
+name: Tuner
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Tuner
+  uri: query:AudioFx#Tuner

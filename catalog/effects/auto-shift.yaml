@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: auto-shift
+kind: effect
+format: native
+name: Auto Shift
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Auto Shift
+  uri: query:AudioFx#Auto%20Shift

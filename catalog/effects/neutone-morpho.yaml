@@ -1,0 +1,22 @@
+tags:
+  - ai
+  - tone-transfer
+  - experimental
+  - textures
+good_for: neural tone transfer; turn a hum into a violin, drums into a voice
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: neutone-morpho
+kind: effect
+format: vst3
+name: Neutone Morpho
+source: C:\Program Files\Common Files\VST3\Neutone Morpho.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - Neutone
+    - Neutone Morpho
+  uri: query:Plugins#VST3:Neutone:Neutone%20Morpho

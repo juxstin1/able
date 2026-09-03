@@ -1,0 +1,29 @@
+tags:
+  - analog
+  - synth
+  - bass
+  - leads
+  - keys
+  - warm
+  - simple
+  - core
+good_for: fast warm analog bass and leads with minimal menu diving; MPE-ready
+avoid: complex modulation or FM
+key_params:
+  - shape
+  - filter cutoff
+  - drive
+  - env 2 amount
+  - voice mode
+presets: []
+notes: ""
+id: drift
+kind: instrument
+format: native
+name: Drift
+source: core-library
+load:
+  root: instruments
+  path:
+    - Drift
+  uri: query:Synths#Drift

@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: dynamic-tube
+kind: effect
+format: native
+name: Dynamic Tube
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Dynamic Tube
+  uri: query:AudioFx#Dynamic%20Tube

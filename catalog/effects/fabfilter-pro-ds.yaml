@@ -1,0 +1,19 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: fabfilter-pro-ds
+kind: effect
+format: vst3
+name: FabFilter Pro-DS
+source: C:\Program Files\Common Files\VST3\FabFilter Pro-DS.vst3
+unclassified: true
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Pro-DS
+  uri: query:Plugins#VST3:FabFilter:Pro-DS

@@ -1,0 +1,19 @@
+tags:
+  - component
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: neutron-5-exciter
+kind: effect
+format: vst3
+name: Neutron 5 Exciter
+source: C:\Program Files\Common Files\VST3\iZotope\Neutron 5 Exciter.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Neutron 5 Exciter
+  uri: query:Plugins#VST3:iZotope:Neutron%205%20Exciter

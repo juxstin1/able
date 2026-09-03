@@ -1,0 +1,18 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: speedrumlite
+kind: instrument
+format: vst3
+name: SpeedrumLite
+source: C:\Program Files\Common Files\VST3\SpeedrumLite.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - Apisonic Labs
+    - Speedrum Lite
+  uri: query:Plugins#VST3:Apisonic%20Labs:Speedrum%20Lite

@@ -1,0 +1,23 @@
+tags:
+  - tape
+  - saturation
+  - wow-flutter
+  - lo-fi
+  - free
+good_for: physical tape saturation and wobble; lo-fi hip-hop texture
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: chowtapemodel
+kind: effect
+format: vst3
+name: CHOWTapeModel
+source: C:\Program Files\Common Files\VST3\CHOWTapeModel.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - chowdsp
+    - CHOWTapeModel
+  uri: query:Plugins#VST3:chowdsp:CHOWTapeModel

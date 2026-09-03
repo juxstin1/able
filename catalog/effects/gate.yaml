@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: gate
+kind: effect
+format: native
+name: Gate
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Gate
+  uri: query:AudioFx#Gate

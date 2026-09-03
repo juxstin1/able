@@ -1,0 +1,19 @@
+tags:
+  - component
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: nectar-4-breath-control
+kind: effect
+format: vst3
+name: Nectar 4 Breath Control
+source: C:\Program Files\Common Files\VST3\iZotope\Nectar 4 Breath Control.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Nectar 4 Breath Control
+  uri: query:Plugins#VST3:iZotope:Nectar%204%20Breath%20Control

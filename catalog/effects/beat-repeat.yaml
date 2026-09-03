@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: beat-repeat
+kind: effect
+format: native
+name: Beat Repeat
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Beat Repeat
+  uri: query:AudioFx#Beat%20Repeat

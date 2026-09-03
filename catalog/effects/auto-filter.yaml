@@ -1,0 +1,27 @@
+tags:
+  - filter
+  - sweep
+  - lfo
+  - envelope
+  - sidechain
+  - core
+good_for: filter sweeps on builds, envelope-followed wah, sidechained filter ducking
+avoid: ""
+key_params:
+  - cutoff
+  - resonance
+  - filter type
+  - lfo amount
+  - envelope
+presets: []
+notes: ""
+id: auto-filter
+kind: effect
+format: native
+name: Auto Filter
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Auto Filter
+  uri: query:AudioFx#Auto%20Filter

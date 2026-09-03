@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: tension
+kind: instrument
+format: native
+name: Tension
+source: core-library
+load:
+  root: instruments
+  path:
+    - Tension
+  uri: query:Synths#Tension

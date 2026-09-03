@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: note-length
+kind: midi-effect
+format: native
+name: Note Length
+source: core-library
+load:
+  root: midi_effects
+  path:
+    - Note Length
+  uri: query:MidiFx#Note%20Length

@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: collision
+kind: instrument
+format: native
+name: Collision
+source: core-library
+load:
+  root: instruments
+  path:
+    - Collision
+  uri: query:Synths#Collision

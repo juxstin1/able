@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: resonators
+kind: effect
+format: native
+name: Resonators
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Resonators
+  uri: query:AudioFx#Resonators

@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: velocity
+kind: midi-effect
+format: native
+name: Velocity
+source: core-library
+load:
+  root: midi_effects
+  path:
+    - Velocity
+  uri: query:MidiFx#Velocity

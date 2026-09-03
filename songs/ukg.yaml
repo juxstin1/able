@@ -1,0 +1,16 @@
+sections:
+  - name: Intro
+    scene: 2
+    bars: 8
+  - name: Build
+    scene: 3
+    bars: 8
+  - name: Drop
+    scene: 1
+    bars: 4
+  - name: Breakdown
+    scene: 4
+    bars: 8
+  - name: Outro
+    scene: 5
+    bars: 4

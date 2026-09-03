@@ -1,0 +1,32 @@
+tags:
+  - saturation
+  - multiband
+  - warmth
+  - distortion
+  - tape
+  - tube
+  - mix
+  - master
+good_for: multiband saturation; warm bass low band while keeping highs clean;
+  parallel warmth on a bus
+avoid: already-clipped material
+key_params:
+  - drive
+  - mix
+  - dynamics
+  - band crossover
+  - style
+presets: []
+notes: ""
+id: fabfilter-saturn-2
+kind: effect
+format: vst3
+name: FabFilter Saturn 2
+source: C:\Program Files\Common Files\VST3\FabFilter Saturn 2.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Saturn 2
+  uri: query:Plugins#VST3:FabFilter:Saturn%202

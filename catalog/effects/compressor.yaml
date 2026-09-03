@@ -1,0 +1,26 @@
+tags:
+  - compressor
+  - sidechain
+  - ducking
+  - dynamics
+  - core
+good_for: sidechain ducking (bass under kick), per-track dynamics
+avoid: ""
+key_params:
+  - threshold
+  - ratio
+  - attack
+  - release
+  - sidechain input
+presets: []
+notes: ""
+id: compressor
+kind: effect
+format: native
+name: Compressor
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Compressor
+  uri: query:AudioFx#Compressor

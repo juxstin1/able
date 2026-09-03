@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-midi-tools-by-philip-meyer
+kind: pack
+format: pack
+name: MIDI Tools by Philip Meyer
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\MIDI Tools by Philip Meyer
+load:
+  root: packs
+  path:
+    - MIDI Tools by Philip Meyer
+  uri: query:LivePacks#www.ableton.com/315

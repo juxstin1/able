@@ -1,0 +1,20 @@
+tags:
+  - saturation
+  - racks
+  - warmth
+  - distortion
+good_for: saturation and warmth effect racks
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-drive-and-glow
+kind: pack
+format: pack
+name: Drive and Glow
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Drive and Glow
+load:
+  root: packs
+  path:
+    - Drive and Glow
+  uri: query:LivePacks#www.ableton.com/253

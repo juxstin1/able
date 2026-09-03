@@ -1,0 +1,18 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: fabfilter-one
+kind: instrument
+format: vst3
+name: FabFilter One
+source: C:\Program Files\Common Files\VST3\FabFilter One.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - One
+  uri: query:Plugins#VST3:FabFilter:One

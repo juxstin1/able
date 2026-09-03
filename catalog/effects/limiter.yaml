@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: limiter
+kind: effect
+format: native
+name: Limiter
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Color Limiter
+  uri: query:AudioFx#Color%20Limiter

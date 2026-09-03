@@ -1,0 +1,19 @@
+tags:
+  - component
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: nectar-4-delay
+kind: effect
+format: vst3
+name: Nectar 4 Delay
+source: C:\Program Files\Common Files\VST3\iZotope\Nectar 4 Delay.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Nectar 4 Delay
+  uri: query:Plugins#VST3:iZotope:Nectar%204%20Delay

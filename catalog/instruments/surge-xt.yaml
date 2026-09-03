@@ -1,0 +1,33 @@
+tags:
+  - synth
+  - hybrid
+  - wavetable
+  - fm
+  - bass
+  - leads
+  - pads
+  - free
+  - deep
+good_for: anything; huge preset bank, 3 osc per scene, great for aggressive bass
+  and lush pads
+avoid: when a quick native device would do; parameter names are not exposed
+  cleanly to the Live API
+key_params:
+  - scene A/B
+  - osc type
+  - filter 1/2
+  - fx chains
+presets: []
+notes: ""
+id: surge-xt
+kind: instrument
+format: vst3
+name: Surge XT
+source: C:\Program Files\Common Files\VST3\Surge Synth Team\Surge XT.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - Surge Synth Team
+    - Surge XT
+  uri: query:Plugins#VST3:Surge%20Synth%20Team:Surge%20XT

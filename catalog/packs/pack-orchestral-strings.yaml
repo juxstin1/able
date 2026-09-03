@@ -1,0 +1,20 @@
+tags:
+  - strings
+  - orchestral
+  - sampled
+  - cinematic
+good_for: string sections and solo strings
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-orchestral-strings
+kind: pack
+format: pack
+name: Orchestral Strings
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Orchestral Strings
+load:
+  root: packs
+  path:
+    - Orchestral Strings
+  uri: query:LivePacks#www.ableton.com/5

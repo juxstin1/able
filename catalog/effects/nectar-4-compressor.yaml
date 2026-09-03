@@ -1,0 +1,19 @@
+tags:
+  - component
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: nectar-4-compressor
+kind: effect
+format: vst3
+name: Nectar 4 Compressor
+source: C:\Program Files\Common Files\VST3\iZotope\Nectar 4 Compressor.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Nectar 4 Compressor
+  uri: query:Plugins#VST3:iZotope:Nectar%204%20Compressor

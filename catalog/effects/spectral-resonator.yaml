@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: spectral-resonator
+kind: effect
+format: native
+name: Spectral Resonator
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Spectral Resonator
+  uri: query:AudioFx#Spectral%20Resonator

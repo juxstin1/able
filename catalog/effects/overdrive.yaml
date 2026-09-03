@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: overdrive
+kind: effect
+format: native
+name: Overdrive
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Overdrive
+  uri: query:AudioFx#Overdrive

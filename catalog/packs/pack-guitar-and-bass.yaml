@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-guitar-and-bass
+kind: pack
+format: pack
+name: Guitar and Bass
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Guitar and Bass
+load:
+  root: packs
+  path:
+    - Guitar and Bass
+  uri: query:LivePacks#www.ableton.com/101

@@ -1,0 +1,20 @@
+tags:
+  - brass
+  - orchestral
+  - sampled
+  - cinematic
+good_for: brass sections
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-orchestral-brass
+kind: pack
+format: pack
+name: Orchestral Brass
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Orchestral Brass
+load:
+  root: packs
+  path:
+    - Orchestral Brass
+  uri: query:LivePacks#www.ableton.com/3

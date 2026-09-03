@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: impulse
+kind: instrument
+format: native
+name: Impulse
+source: core-library
+load:
+  root: instruments
+  path:
+    - Impulse
+  uri: query:Synths#Impulse

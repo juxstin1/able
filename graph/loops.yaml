@@ -1,0 +1,143 @@
+loops:
+  - date: 2026-09-03
+    id: trap-7
+    style: trap
+    bpm: 140
+    root: F1
+    kit: Slow Trap Kit.adg
+    scene: 1
+    parts:
+      seed: 7
+      bars: 4
+      drums: kickSnare trap + trapHats(rolls .15, triplets .35, open every 4)
+      bass: bassline 808 (root, 5th pickup, b6/b7, octave drop)
+      keys: chords i-VI-iv-v seventh pad
+    sounds:
+      drums: drum-rack:Slow Trap Kit.adg
+      bass: operator-808
+      keys: Electric (default)
+  - date: 2026-09-03
+    id: boombap-3
+    style: boombap
+    bpm: 92
+    root: F1
+    kit: Boom Bap Kit.adg
+    scene: 2
+    parts:
+      seed: 3
+      bars: 4
+      drums: kickSnare boombap swing .58 + straightHats 8ths swing .6
+      bass: bassline walking (1-3-5-7)
+      keys: chords i-iv-v-iv seventh stab
+    sounds:
+      drums: drum-rack:Boom Bap Kit.adg
+      bass: operator-808
+      keys: Electric (default)
+  - date: 2026-09-03
+    id: house-5
+    style: house
+    bpm: 124
+    root: A1
+    kit: 909 Core Kit.adg
+    scene: 3
+    parts:
+      seed: 5
+      bars: 4
+      drums: kickSnare house + straightHats 16ths swing .54
+      bass: bassline pulse 8ths on root
+      keys: chords i-i-VI-iv spread stab, 2 per bar
+    sounds:
+      drums: drum-rack:909 Core Kit.adg
+      bass: operator-pulse
+      keys: Electric (default)
+  - date: 2026-09-03
+    id: ukg-11
+    style: ukg
+    bpm: 132
+    root: G1
+    kit: Garage Kit.adg
+    scene: 4
+    parts:
+      seed: 11
+      bars: 4
+      drums: kickSnare ukg 2-step (kick 1 + and-of-2, clap+snare 2/4, rim fill bar 4)
+        + straightHats 16ths swing .62
+      bass: bassline ukg (sub, octave flick, 5th, b7 answer)
+      keys: chords i-i-iv-v seventh skank (offbeat 8ths)
+    sounds:
+      drums: drum-rack:Garage Kit.adg
+      bass: operator-808
+      keys: Electric (default)
+  - date: 2026-09-03
+    id: ukg-intro-7
+    style: ukg
+    bpm: 132
+    root: F1
+    kit: Garage Kit.adg
+    scene: 2
+    parts:
+      section: intro
+      seed: 7
+      bars: 8
+      pushed:
+        - keys
+      archetype: pad only, triad voicing - establish the key
+    sounds:
+      drums: "-"
+      bass: "-"
+      keys: Electric (default)
+  - date: 2026-09-03
+    id: ukg-build-7
+    style: ukg
+    bpm: 132
+    root: F1
+    kit: 909 Core Kit.adg
+    scene: 3
+    parts:
+      section: build
+      seed: 7
+      bars: 8
+      pushed:
+        - drums
+        - keys
+      archetype: hats + full chords, no kick/bass yet - climbing
+    sounds:
+      drums: drum-rack:909 Core Kit.adg
+      bass: "-"
+      keys: Electric (default)
+  - date: 2026-09-03
+    id: ukg-breakdown-7
+    style: ukg
+    bpm: 132
+    root: F1
+    kit: Garage Kit.adg
+    scene: 4
+    parts:
+      section: breakdown
+      seed: 7
+      bars: 8
+      pushed:
+        - keys
+      archetype: strip percussion, pad only
+    sounds:
+      drums: "-"
+      bass: "-"
+      keys: Electric (default)
+  - date: 2026-09-03
+    id: ukg-outro-7
+    style: ukg
+    bpm: 132
+    root: F1
+    kit: Garage Kit.adg
+    scene: 5
+    parts:
+      section: outro
+      seed: 7
+      bars: 4
+      pushed:
+        - keys
+      archetype: pad only, fading out
+    sounds:
+      drums: "-"
+      bass: "-"
+      keys: Electric (default)

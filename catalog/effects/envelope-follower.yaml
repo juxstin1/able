@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: envelope-follower
+kind: effect
+format: native
+name: Envelope Follower
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - CV Envelope Follower
+  uri: query:AudioFx#CV%20Envelope%20Follower

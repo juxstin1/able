@@ -1,0 +1,26 @@
+tags:
+  - synth
+  - macro
+  - experimental
+  - bass
+  - textures
+  - mpe
+  - core
+good_for: two-engine bipolar synth for unusual textures, moving basses, MPE leads
+avoid: ""
+key_params:
+  - engine A/B
+  - mod matrix
+  - macros
+presets: []
+notes: ""
+id: meld
+kind: instrument
+format: native
+name: Meld
+source: core-library
+load:
+  root: instruments
+  path:
+    - Meld
+  uri: query:Synths#Meld

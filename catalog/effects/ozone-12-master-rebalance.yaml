@@ -1,0 +1,19 @@
+tags:
+  - component
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: ozone-12-master-rebalance
+kind: effect
+format: vst3
+name: Ozone 12 Master Rebalance
+source: C:\Program Files\Common Files\VST3\iZotope\Ozone 12 Master Rebalance.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Ozone 12 Master Rebalance
+  uri: query:Plugins#VST3:iZotope:Ozone%2012%20Master%20Rebalance

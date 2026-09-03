@@ -1,0 +1,27 @@
+tags:
+  - mixing
+  - channel-strip
+  - eq
+  - compressor
+  - unmask
+  - ai-assist
+good_for: per-track channel strip; Unmask to carve space between bass and kick
+avoid: ""
+key_params:
+  - modules
+  - unmask
+  - sculptor
+presets: []
+notes: ""
+id: neutron-5
+kind: effect
+format: vst3
+name: Neutron 5
+source: C:\Program Files\Common Files\VST3\iZotope\Neutron 5.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Neutron 5
+  uri: query:Plugins#VST3:iZotope:Neutron%205

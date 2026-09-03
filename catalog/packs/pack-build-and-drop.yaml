@@ -1,0 +1,21 @@
+tags:
+  - edm
+  - build
+  - risers
+  - drop
+  - fx
+good_for: riser and drop effect racks
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-build-and-drop
+kind: pack
+format: pack
+name: Build and Drop
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Build and Drop
+load:
+  root: packs
+  path:
+    - Build and Drop
+  uri: query:LivePacks#www.ableton.com/254

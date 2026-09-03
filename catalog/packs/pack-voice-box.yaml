@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-voice-box
+kind: pack
+format: pack
+name: Voice Box
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Voice Box
+load:
+  root: packs
+  path:
+    - Voice Box
+  uri: query:LivePacks#www.ableton.com/280

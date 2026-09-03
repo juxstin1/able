@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: mpe-control
+kind: midi-effect
+format: native
+name: MPE Control
+source: core-library
+load:
+  root: midi_effects
+  path:
+    - MPE Control
+  uri: query:MidiFx#MPE%20Control

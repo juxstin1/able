@@ -1,0 +1,22 @@
+tags:
+  - midi
+  - key
+  - quantize
+  - core
+good_for: forcing generated notes into the track key
+avoid: ""
+key_params:
+  - base
+  - scale
+presets: []
+notes: ""
+id: scale
+kind: midi-effect
+format: native
+name: Scale
+source: core-library
+load:
+  root: midi_effects
+  path:
+    - Scale
+  uri: query:MidiFx#Scale

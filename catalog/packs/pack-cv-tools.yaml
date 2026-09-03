@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-cv-tools
+kind: pack
+format: pack
+name: CV Tools
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\CV Tools
+load:
+  root: packs
+  path:
+    - CV Tools
+  uri: query:LivePacks#www.ableton.com/270

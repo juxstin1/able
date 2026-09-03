@@ -1,0 +1,26 @@
+tags:
+  - delay
+  - tape
+  - dub
+  - modulation
+  - core
+good_for: dub and tape delays with filter and modulation; ping-pong; reverb tail built in
+avoid: ""
+key_params:
+  - L/R time
+  - feedback
+  - filter
+  - modulation
+  - reverb
+presets: []
+notes: ""
+id: echo
+kind: effect
+format: native
+name: Echo
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Echo
+  uri: query:AudioFx#Echo

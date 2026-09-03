@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: lfo
+kind: effect
+format: native
+name: LFO
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - CV LFO
+  uri: query:AudioFx#CV%20LFO

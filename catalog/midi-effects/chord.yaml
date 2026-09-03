@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: chord
+kind: midi-effect
+format: native
+name: Chord
+source: core-library
+load:
+  root: midi_effects
+  path:
+    - Chord
+  uri: query:MidiFx#Chord

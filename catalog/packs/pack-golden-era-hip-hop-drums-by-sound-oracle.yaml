@@ -1,0 +1,22 @@
+tags:
+  - hip-hop
+  - boom-bap
+  - drums
+  - dusty
+  - kits
+good_for: 90s boom-bap kits and breaks
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-golden-era-hip-hop-drums-by-sound-oracle
+kind: pack
+format: pack
+name: Golden Era Hip-Hop Drums by Sound Oracle
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Golden Era Hip-Hop
+  Drums by Sound Oracle
+load:
+  root: packs
+  path:
+    - Golden Era Hip-Hop Drums by Sound Oracle
+  uri: query:LivePacks#www.ableton.com/312

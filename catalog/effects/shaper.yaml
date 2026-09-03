@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: shaper
+kind: effect
+format: native
+name: Shaper
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - CV Shaper
+  uri: query:AudioFx#CV%20Shaper

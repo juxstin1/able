@@ -1,0 +1,21 @@
+tags:
+  - drums
+  - electronic
+  - kits
+  - house
+  - techno
+good_for: general electronic kits across genres
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-drum-essentials
+kind: pack
+format: pack
+name: Drum Essentials
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Drum Essentials
+load:
+  root: packs
+  path:
+    - Drum Essentials
+  uri: query:LivePacks#www.ableton.com/249

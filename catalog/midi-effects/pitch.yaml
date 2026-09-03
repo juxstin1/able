@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pitch
+kind: midi-effect
+format: native
+name: Pitch
+source: core-library
+load:
+  root: midi_effects
+  path:
+    - Pitch
+  uri: query:MidiFx#Pitch

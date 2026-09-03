@@ -1,0 +1,31 @@
+tags:
+  - drums
+  - sampler
+  - kit
+  - one-shots
+  - trap
+  - hip-hop
+  - house
+  - core
+good_for: any sampled drum kit; 128 pads, per-pad chains, choke groups for
+  open/closed hats
+avoid: melodic parts (use Simpler/Sampler)
+key_params:
+  - pad chains
+  - choke group
+  - per-pad pitch
+  - per-pad send
+presets: []
+notes: Pads map C1=36 kick, D1=38 snare, F#1=42 closed hat, A#1=46 open hat in
+  GM-style kits. Factory kits from Drum Booth / Drum Essentials / Trap Drums /
+  Golden Era load straight in.
+id: drum-rack
+kind: instrument
+format: native
+name: Drum Rack
+source: core-library
+load:
+  root: drums
+  path:
+    - Drum Rack
+  uri: query:Drums#Drum%20Rack

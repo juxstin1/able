@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: note-echo
+kind: midi-effect
+format: native
+name: Note Echo
+source: core-library
+load:
+  root: midi_effects
+  path:
+    - Note Echo
+  uri: query:MidiFx#Note%20Echo

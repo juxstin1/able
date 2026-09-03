@@ -1,0 +1,28 @@
+tags:
+  - reverb
+  - algorithmic
+  - space
+  - vocal
+  - mix
+good_for: natural reverb with decay-rate EQ; vocals, snares, plates
+avoid: ""
+key_params:
+  - space
+  - decay rate
+  - brightness
+  - distance
+  - mix
+presets: []
+notes: ""
+id: fabfilter-pro-r-2
+kind: effect
+format: vst3
+name: FabFilter Pro-R 2
+source: C:\Program Files\Common Files\VST3\FabFilter Pro-R 2.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Pro-R 2
+  uri: query:Plugins#VST3:FabFilter:Pro-R%202

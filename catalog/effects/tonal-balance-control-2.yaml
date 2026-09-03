@@ -1,0 +1,19 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: tonal-balance-control-2
+kind: effect
+format: vst3
+name: Tonal Balance Control 2
+source: C:\Program Files\Common Files\VST3\iZotope\Tonal Balance Control 2.vst3
+unclassified: true
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Tonal Balance Control 2
+  uri: query:Plugins#VST3:iZotope:Tonal%20Balance%20Control%202

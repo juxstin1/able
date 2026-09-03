@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: spectral-time
+kind: effect
+format: native
+name: Spectral Time
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Spectral Time
+  uri: query:AudioFx#Spectral%20Time

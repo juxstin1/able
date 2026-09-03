@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: reverb
+kind: effect
+format: native
+name: Reverb
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Convolution Reverb
+  uri: query:AudioFx#Convolution%20Reverb

@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: eq-three
+kind: effect
+format: native
+name: EQ Three
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - EQ Three
+  uri: query:AudioFx#EQ%20Three

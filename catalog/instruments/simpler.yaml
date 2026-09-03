@@ -1,0 +1,26 @@
+tags:
+  - sampler
+  - one-shot
+  - slice
+  - loops
+  - vocal chops
+  - core
+good_for: one-shot playback, loop slicing to MIDI, quick chops; Warp modes for tempo lock
+avoid: multi-sample instruments (use Sampler)
+key_params:
+  - mode classic/one-shot/slice
+  - warp
+  - filter
+  - amp env
+presets: []
+notes: ""
+id: simpler
+kind: instrument
+format: native
+name: Simpler
+source: core-library
+load:
+  root: instruments
+  path:
+    - Simpler
+  uri: query:Synths#Simpler

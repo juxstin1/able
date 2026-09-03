@@ -1,0 +1,21 @@
+tags:
+  - keys
+  - rhodes
+  - wurlitzer
+  - clav
+  - sampled
+good_for: sampled electric pianos and clav
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-electric-keyboards
+kind: pack
+format: pack
+name: Electric Keyboards
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Electric Keyboards
+load:
+  root: packs
+  path:
+    - Electric Keyboards
+  uri: query:LivePacks#www.ableton.com/247

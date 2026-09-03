@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: multiband-dynamics
+kind: effect
+format: native
+name: Multiband Dynamics
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Multiband Dynamics
+  uri: query:AudioFx#Multiband%20Dynamics

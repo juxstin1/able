@@ -1,0 +1,21 @@
+tags:
+  - trap
+  - drums
+  - "808"
+  - hats
+  - kits
+good_for: trap kits, 808s, hi-hat one-shots
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-trap-drums-by-sound-oracle
+kind: pack
+format: pack
+name: Trap Drums by Sound Oracle
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Trap Drums by Sound Oracle
+load:
+  root: packs
+  path:
+    - Trap Drums by Sound Oracle
+  uri: query:LivePacks#www.ableton.com/313

@@ -1,0 +1,31 @@
+chains:
+  - id: house-bass-001
+    context: house bass
+    nodes:
+      - ref: operator
+        slot: source
+        note: "pulse: saw-ish wave 2, short decay, no pitch env"
+    verdicts:
+      - v: bin
+        date: 2026-09-03
+        note: defaulty
+  - id: house-keys-002
+    context: house keys
+    nodes:
+      - ref: electric
+        slot: source
+        note: default patch
+    verdicts:
+      - v: meh
+        date: 2026-09-03
+        note: defaulty
+  - id: trap-808-003
+    context: trap 808
+    nodes:
+      - ref: operator
+        slot: source
+        note: sine, Pe init +24 decay .18, glide .3, Ae decay .85
+    verdicts:
+      - v: keep
+        date: 2026-09-03
+        note: scene 1 cool

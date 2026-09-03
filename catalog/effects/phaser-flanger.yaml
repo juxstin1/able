@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: phaser-flanger
+kind: effect
+format: native
+name: Phaser-Flanger
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Phaser-Flanger
+  uri: query:AudioFx#Phaser-Flanger

@@ -1,0 +1,19 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: neoverb
+kind: effect
+format: vst3
+name: Neoverb
+source: C:\Program Files\Common Files\VST3\iZotope\Neoverb.vst3
+unclassified: true
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Neoverb
+  uri: query:Plugins#VST3:iZotope:Neoverb

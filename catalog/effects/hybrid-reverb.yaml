@@ -1,0 +1,27 @@
+tags:
+  - reverb
+  - convolution
+  - algorithmic
+  - space
+  - core
+good_for: convolution + algorithmic blend; rooms, halls, shimmer; per-band EQ on tail
+avoid: ""
+key_params:
+  - IR
+  - algorithm
+  - blend
+  - decay
+  - size
+  - eq
+presets: []
+notes: ""
+id: hybrid-reverb
+kind: effect
+format: native
+name: Hybrid Reverb
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Hybrid Reverb
+  uri: query:AudioFx#Hybrid%20Reverb

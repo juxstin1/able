@@ -1,0 +1,11 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: max-midi-effect
+kind: midi-effect
+format: native
+name: Max MIDI Effect
+source: core-library

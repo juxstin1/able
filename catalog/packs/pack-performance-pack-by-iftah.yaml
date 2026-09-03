@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-performance-pack-by-iftah
+kind: pack
+format: pack
+name: Performance Pack by Iftah
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Performance Pack by Iftah
+load:
+  root: packs
+  path:
+    - Performance Pack by Iftah
+  uri: query:LivePacks#www.ableton.com/310

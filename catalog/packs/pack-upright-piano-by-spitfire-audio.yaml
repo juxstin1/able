@@ -1,0 +1,21 @@
+tags:
+  - piano
+  - upright
+  - sampled
+  - intimate
+good_for: intimate felt-style upright piano
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-upright-piano-by-spitfire-audio
+kind: pack
+format: pack
+name: Upright Piano by Spitfire Audio
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Upright Piano by
+  Spitfire Audio
+load:
+  root: packs
+  path:
+    - Upright Piano by Spitfire Audio
+  uri: query:LivePacks#www.ableton.com/285

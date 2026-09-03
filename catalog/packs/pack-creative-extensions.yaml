@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-creative-extensions
+kind: pack
+format: pack
+name: Creative Extensions
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Creative Extensions
+load:
+  root: packs
+  path:
+    - Creative Extensions
+  uri: query:LivePacks#www.ableton.com/260

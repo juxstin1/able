@@ -1,0 +1,26 @@
+tags:
+  - arp
+  - midi
+  - sequencer
+  - plucks
+  - core
+good_for: instant movement from held chords; rate 1/16 with gate ~50%
+avoid: ""
+key_params:
+  - style
+  - rate
+  - gate
+  - steps
+  - distance
+presets: []
+notes: ""
+id: arpeggiator
+kind: midi-effect
+format: native
+name: Arpeggiator
+source: core-library
+load:
+  root: midi_effects
+  path:
+    - Arpeggiator
+  uri: query:MidiFx#Arpeggiator

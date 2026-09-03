@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: grain-delay
+kind: effect
+format: native
+name: Grain Delay
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Grain Delay
+  uri: query:AudioFx#Grain%20Delay

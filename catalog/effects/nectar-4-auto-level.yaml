@@ -1,0 +1,19 @@
+tags:
+  - component
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: nectar-4-auto-level
+kind: effect
+format: vst3
+name: Nectar 4 Auto-Level
+source: C:\Program Files\Common Files\VST3\iZotope\Nectar 4 Auto-Level.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Nectar 4 Auto-Level
+  uri: query:Plugins#VST3:iZotope:Nectar%204%20Auto-Level

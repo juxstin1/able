@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: cabinet
+kind: effect
+format: native
+name: Cabinet
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Cabinet
+  uri: query:AudioFx#Cabinet

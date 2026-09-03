@@ -1,0 +1,27 @@
+tags:
+  - eq
+  - surgical
+  - dynamic-eq
+  - linear-phase
+  - mix
+  - master
+good_for: the default EQ for everything; dynamic bands, spectrum grab, mid/side
+avoid: ""
+key_params:
+  - bands
+  - dynamic range
+  - phase mode
+presets: []
+notes: ""
+id: fabfilter-pro-q-4
+kind: effect
+format: vst3
+name: FabFilter Pro-Q 4
+source: C:\Program Files\Common Files\VST3\FabFilter Pro-Q 4.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Pro-Q 4
+  uri: query:Plugins#VST3:FabFilter:Pro-Q%204

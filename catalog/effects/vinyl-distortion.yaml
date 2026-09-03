@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: vinyl-distortion
+kind: effect
+format: native
+name: Vinyl Distortion
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Vinyl Distortion
+  uri: query:AudioFx#Vinyl%20Distortion

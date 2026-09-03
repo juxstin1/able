@@ -1,0 +1,27 @@
+tags:
+  - limiter
+  - master
+  - loudness
+  - true-peak
+good_for: final limiter; Modern or Aggressive style for electronic
+avoid: ""
+key_params:
+  - gain
+  - style
+  - lookahead
+  - oversampling
+  - true peak
+presets: []
+notes: ""
+id: fabfilter-pro-l-2
+kind: effect
+format: vst3
+name: FabFilter Pro-L 2
+source: C:\Program Files\Common Files\VST3\FabFilter Pro-L 2.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Pro-L 2
+  uri: query:Plugins#VST3:FabFilter:Pro-L%202

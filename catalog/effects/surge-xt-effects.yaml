@@ -1,0 +1,19 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: surge-xt-effects
+kind: effect
+format: vst3
+name: Surge XT Effects
+source: C:\Program Files\Common Files\VST3\Surge Synth Team\Surge XT Effects.vst3
+unclassified: true
+load:
+  root: plugins
+  path:
+    - VST3
+    - Surge Synth Team
+    - Surge XT Effects
+  uri: query:Plugins#VST3:Surge%20Synth%20Team:Surge%20XT%20Effects

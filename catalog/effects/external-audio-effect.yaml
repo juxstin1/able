@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: external-audio-effect
+kind: effect
+format: native
+name: External Audio Effect
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - External Audio Effect
+  uri: query:AudioFx#External%20Audio%20Effect

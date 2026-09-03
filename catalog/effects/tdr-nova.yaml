@@ -1,0 +1,22 @@
+tags:
+  - dynamic-eq
+  - eq
+  - free
+  - mix
+good_for: dynamic EQ when Pro-Q is overkill
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: tdr-nova
+kind: effect
+format: vst3
+name: TDR Nova
+source: C:\Program Files\Common Files\VST3\TDR Nova.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - Tokyo Dawn Labs
+    - TDR Nova
+  uri: query:Plugins#VST3:Tokyo%20Dawn%20Labs:TDR%20Nova

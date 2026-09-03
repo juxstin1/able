@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: filter-delay
+kind: effect
+format: native
+name: Filter Delay
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Filter Delay
+  uri: query:AudioFx#Filter%20Delay

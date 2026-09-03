@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-generators-by-iftah
+kind: pack
+format: pack
+name: Generators by Iftah
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Generators by Iftah
+load:
+  root: packs
+  path:
+    - Generators by Iftah
+  uri: query:LivePacks#www.ableton.com/319

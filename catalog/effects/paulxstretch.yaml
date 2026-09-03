@@ -1,0 +1,23 @@
+tags:
+  - stretch
+  - ambient
+  - textures
+  - granular
+  - free
+good_for: extreme time-stretching any sample into a pad or drone
+avoid: rhythmic material
+key_params: []
+presets: []
+notes: ""
+id: paulxstretch
+kind: effect
+format: vst3
+name: PaulXStretch
+source: C:\Program Files\Common Files\VST3\PaulXStretch.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - Sonosaurus
+    - PaulXStretch
+  uri: query:Plugins#VST3:Sonosaurus:PaulXStretch

@@ -1,0 +1,19 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: fabfilter-micro
+kind: effect
+format: vst3
+name: FabFilter Micro
+source: C:\Program Files\Common Files\VST3\FabFilter Micro.vst3
+unclassified: true
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Micro
+  uri: query:Plugins#VST3:FabFilter:Micro

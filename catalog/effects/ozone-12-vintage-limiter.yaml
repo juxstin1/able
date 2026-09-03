@@ -1,0 +1,19 @@
+tags:
+  - component
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: ozone-12-vintage-limiter
+kind: effect
+format: vst3
+name: Ozone 12 Vintage Limiter
+source: C:\Program Files\Common Files\VST3\iZotope\Ozone 12 Vintage Limiter.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Ozone 12 Vintage Limiter
+  uri: query:Plugins#VST3:iZotope:Ozone%2012%20Vintage%20Limiter

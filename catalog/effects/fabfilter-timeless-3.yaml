@@ -1,0 +1,26 @@
+tags:
+  - delay
+  - modulation
+  - creative
+  - tape
+good_for: creative delays with modulated filters and drive
+avoid: ""
+key_params:
+  - time
+  - feedback
+  - filters
+  - mod
+presets: []
+notes: ""
+id: fabfilter-timeless-3
+kind: effect
+format: vst3
+name: FabFilter Timeless 3
+source: C:\Program Files\Common Files\VST3\FabFilter Timeless 3.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Timeless 3
+  uri: query:Plugins#VST3:FabFilter:Timeless%203

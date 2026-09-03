@@ -1,0 +1,19 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: fabfilter-pro-g
+kind: effect
+format: vst3
+name: FabFilter Pro-G
+source: C:\Program Files\Common Files\VST3\FabFilter Pro-G.vst3
+unclassified: true
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Pro-G
+  uri: query:Plugins#VST3:FabFilter:Pro-G

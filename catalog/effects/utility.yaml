@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: utility
+kind: effect
+format: native
+name: Utility
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - CV Utility
+  uri: query:AudioFx#CV%20Utility

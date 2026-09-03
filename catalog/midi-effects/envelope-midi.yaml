@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: envelope-midi
+kind: midi-effect
+format: native
+name: Envelope MIDI
+source: core-library
+load:
+  root: midi_effects
+  path:
+    - Envelope MIDI
+  uri: query:MidiFx#Envelope%20MIDI

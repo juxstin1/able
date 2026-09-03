@@ -1,0 +1,29 @@
+tags:
+  - drums
+  - bus
+  - transient
+  - saturation
+  - boom
+  - glue
+  - core
+good_for: drum bus glue; Boom for extra sub on kick, Crunch for grit, Transients
+  for punch
+avoid: ""
+key_params:
+  - drive
+  - crunch
+  - transients
+  - boom freq/amount
+  - damp
+presets: []
+notes: ""
+id: drum-buss
+kind: effect
+format: native
+name: Drum Buss
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Drum Buss
+  uri: query:AudioFx#Drum%20Buss

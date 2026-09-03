@@ -1,0 +1,27 @@
+tags:
+  - distortion
+  - saturation
+  - multiband
+  - feedback
+  - aggressive
+  - core
+good_for: aggressive multi-stage distortion with routing; big bass and lead colour
+avoid: subtle warmth (use Saturator or Saturn)
+key_params:
+  - stage routing
+  - shaper type
+  - color
+  - feedback
+  - mix
+presets: []
+notes: ""
+id: roar
+kind: effect
+format: native
+name: Roar
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Roar
+  uri: query:AudioFx#Roar

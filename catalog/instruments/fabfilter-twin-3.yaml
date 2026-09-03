@@ -1,0 +1,18 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: fabfilter-twin-3
+kind: instrument
+format: vst3
+name: FabFilter Twin 3
+source: C:\Program Files\Common Files\VST3\FabFilter Twin 3.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - FabFilter
+    - Twin 3
+  uri: query:Plugins#VST3:FabFilter:Twin%203

@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: shifter
+kind: effect
+format: native
+name: Shifter
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Shifter
+  uri: query:AudioFx#Shifter

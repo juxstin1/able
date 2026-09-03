@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: channel-eq
+kind: effect
+format: native
+name: Channel EQ
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Channel EQ
+  uri: query:AudioFx#Channel%20EQ

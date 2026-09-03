@@ -1,0 +1,18 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: k1v
+kind: instrument
+format: vst3
+name: K1v
+source: C:\Program Files\Common Files\VST3\K1v_x64.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - Nils Schneider
+    - Nils' K1v
+  uri: query:Plugins#VST3:Nils%20Schneider:Nils'%20K1v

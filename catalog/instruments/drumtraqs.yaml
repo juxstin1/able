@@ -1,0 +1,18 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: drumtraqs
+kind: instrument
+format: vst3
+name: drumtraqs
+source: C:\Program Files\Common Files\VST3\drumtraqs.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - Full Bucket Music
+    - DrumTraqs
+  uri: query:Plugins#VST3:Full%20Bucket%20Music:DrumTraqs

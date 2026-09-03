@@ -1,0 +1,20 @@
+tags:
+  - acoustic
+  - drums
+  - live
+  - kits
+good_for: acoustic drum kits recorded in a room
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-drum-booth
+kind: pack
+format: pack
+name: Drum Booth
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Drum Booth
+load:
+  root: packs
+  path:
+    - Drum Booth
+  uri: query:LivePacks#www.ableton.com/248

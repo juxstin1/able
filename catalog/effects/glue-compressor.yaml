@@ -1,0 +1,29 @@
+tags:
+  - compressor
+  - bus
+  - glue
+  - ssl
+  - master
+  - drums
+  - core
+good_for: SSL-style bus glue on drums or master; 2:1, slow attack, auto release
+avoid: ""
+key_params:
+  - threshold
+  - ratio
+  - attack
+  - release
+  - makeup
+  - range
+presets: []
+notes: ""
+id: glue-compressor
+kind: effect
+format: native
+name: Glue Compressor
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Glue Compressor
+  uri: query:AudioFx#Glue%20Compressor

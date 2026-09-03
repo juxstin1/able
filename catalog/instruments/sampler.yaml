@@ -1,0 +1,25 @@
+tags:
+  - sampler
+  - multisample
+  - keys
+  - orchestral
+  - core
+good_for: multi-sampled instruments with key zones and velocity layers
+avoid: ""
+key_params:
+  - zones
+  - filter
+  - mod matrix
+  - lfo
+presets: []
+notes: ""
+id: sampler
+kind: instrument
+format: native
+name: Sampler
+source: core-library
+load:
+  root: instruments
+  path:
+    - Drum Sampler
+  uri: query:Synths#Drum%20Sampler

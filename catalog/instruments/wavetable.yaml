@@ -1,0 +1,29 @@
+tags:
+  - wavetable
+  - synth
+  - pads
+  - leads
+  - bass
+  - reese
+  - modern
+  - core
+good_for: wide pads, growl/reese bass via unison + wavetable position, modern leads
+avoid: faithful analog emulation (use Analog or Drift)
+key_params:
+  - wavetable position
+  - unison
+  - sub osc
+  - filter 1/2
+  - mod matrix
+presets: []
+notes: Two oscillators + sub. Unison Classic 4 voices with detune ~20% for width.
+id: wavetable
+kind: instrument
+format: native
+name: Wavetable
+source: core-library
+load:
+  root: instruments
+  path:
+    - Wavetable
+  uri: query:Synths#Wavetable

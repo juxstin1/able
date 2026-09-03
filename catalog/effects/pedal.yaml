@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pedal
+kind: effect
+format: native
+name: Pedal
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - Pedal
+  uri: query:AudioFx#Pedal

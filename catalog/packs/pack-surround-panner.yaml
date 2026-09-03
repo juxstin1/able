@@ -1,0 +1,16 @@
+tags: []
+good_for: ""
+avoid: ""
+key_params: []
+presets: []
+notes: ""
+id: pack-surround-panner
+kind: pack
+format: pack
+name: Surround Panner
+source: C:\Users\Dymaxion\Documents\Ableton\Factory Packs\Surround Panner
+load:
+  root: packs
+  path:
+    - Surround Panner
+  uri: query:LivePacks#www.ableton.com/259

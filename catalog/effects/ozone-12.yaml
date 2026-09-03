@@ -1,0 +1,27 @@
+tags:
+  - mastering
+  - master
+  - limiter
+  - eq
+  - imager
+  - ai-assist
+good_for: mastering chain on the master track; Master Assistant for a starting point
+avoid: individual tracks
+key_params:
+  - modules
+  - maximizer threshold
+  - imager width
+presets: []
+notes: ""
+id: ozone-12
+kind: effect
+format: vst3
+name: Ozone 12
+source: C:\Program Files\Common Files\VST3\iZotope\Ozone 12.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - iZotope
+    - Ozone 12
+  uri: query:Plugins#VST3:iZotope:Ozone%2012

@@ -1,0 +1,26 @@
+verdicts:
+  - subject: loop:trap-7
+    v: keep
+    date: 2026-09-03
+    context: trap
+    note: cool
+  - subject: loop:boombap-3
+    v: bin
+    date: 2026-09-03
+    context: boombap
+    note: didn't like
+  - subject: loop:house-5
+    v: keep
+    date: 2026-09-03
+    context: house
+    note: felt kinda cool; sounds are the weak part, not the pattern
+  - subject: sound:operator-pulse
+    v: bin
+    date: 2026-09-03
+    context: house bass
+    note: a little defaulty
+  - subject: sound:electric-default
+    v: meh
+    date: 2026-09-03
+    context: house keys
+    note: a little defaulty, plucks

@@ -1,0 +1,29 @@
+tags:
+  - reverb
+  - delay
+  - ambient
+  - huge
+  - free
+  - pads
+good_for: enormous washes and clouds on pads and vocals; delay-into-reverb modes
+avoid: tight drum rooms
+key_params:
+  - mode
+  - delay
+  - feedback
+  - density
+  - mix
+presets: []
+notes: ""
+id: valhallasupermassive
+kind: effect
+format: vst3
+name: ValhallaSupermassive
+source: C:\Program Files\Common Files\VST3\ValhallaSupermassive.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - Valhalla DSP
+    - ValhallaSupermassive
+  uri: query:Plugins#VST3:Valhalla%20DSP:ValhallaSupermassive

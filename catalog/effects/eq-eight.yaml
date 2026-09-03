@@ -1,0 +1,24 @@
+tags:
+  - eq
+  - surgical
+  - highpass
+  - mix
+  - core
+good_for: surgical cuts, high-pass everything that is not bass, mid/side mode
+avoid: ""
+key_params:
+  - 8 bands
+  - filter type
+  - mode L/R M/S
+presets: []
+notes: ""
+id: eq-eight
+kind: effect
+format: native
+name: EQ Eight
+source: core-library
+load:
+  root: audio_effects
+  path:
+    - EQ Eight
+  uri: query:AudioFx#EQ%20Eight
