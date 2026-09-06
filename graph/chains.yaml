@@ -60,3 +60,56 @@ chains:
       - v: keep
         date: 2026-09-08
         note: good, sounds like an 808, but not preferred over the Saturator version
+  - id: vocal-chops-128-dmin-004
+    context: vocal chops 128 Dmin
+    nodes:
+      - ref: eq-eight
+        slot: shape
+      - ref: roar
+        slot: shape
+      - ref: glue-compressor
+        slot: dynamics
+      - ref: echo
+        slot: space
+      - ref: valhallasupermassive
+        slot: space
+      - ref: utility
+        slot: bus
+    verdicts:
+      - v: bin
+        date: 2026-09-06
+        note: Justin deleted it - didn't like the sound. treated version, not just the
+          dry one
+      - v: keep
+        date: 2026-09-06
+        note: same chain, unchanged settings - it was the material that was wrong, not
+          the cheese. Confirmed by swapping only the chops
+  - id: french-house-filtered-chords-005
+    context: french house filtered chords
+    nodes:
+      - ref: electric
+        slot: source
+      - ref: eq-eight
+        slot: shape
+      - ref: saturator
+        slot: shape
+      - ref: auto-filter
+        slot: shape
+      - ref: phaser-flanger
+        slot: shape
+      - ref: compressor
+        slot: dynamics
+      - ref: utility
+        slot: bus
+    verdicts:
+      - v: keep
+        date: 2026-09-06
+        note: "Stardust Music Sounds Better With You rebuild - 16th chord chops smeared
+          into a pad by a closed 24dB LP + hard-knee comp. Justin: 'that pad is
+          sick'"
+      - v: keep
+        date: 2026-09-06
+        note: "Correction: the keep is this chain at STOCK device settings - Electric +
+          EQ8 + Saturator + Auto Filter + Phaser-Flanger + Compressor + Utility,
+          nothing dialled. Dialling it in the textbook French house way made it
+          worse. The chain is the win, not the settings"

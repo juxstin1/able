@@ -1168,3 +1168,51 @@ verdicts:
     date: 2026-09-08
     context: patterns
     note: cool actually
+  - subject: part:ukg-arrangement/bass-tease
+    v: keep
+    date: 2026-09-04
+    context: UKG intro bass
+    note: that tease is awesome, I like that subtleness
+  - subject: direction:ukg/rolling-bass
+    v: keep
+    date: 2026-09-04
+    context: UKG bass direction
+    note: I feel like I like rolling basslines though!
+  - subject: part:pierstan/chops
+    v: bin
+    date: 2026-09-06
+    context: vocal chops 128 Dmin
+    note: dry chop, no processing - sounds like ass without cheese. chop selection
+      itself is good
+  - subject: part:pierstan/chops-treated
+    v: bin
+    date: 2026-09-06
+    context: vocal chops 128 Dmin
+    note: binned with the cheese chain on too, so it is not just a dry-vs-wet problem
+  - subject: part:pierstan/chops-melodic
+    v: keep
+    date: 2026-09-06
+    context: vocal chops 128 Dmin
+    note: "Justin: 'absolutely nuts' but also 'not perfect, workable'. Keep with
+      reservations - Recording (6), pitch assigned onto Dm chord tones,
+      gap-clamped, same FX chain as the binned version. Known remaining: no
+      vowel/timbre diversity, librosa pitch_shift moves formants, cuts land on
+      consonants not vowels."
+  - subject: technique:pitch-has-to-be-part-of-the
+    v: keep
+    date: 2026-09-06
+    context: chops
+    note: melodic rebuild landed where two earlier versions were binned
+  - subject: sound:stardust-vamp
+    v: keep
+    date: 2026-09-06
+    context: french house pad
+    note: Electric damped+driven, 16th cluster chops Bm7-E9, closed 24dB LP,
+      hard-knee comp
+  - subject: sound:stardust-vamp-treated
+    v: bin
+    date: 2026-09-06
+    context: french house pad
+    note: "HP 190 + LP closed to 2.4k + hammered comp. Justin: 'made it much worse,
+      sounded better before'. The keep on sound:stardust-vamp is the STOCK
+      device settings, not this"
