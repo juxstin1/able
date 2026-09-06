@@ -12,5 +12,5 @@ source: core-library
 load:
   root: audio_effects
   path:
-    - CV Utility
-  uri: query:AudioFx#CV%20Utility
+    - Utility
+  uri: query:AudioFx#Utility
