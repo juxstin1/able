@@ -1,0 +1,2751 @@
+- id: put-vocal-chops-in-a-drum-rack
+  claim: Put vocal chops in a Drum Rack choke group so a new chop mutes the
+    previous one and they never overlap
+  topic: chops
+  status: corroborated
+  sources:
+    - video: 7CYCY6jVx0U
+      channel: UK Bass Tutorials
+      t: 407
+      cls: reputable
+    - video: 2MzhNCxOZd4
+      channel: Bthelick
+      t: 561
+      cls: reputable
+  added: 2026-09-06
+- id: use-beats-warp-mode-for-percussive-vocal
+  claim: Use Beats warp mode for percussive vocal chops instead of Complex which
+    suits sustained vocals
+  topic: chops
+  status: unverified
+  sources:
+    - video: 7CYCY6jVx0U
+      channel: UK Bass Tutorials
+      t: 265
+      cls: reputable
+  added: 2026-09-06
+- id: ukg-vocal-chops-lean-dry-so-pull
+  claim: UKG vocal chops lean dry so pull reverb and modulation mix down rather
+    than drowning them
+  topic: chops
+  status: unverified
+  sources:
+    - video: 7CYCY6jVx0U
+      channel: UK Bass Tutorials
+      t: 1603
+      cls: reputable
+  added: 2026-09-06
+- id: pitch-chops-up-rather-than-down-for
+  claim: Pitch chops up rather than down for the chipmunk aesthetic and change the
+    track key if needed to allow it
+  topic: chops
+  status: unverified
+  sources:
+    - video: 7CYCY6jVx0U
+      channel: UK Bass Tutorials
+      t: 425
+      cls: reputable
+  added: 2026-09-06
+- id: sequencing-chops-in-their-original-order-works
+  claim: Sequencing chops in their original order works better when they come from
+    one continuous vocal
+  topic: chops
+  status: unverified
+  sources:
+    - video: 7CYCY6jVx0U
+      channel: UK Bass Tutorials
+      t: 501
+      cls: reputable
+  added: 2026-09-06
+- id: two-or-three-chops-usually-beat-a
+  claim: Two or three chops usually beat a busy chop pattern
+  topic: chops
+  status: unverified
+  sources:
+    - video: 7CYCY6jVx0U
+      channel: UK Bass Tutorials
+      t: 691
+      cls: reputable
+  added: 2026-09-06
+- id: sidechain-backing-vocal-chops-against-the-main
+  claim: Sidechain backing vocal chops against the main vocal with TrackSpacer so
+    they do not clash
+  topic: mix
+  status: unverified
+  sources:
+    - video: 7CYCY6jVx0U
+      channel: UK Bass Tutorials
+      t: 1606
+      cls: reputable
+  added: 2026-09-06
+- id: run-a-vocal-through-hybrid-reverb-into
+  claim: Run a vocal through Hybrid Reverb into a Saturator to emulate being
+    recorded in a real room
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: 7CYCY6jVx0U
+      channel: UK Bass Tutorials
+      t: 809
+      cls: reputable
+  added: 2026-09-06
+- id: give-each-chop-a-different-delay-note
+  claim: Give each chop a different delay note division such as quarter or dotted
+    eighth for rhythmic variation
+  topic: chops
+  status: unverified
+  sources:
+    - video: 7CYCY6jVx0U
+      channel: UK Bass Tutorials
+      t: 1403
+      cls: reputable
+  added: 2026-09-06
+- id: thin-background-vocals-with-eq-to-make
+  claim: Thin background vocals with EQ to make space for the main chops
+  topic: mix
+  status: unverified
+  sources:
+    - video: 7CYCY6jVx0U
+      channel: UK Bass Tutorials
+      t: 425
+      cls: reputable
+  added: 2026-09-06
+- id: copy-one-vocal-note-and-pitch-the
+  claim: Copy one vocal note and pitch the copies to the third and fifth to build
+    a melody from one chop
+  topic: chops
+  status: unverified
+  sources:
+    - video: 2MzhNCxOZd4
+      channel: Bthelick
+      t: 632
+      cls: reputable
+  added: 2026-09-06
+- id: use-melda-mautopitch-for-formant-control-because
+  claim: Use Melda MAutoPitch for formant control because Ableton internal formant
+    shifting cannot be automated
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: 2MzhNCxOZd4
+      channel: Bthelick
+      t: 647
+      cls: reputable
+  added: 2026-09-06
+- id: search-the-source-genres-not-the-target
+  claim: Search the source genres not the target genre - reggae ragga dub rap MC
+    for male garage vocals and R&B soul gospel for sung female
+  topic: chops
+  status: unverified
+  sources:
+    - video: 2MzhNCxOZd4
+      channel: Bthelick
+      t: 92
+      cls: reputable
+  added: 2026-09-06
+- id: straight-beats-sound-tougher-than-swung-beats
+  claim: Straight beats sound tougher than swung beats
+  topic: drums
+  status: unverified
+  sources:
+    - video: 2MzhNCxOZd4
+      channel: Bthelick
+      t: 134
+      cls: reputable
+  added: 2026-09-06
+- id: pick-vocals-with-a-simple-straight-eighth
+  claim: Pick vocals with a simple straight eighth rhythm because complex rap
+    flows will not sit over a swung beat
+  topic: chops
+  status: unverified
+  sources:
+    - video: 2MzhNCxOZd4
+      channel: Bthelick
+      t: 198
+      cls: reputable
+  added: 2026-09-06
+- id: cut-halfway-through-a-vocal-stab-and
+  claim: Cut halfway through a vocal stab and keep both halves so each syllable
+    can be triggered separately
+  topic: chops
+  status: unverified
+  sources:
+    - video: 2MzhNCxOZd4
+      channel: Bthelick
+      t: 546
+      cls: reputable
+  added: 2026-09-06
+- id: pick-syllables-not-words-a-fragment-shorter
+  claim: Pick syllables not words - a fragment shorter than a word reads as an
+    instrument while a word keeps its prosody and reads as chopped talking
+  topic: chops
+  status: corroborated
+  sources:
+    - video: tracklib.com/blog/what-are-vocal-chops
+      channel: Tracklib
+      cls: reputable
+    - video: nitelifeaudio.com/uk-garage-vocal-cuts
+      channel: NITELIFE Audio
+      cls: reputable
+  added: 2026-09-06
+- id: use-dry-source-vocals-so-baked-in
+  claim: Use dry source vocals so baked-in reverb and delay tails do not fight
+    your own effects
+  topic: chops
+  status: corroborated
+  sources:
+    - video: hub.yamaha.com/proaudio/recording/creating-vocal-chops-part-1
+      channel: Yamaha Hub
+      cls: reputable
+    - video: thevocalmarket.com/how-to-chop-vocals
+      channel: The Vocal Market
+      cls: seo
+  added: 2026-09-06
+- id: vowels-carry-the-tone-and-consonants-carry
+  claim: Vowels carry the tone and consonants carry the rhythm so garage chops
+    combine both
+  topic: chops
+  status: corroborated
+  sources:
+    - video: tracklib.com/blog/what-are-vocal-chops
+      channel: Tracklib
+      cls: reputable
+    - video: nitelifeaudio.com/uk-garage-vocal-cuts
+      channel: NITELIFE Audio
+      cls: reputable
+  added: 2026-09-06
+- id: cut-past-the-consonant-attack-into-the
+  claim: Cut past the consonant attack into the vowel for fast melodic chops but
+    keep the consonant when the chop is doing rhythmic work
+  topic: chops
+  status: corroborated
+  sources:
+    - video: peachpit.com/articles/article.aspx?p=3150370
+      channel: Peachpit
+      cls: reputable
+    - video: hub.yamaha.com/vocal-chops-part-2
+      channel: Yamaha Hub
+      cls: reputable
+  added: 2026-09-06
+- id: reverb-pre-delay-of-30-to-60
+  claim: Reverb pre-delay of 30 to 60 ms keeps the chop attack dry and present
+    while the tail still gives size
+  topic: mix
+  status: unverified
+  sources:
+    - video: weaponsounds.com/blogs/production-tips/vocal-fx-techniques-for-house-music
+      channel: Weapon Sounds
+      cls: seo
+    - video: producersources.com/reverb-on-vocals
+      channel: Producer Sources
+      cls: seo
+  added: 2026-09-06
+- id: ducked-reverb-means-a-100-percent-wet
+  claim: Ducked reverb means a 100 percent wet return with a compressor after it
+    sidechained to the dry vocal so the tail blooms only in the gaps
+  topic: mix
+  status: unverified
+  sources:
+    - video: professionalcomposers.com/how-to-use-sidechaining-and-ducking-on-reverbs-and-delays
+      channel: Professional Composers
+      cls: seo
+    - video: blog.faderpro.com/sidechaining-vocals
+      channel: FaderPro
+      cls: seo
+  added: 2026-09-06
+- id: ukg-chops-sit-on-a-16th-grid
+  claim: UKG chops sit on a 16th grid with 50 to 60 percent swing and the vocals
+    should match the drums or run slightly looser
+  topic: chops
+  status: corroborated
+  sources:
+    - video: nitelifeaudio.com/classic-techniques-uk-garage-vocal-cuts
+      channel: NITELIFE Audio
+      cls: reputable
+    - video: musicradar.com/how-to/uk-garage-tutorial
+      channel: MusicRadar
+      cls: reputable
+  added: 2026-09-06
+- id: slice-at-zero-crossings-to-avoid-clicks
+  claim: Slice at zero crossings to avoid clicks at chop boundaries
+  topic: chops
+  status: corroborated
+  sources:
+    - video: tracklib.com/blog/what-are-vocal-chops
+      channel: Tracklib
+      cls: reputable
+    - video: weaponsounds.com/vocal-fx-house
+      channel: Weapon Sounds
+      cls: seo
+  added: 2026-09-06
+- id: pitching-a-vocal-beyond-about-3-semitones
+  claim: Pitching a vocal beyond about 3 semitones starts to lose quality and 5 to
+    6 semitones up is where a naive repitch audibly breaks
+  topic: chops
+  status: unverified
+  sources:
+    - video: redbullmusicacademy.com/lectures/todd-edwards
+      channel: Todd Edwards (RBMA)
+      cls: firsthand
+  added: 2026-09-06
+- id: do-not-use-complex-or-complex-pro
+  claim: Do not use Complex or Complex Pro warp modes inside a Drum Rack - use
+    another mode if a pad needs stretching
+  topic: chops
+  status: unverified
+  sources:
+    - video: ableton.com/en/manual/audio-clips-tempo-and-warping
+      channel: Ableton Manual
+      cls: vendor
+  added: 2026-09-06
+- id: play-the-rhythm-on-a-midi-triggered
+  claim: Play the rhythm on a MIDI-triggered gate over a sustained vocal instead
+    of cutting the audio for a less obviously chopped result
+  topic: chops
+  status: unverified
+  sources:
+    - video: attackmagazine.com/technique/walkthroughs/vocal-chopping-and-pitching
+      channel: Attack Magazine
+      cls: reputable
+  added: 2026-09-06
+- id: librosa-yin-never-abstains-and-returns-an
+  claim: librosa.yin never abstains and returns an f0 for breath fricatives and
+    silence - use librosa.pyin and gate on voiced_prob above 0.75
+  topic: workflow
+  status: unverified
+  sources:
+    - video: librosa.org/doc/0.11.0/generated/librosa.pyin.html
+      channel: librosa docs
+      cls: vendor
+  added: 2026-09-06
+- id: segment-vocals-on-syllable-nuclei-using-find
+  claim: Segment vocals on syllable nuclei using find_peaks with prominence 4dB on
+    a 50Hz intensity contour - onset detection gives word attacks not syllable
+    nuclei
+  topic: chops
+  status: unverified
+  sources:
+    - video: link.springer.com/article/10.3758/BRM.41.2.385
+      channel: de Jong and Wempe 2009
+      cls: reputable
+  added: 2026-09-06
+- id: standard-deviation-of-pitch-as-a-stability
+  claim: Standard deviation of pitch as a stability filter prefers monotone speech
+    and discards vibrato - detrend against a running median and require a stable
+    core of 120ms within 50 cents
+  topic: chops
+  status: unverified
+  sources:
+    - video: emilio-molina.github.io/publications/Molina-et-al-2015-SiPTH
+      channel: Molina et al 2015
+      cls: reputable
+  added: 2026-09-06
+- id: spread-chops-across-vowel-identity-and-timbre
+  claim: Spread chops across vowel identity and timbre not source pitch - twelve
+    correct notes cut from the same vowel still sound like one sample retuned
+    twelve times
+  topic: chops
+  status: unverified
+  sources:
+    - video: researchgate.net/publication/224927716_CataRT
+      channel: Schwarz CataRT DAFx-06
+      cls: reputable
+  added: 2026-09-06
+- id: use-pyworld-harvest-stonemask-cheaptrick-and-d4c
+  claim: Use pyworld harvest stonemask cheaptrick and d4c to pitch shift with
+    formants preserved - librosa pitch_shift is phase vocoder plus resample and
+    moves formants with pitch
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder
+      channel: pyworld
+      cls: vendor
+  added: 2026-09-06
+- id: solve-chop-to-slot-assignment-globally-with
+  claim: Solve chop to slot assignment globally with scipy linear_sum_assignment
+    rather than per-slot greedy argmin so early slots cannot take all the good
+    chops
+  topic: workflow
+  status: unverified
+  sources:
+    - video: docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linear_sum_assignment.html
+      channel: scipy docs
+      cls: vendor
+  added: 2026-09-06
+- id: harmonic-to-noise-ratio-is-the-strongest
+  claim: Harmonic to noise ratio is the strongest single discriminator for a
+    musical vocal segment - sung vowel above 12dB breath and fricative below 5dB
+    reject below 8dB
+  topic: chops
+  status: unverified
+  sources:
+    - video: fon.hum.uva.nl/archive/1993/Proc17Boersma.pdf
+      channel: Boersma 1993
+      cls: reputable
+  added: 2026-09-06
+- id: use-a-raised-cosine-fade-not-linear
+  claim: Use a raised cosine fade not linear on short vocal chops - 1 to 3ms in
+    and 10 to 20ms out
+  topic: chops
+  status: unverified
+  sources:
+    - video: github.com/sannawag/TD-PSOLA
+      channel: TD-PSOLA reference
+      cls: reputable
+  added: 2026-09-06
+- id: the-rolling-in-a-tech-house-rolling
+  claim: The rolling in a tech house rolling bassline comes from drawn pitch bend
+    automation in the MIDI clip, not from the synth patch
+  topic: bass
+  status: unverified
+  sources:
+    - video: aT5ptnp1K7E
+      channel: John Summit
+      t: 46
+      cls: firsthand
+  added: 2026-09-06
+- id: john-summit-s-illusions-bassline-is-ableton
+  claim: John Summit's Illusions bassline is Ableton Operator, a single saw wave
+    with release for sustain, EQ, saturation and sidechain
+  topic: bass
+  status: unverified
+  sources:
+    - video: aT5ptnp1K7E
+      channel: John Summit
+      t: 15
+      cls: firsthand
+  added: 2026-09-06
+- id: a-tech-house-rolling-bassline-can-be
+  claim: A tech house rolling bassline can be just two notes a semitone apart,
+    with pitch bend supplying all the movement
+  topic: bass
+  status: unverified
+  sources:
+    - video: aT5ptnp1K7E
+      channel: John Summit
+      t: 31
+      cls: firsthand
+  added: 2026-09-06
+- id: modern-ukg-bass-reduces-to-four-archetypes
+  claim: Modern UKG bass reduces to four archetypes and an 808-style sine bass
+    covers five of eight reference tracks including Sammy Virji Moonlight and
+    salute Therapy
+  topic: bass
+  status: unverified
+  sources:
+    - video: PSynH9HuAVU
+      channel: Bthelick
+      t: 94
+      cls: reputable
+  added: 2026-09-06
+- id: get-the-high-harmonics-in-a-ukg
+  claim: Get the high harmonics in a UKG bass by warping the waveform with FM,
+    ring mod, hard sync or formant rather than by adding a distortion effect
+  topic: bass
+  status: unverified
+  sources:
+    - video: PSynH9HuAVU
+      channel: Bthelick
+      t: 891
+      cls: reputable
+  added: 2026-09-06
+- id: use-a-second-oscillator-as-the-distortion
+  claim: Use a second oscillator as the distortion source instead of a distortion
+    unit because it is far more controlled
+  topic: bass
+  status: unverified
+  sources:
+    - video: PSynH9HuAVU
+      channel: Bthelick
+      t: 209
+      cls: reputable
+  added: 2026-09-06
+- id: spike-a-short-envelope-into-pitch-at
+  claim: Spike a short envelope into pitch at the note start for attack and thump
+    on an 808 style bass
+  topic: bass
+  status: unverified
+  sources:
+    - video: PSynH9HuAVU
+      channel: Bthelick
+      t: 241
+      cls: reputable
+  added: 2026-09-06
+- id: morph-oscillator-one-temporarily-into-a-square
+  claim: Morph oscillator one temporarily into a square wave for extra attack
+    harmonics rather than driving it harder
+  topic: bass
+  status: unverified
+  sources:
+    - video: PSynH9HuAVU
+      channel: Bthelick
+      t: 225
+      cls: reputable
+  added: 2026-09-06
+- id: wavetables-are-just-audio-files-and-move
+  claim: Wavetables are just audio files and move freely between Serum, Vital,
+    Massive and Ableton Wavetable
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: PSynH9HuAVU
+      channel: Bthelick
+      t: 1071
+      cls: reputable
+  added: 2026-09-06
+- id: ring-modulate-pink-noise-against-a-sine
+  claim: Ring modulate pink noise against a sine on a third oscillator and route
+    it to a second filter passing only highs so fizz survives when the main
+    filter closes
+  topic: bass
+  status: unverified
+  sources:
+    - video: PSynH9HuAVU
+      channel: Bthelick
+      t: 1186
+      cls: reputable
+  added: 2026-09-06
+- id: turn-a-plucky-bass-into-a-sustained
+  claim: Turn a plucky bass into a sustained one by extending the envelope and
+    raising sustain while keeping the same harmonic relationship
+  topic: bass
+  status: unverified
+  sources:
+    - video: PSynH9HuAVU
+      channel: Bthelick
+      t: 1155
+      cls: reputable
+  added: 2026-09-06
+- id: sammy-virji-s-signature-chord-and-lead
+  claim: Sammy Virji's signature chord and lead sound is a single sine wave with
+    chorus on it, used on Moonlight, Foundation, Find My Way and the Peggy Gou
+    remix
+  topic: keys
+  status: unverified
+  sources:
+    - video: l0ZmiR2pkh0
+      channel: Bthelick
+      t: 450
+      cls: reputable
+  added: 2026-09-06
+- id: add-brightness-to-a-sine-chord-sound
+  claim: Add brightness to a sine chord sound by mixing in a slight octave or
+    using FM rather than reaching for a different waveform
+  topic: keys
+  status: unverified
+  sources:
+    - video: l0ZmiR2pkh0
+      channel: Bthelick
+      t: 468
+      cls: reputable
+  added: 2026-09-06
+- id: garage-chords-use-cluster-voicing-drop-the
+  claim: Garage chords use cluster voicing - drop the seventh and ninth an octave
+    so notes bunch together, and let the separate bass part play the root
+  topic: keys
+  status: unverified
+  sources:
+    - video: l0ZmiR2pkh0
+      channel: Bthelick
+      t: 245
+      cls: reputable
+  added: 2026-09-06
+- id: non-diatonic-chords-plus-chromatic-voice-leading
+  claim: Non-diatonic chords plus chromatic voice leading are where the jazz, R&B
+    and soul flavour in garage chords comes from
+  topic: keys
+  status: unverified
+  sources:
+    - video: l0ZmiR2pkh0
+      channel: Bthelick
+      t: 327
+      cls: reputable
+  added: 2026-09-06
+- id: a-chord-resolves-weakly-when-three-of
+  claim: A chord resolves weakly when three of its five notes are static between
+    changes because they have nowhere to move
+  topic: keys
+  status: unverified
+  sources:
+    - video: l0ZmiR2pkh0
+      channel: Bthelick
+      t: 293
+      cls: reputable
+  added: 2026-09-06
+- id: a-1-5-6-progression-traditionally-resolves
+  claim: A 1-5-6 progression traditionally resolves worse than 1-6-5, and only
+    works with extensions and re-voicing rather than plain triads
+  topic: keys
+  status: unverified
+  sources:
+    - video: l0ZmiR2pkh0
+      channel: Bthelick
+      t: 140
+      cls: reputable
+  added: 2026-09-06
+- id: masters-at-work-s-dub-of-kathy
+  claim: Masters At Work's dub of Kathy Brown Can't Play Around is the garage
+    chord ancestor - G minor 1-5-6, sevenths on everything, ninths on the first
+    and last chord
+  topic: keys
+  status: unverified
+  sources:
+    - video: l0ZmiR2pkh0
+      channel: Bthelick
+      t: 110
+      cls: reputable
+  added: 2026-09-06
+- id: sammy-virji-s-find-my-way-is
+  claim: Sammy Virji's Find My Way is a 1-2-5 in D sharp minor with ninths on the
+    first and last chord and a major chord five borrowed from harmonic minor
+  topic: keys
+  status: unverified
+  sources:
+    - video: l0ZmiR2pkh0
+      channel: Bthelick
+      t: 520
+      cls: reputable
+  added: 2026-09-06
+- id: voice-a-garage-progression-by-taking-the
+  claim: Voice a garage progression by taking the third and fifth up an octave
+    rather than leaving chords in root position
+  topic: keys
+  status: unverified
+  sources:
+    - video: l0ZmiR2pkh0
+      channel: Bthelick
+      t: 572
+      cls: reputable
+  added: 2026-09-06
+- id: speed-garage-womp-bass-in-serum-is
+  claim: Speed garage womp bass in Serum is two oscillators both on the
+    BSOD_Square wavetable, both at OCT -2, through the MG Low 18 filter
+  topic: bass
+  status: unverified
+  sources:
+    - video: E43gJEFiRQg
+      channel: Zac Stanton
+      t: 175
+      cls: reputable
+  added: 2026-09-06
+- id: the-womp-comes-from-envelope-2-to
+  claim: The womp comes from envelope 2 to filter cutoff with a slow attack -
+    frame-verified at attack 770ms, hold 0, decay 1.00s, sustain 100 percent,
+    release 15ms
+  topic: bass
+  status: unverified
+  sources:
+    - video: E43gJEFiRQg
+      channel: Zac Stanton
+      t: 175
+      cls: reputable
+  added: 2026-09-06
+- id: add-filter-drive-for-fatness-and-a
+  claim: Add filter drive for fatness and a little resonance for the wateriness on
+    a speed garage womp bass, and keep it mono
+  topic: bass
+  status: unverified
+  sources:
+    - video: E43gJEFiRQg
+      channel: Zac Stanton
+      t: 250
+      cls: reputable
+  added: 2026-09-06
+- id: widen-a-womp-bass-with-dimension-expander
+  claim: Widen a womp bass with Dimension Expander with Hyper off rather than a
+    stereo widener, then Serum distortion at about 25 percent drive for
+    harmonics
+  topic: bass
+  status: unverified
+  sources:
+    - video: E43gJEFiRQg
+      channel: Zac Stanton
+      t: 300
+      cls: reputable
+  added: 2026-09-06
+- id: zac-stanton-s-garage-womp-serum-patch
+  claim: Zac Stanton's garage womp Serum patch runs at 133 BPM with the MPC 16
+    Swing-66 groove at 1/16, timing 100 percent, velocity 30 percent
+  topic: drums
+  status: unverified
+  sources:
+    - video: E43gJEFiRQg
+      channel: Zac Stanton
+      t: 175
+      cls: reputable
+  added: 2026-09-06
+- id: in-ukg-the-sub-outranks-the-key
+  claim: In UKG the sub outranks the key - Silva Bumpa will compromise the key of
+    the song to keep the sub hitting around 48Hz because that is what works on
+    sound systems
+  topic: bass
+  status: unverified
+  sources:
+    - video: musicradar.com/silva-bumpa-sub-bass-ukg
+      channel: Silva Bumpa
+      cls: firsthand
+  added: 2026-09-06
+- id: writing-in-d-minor-the-notes-d
+  claim: Writing in D minor, the notes D E and F hit really well for sub sounds
+  topic: bass
+  status: unverified
+  sources:
+    - video: musicradar.com/silva-bumpa-sub-bass-ukg
+      channel: Silva Bumpa
+      cls: firsthand
+  added: 2026-09-06
+- id: do-not-swing-every-drum-element-ghost
+  claim: Do not swing every drum element - ghost snares more swung than shakers,
+    shakers often dead straight, maybe one swung open hat
+  topic: drums
+  status: unverified
+  sources:
+    - video: musicradar.com/silva-bumpa-sub-bass-ukg
+      channel: Silva Bumpa
+      cls: firsthand
+  added: 2026-09-06
+- id: build-everything-around-the-bassline-do-not
+  claim: Build everything around the bassline - do not try to squeeze a bassline
+    in between other sounds
+  topic: bass
+  status: unverified
+  sources:
+    - video: attackmagazine.com/features/interview/zed-bias
+      channel: Zed Bias
+      cls: firsthand
+  added: 2026-09-06
+- id: wookie-assigned-filter-cutoff-to-the-jd
+  claim: Wookie assigned filter cutoff to the JD-800 mod wheel and bent it by hand
+    for movement, and wrote morphing frequencies in step by step
+  topic: bass
+  status: unverified
+  sources:
+    - video: musicradar.com/news/classic-album-wookie-on-wookie
+      channel: Wookie
+      cls: firsthand
+  added: 2026-09-06
+- id: record-slower-and-speed-the-track-back
+  claim: Record slower and speed the track back up to give it a more organic groove
+  topic: workflow
+  status: unverified
+  sources:
+    - video: musictech.com/features/interviews/conducta-ukg-king
+      channel: Conducta
+      cls: firsthand
+  added: 2026-09-06
+- id: leave-the-first-16th-of-every-beat
+  claim: Leave the first 16th of every beat empty in a rolling bassline to stop it
+    clashing with the kick
+  topic: bass
+  status: unverified
+  sources:
+    - video: attackmagazine.com/technique/tutorials/warehouse-rolling-techno-bass
+      channel: Attack Magazine
+      cls: reputable
+  added: 2026-09-06
+- id: sidechain-the-sub-with-attack-at-its
+  claim: Sidechain the sub with attack at its lowest and threshold set for no more
+    than 4 to 5 dB of gain reduction
+  topic: mix
+  status: unverified
+  sources:
+    - video: attackmagazine.com/technique/beat-dissected/interplanetary-criminal-style-garage
+      channel: Attack Magazine
+      cls: reputable
+  added: 2026-09-06
+- id: ukg-swing-sits-roughly-57-to-69
+  claim: UKG swing sits roughly 57 to 69 percent while tech house sits roughly 54
+    to 58 percent, and the swing amount is itself the genre boundary
+  topic: drums
+  status: unverified
+  sources:
+    - video: attackmagazine.com/technique/beat-dissected/uk-garage
+      channel: Attack Magazine
+      cls: reputable
+  added: 2026-09-06
+- id: drive-different-frequency-bands-with-different-saturation
+  claim: Drive different frequency bands with different saturation - sub routed
+    clean around the driven mid band rather than one distortion across the whole
+    bass
+  topic: bass
+  status: unverified
+  sources:
+    - video: attackmagazine.com/technique/synth-secrets/subby-garage-bass
+      channel: Attack Magazine
+      cls: reputable
+  added: 2026-09-06
+- id: use-a-ghost-trigger-a-silent-kick
+  claim: Use a ghost trigger - a silent kick or short noise burst - to drive
+    sidechain instead of the kick itself, because a boomy kick tail ducks the
+    bass for too long
+  topic: mix
+  status: unverified
+  sources:
+    - video: mastering.com/the-ghost-sidechain
+      channel: Mastering.com
+      cls: generic
+  added: 2026-09-06
+- id: the-2-step-kick-skeleton-is-kick
+  claim: The 2-step kick skeleton is kick on beat 1 and on the 8th after beat 3,
+    with snare and claps on 2 and 4
+  topic: drums
+  status: corroborated
+  sources:
+    - video: musicradar.com/how-to/uk-garage-tutorial
+      channel: MusicRadar
+      cls: reputable
+    - video: attackmagazine.com/technique/beat-dissected/uk-garage
+      channel: Attack Magazine
+      cls: reputable
+  added: 2026-09-06
+- id: the-classic-speed-garage-organ-bass-is
+  claim: The classic speed garage organ bass is the Korg M1 Organ 2 factory
+    preset, a sampled ROMpler patch rather than a synthesised sound
+  topic: bass
+  status: corroborated
+  sources:
+    - video: djmag.com/features/history-bassline
+      channel: DJ Mag
+      cls: reputable
+    - video: mixmag.net/bota-m1-organ
+      channel: Mixmag
+      cls: reputable
+  added: 2026-09-06
+- id: mj-cole-on-sincere-the-bass-uses
+  claim: MJ Cole on Sincere - the bass uses these minor ninths that I use all the
+    time now, and that was the first time I discovered that
+  topic: keys
+  status: unverified
+  sources:
+    - video: djmag.com/features/how-mj-coles-sincere-set-stage
+      channel: MJ Cole
+      cls: firsthand
+  added: 2026-09-06
+- id: disclosure-use-jazz-chords-and-interesting-melodies
+  claim: Disclosure use jazz chords and interesting melodies instead of boring
+    stabby EDM triads
+  topic: keys
+  status: unverified
+  sources:
+    - video: audiblegenius.com/blog/the-disclosure-latch-chord-progression
+      channel: Disclosure
+      cls: firsthand
+  added: 2026-09-06
+- id: kerri-chandler-omits-the-fifth-and-substitutes
+  claim: Kerri Chandler omits the fifth and substitutes 11ths and 13ths in - The
+    Sound is Yours remix is D sharp m7(11) to Bm(13)
+  topic: keys
+  status: unverified
+  sources:
+    - video: attackmagazine.com/technique/passing-notes/kerri-chandler-chords
+      channel: Attack Magazine
+      cls: reputable
+  added: 2026-09-06
+- id: treating-sus2-and-add9-as-a-ukg
+  claim: Treating sus2 and add9 as a UKG signature is SEO-tier sourcing only - the
+    credible add9 datapoints are Kerri Chandler deep house, not garage
+  topic: keys
+  status: unverified
+  sources:
+    - video: attackmagazine.com/technique/passing-notes/kerri-chandler-chords
+      channel: Attack Magazine
+      cls: reputable
+  added: 2026-09-06
+- id: minor-7th-and-minor-9th-are-the
+  claim: Minor 7th and minor 9th are the core chord vocabulary across house, deep
+    house and garage
+  topic: keys
+  status: corroborated
+  sources:
+    - video: attackmagazine.com/technique/synth-secrets/old-school-house-chords
+      channel: Attack Magazine
+      cls: reputable
+    - video: modeaudio.com/magazine/turn-any-synth-into-a-deep-house-chord
+      channel: ModeAudio
+      cls: generic
+  added: 2026-09-06
+- id: serum-2-is-v2-0-16-released
+  claim: Serum 2 is v2.0.16 released 17 March 2025, a free upgrade for Serum 1
+    owners, and both versions can stay installed side by side
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: support.xferrecords.com/article/58-how-to-upgrade-from-serum-1-to-serum-2
+      channel: Xfer
+      cls: vendor
+  added: 2026-09-06
+- id: serum-1-presets-load-in-serum-2
+  claim: Serum 1 presets load in Serum 2 but Xfer only claims they load, not that
+    they sound identical - leave finished tracks on Serum 1 and start new work
+    in Serum 2
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: support.xferrecords.com/article/58-how-to-upgrade-from-serum-1-to-serum-2
+      channel: Xfer
+      cls: vendor
+  added: 2026-09-06
+- id: serum-2-has-3-oscillators-with-wavetable
+  claim: Serum 2 has 3 oscillators with wavetable, sample, multisample, granular
+    and spectral modes, 2 filters, 4 envelopes, up to 10 LFOs, 8 macros and dual
+    warp
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: static.xferrecords.com/Serum 2 What's New.pdf
+      channel: Xfer
+      cls: vendor
+  added: 2026-09-06
+- id: sus4-as-a-house-or-garage-signature
+  claim: sus4 as a house or garage signature has no credible sourcing - the widely
+    repeated 90 percent claim traces to preset-pack marketing copy, and the page
+    it is attributed to does not contain it
+  topic: keys
+  status: unverified
+  sources:
+    - video: unison.audio/house-chord-progressions
+      channel: verified-absent
+      cls: reputable
+  added: 2026-09-06
+- id: attack-magazine-s-passing-notes-series-covers
+  claim: Attack Magazine's Passing Notes series covers 7ths 9ths 11ths 13ths
+    sharp11s add9 slash chords and inversions across many tracks and never
+    mentions sus4 once - that absence is evidence
+  topic: keys
+  status: unverified
+  sources:
+    - video: attackmagazine.com/technique/passing-notes
+      channel: Attack Magazine
+      cls: reputable
+  added: 2026-09-06
+- id: the-signature-house-and-garage-voicing-is
+  claim: The signature house and garage voicing is a third-inversion m7 with the
+    root and fifth omitted and an 11th substituted - Bicep Feel It Ebm7 is Db Eb
+    Gb Bb
+  topic: keys
+  status: unverified
+  sources:
+    - video: attackmagazine.com/technique/passing-notes
+      channel: Attack Magazine
+      cls: reputable
+  added: 2026-09-06
+- id: a-chord-estimator-run-on-a-separated
+  claim: A chord estimator run on a separated stem will over-report sus4 when one
+    pitch class dominates, because any template containing that class scores
+    well - check whether the third is actually absent before calling something
+    sus
+  topic: workflow
+  status: unverified
+  sources:
+    - video: docs/reference-pierstan.md
+      channel: measured here
+      cls: reputable
+  added: 2026-09-06
+- id: bsod-square-is-spectrally-an-ideal-square
+  claim: BSOD_Square is spectrally an ideal square - odd harmonics at exactly h1
+    over h, even harmonics exactly zero - but its harmonic phases are scrambled,
+    so no rotation of a real square matches it in the time domain
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: Tables/Analog/BSOD_Square.wav
+      channel: measured from install
+      cls: vendor
+  added: 2026-09-06
+- id: because-bsod-square-has-square-amplitudes-but
+  claim: Because BSOD_Square has square amplitudes but scrambled phases it sounds
+    like a square but will not behave like one under PWM, Sync, Bend, Asym, Flip
+    or Mirror, which act on waveshape not spectrum
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: Tables/Analog/BSOD_Square.wav
+      channel: measured from install
+      cls: vendor
+  added: 2026-09-06
+- id: bsod-square-is-a-2-frame-table
+  claim: BSOD_Square is a 2-frame table and WT Pos morphs bright to dark holding
+    phase constant - about 3.5 to 4.5 dB off everything above h3 with the
+    fundamental up 1.3 dB, so it acts as a tilt EQ not a shape change
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: Tables/Analog/BSOD_Square.wav
+      channel: measured from install
+      cls: vendor
+  added: 2026-09-06
+- id: serum-s-phase-knob-zero-crossing-rule
+  claim: Serum's Phase knob zero-crossing rule is stated for a sine -
+    BSOD_Square's crossings cluster near samples 54 to 110 of 2048, so a
+    fast-attack patch on it will click at Phase 0 and needs the phase hunting
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: static.xferrecords.com/Serum 2 manual
+      channel: Xfer
+      cls: vendor
+  added: 2026-09-06
+- id: tables-analog-is-the-serum-1-inherited
+  claim: Tables/Analog is the Serum 1 inherited wavetable set and Tables/S2 Tables
+    is Serum 2's new content, so a tutorial using an Analog table works
+    identically in either version
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: Serum 2 Presets/Tables
+      channel: measured from install
+      cls: vendor
+  added: 2026-09-06
+- id: pitch-has-to-be-part-of-the
+  claim: Pitch has to be part of the target pattern, not a property of whichever
+    chop you grabbed - assigning chops onto named chord tones is what turns a
+    chop line from a drone into a riff
+  topic: chops
+  status: proven
+  sources:
+    - video: learn/claims.yaml
+      channel: measured here
+      cls: reputable
+  added: 2026-09-06
+  tried: 2026-09-06
+- id: classic-house-pad-chords-are-minor-9
+  claim: Classic house pad chords are minor 9, minor 7, major 7 and major 9 and
+    their inversions - the extensions are what make a pad read as dense rather
+    than the synth
+  topic: keys
+  status: unverified
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 221
+  added: 2026-09-06
+- id: a-house-pad-s-chorusing-should-come
+  claim: A house pad's chorusing should come from unison voices detuned inside the
+    synth, around 16 per oscillator, rather than a chorus after it
+  topic: pads
+  status: unverified
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 271
+  added: 2026-09-06
+- id: unison-voices-have-to-run-free-or
+  claim: Unison voices have to run free or they do not chorus - turn retrigger
+    off, otherwise the copies all start in phase and cancel instead of spreading
+  topic: pads
+  status: unverified
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 451
+  added: 2026-09-06
+- id: detune-without-stereo-spread-is-not-chorusing
+  claim: Detune without stereo spread is not chorusing - a synth with no width
+    control needs an external chorus, and that sounds different from internal
+    unison spread
+  topic: pads
+  status: unverified
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 517
+  added: 2026-09-06
+- id: a-pad-can-sit-almost-band-passed
+  claim: A pad can sit almost band-passed - high-pass the lows out as well as
+    lowpassing, because the mud lives below the useful part of the sound
+  topic: pads
+  status: unverified
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 642
+  added: 2026-09-06
+- id: resonance-on-a-steep-filter-slope-is
+  claim: Resonance on a steep filter slope is where a pad's filter character comes
+    from, and it is what makes a moving cutoff audible
+  topic: pads
+  status: unverified
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 659
+  added: 2026-09-06
+- id: a-slow-lfo-on-filter-cutoff-gives
+  claim: A slow LFO on filter cutoff gives a pad movement, and delay and reverb
+    after it hide the periodicity so it stops sounding like an LFO
+  topic: pads
+  status: unverified
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 723
+  added: 2026-09-06
+- id: pulse-width-modulated-by-an-lfo-with
+  claim: Pulse width modulated by an LFO, with a saw layered on top and a sub
+    oscillator underneath, is a house pad alternative to stacking saws
+  topic: pads
+  status: unverified
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 821
+  added: 2026-09-06
+- id: ensemble-is-the-chorus-type-to-reach
+  claim: Ensemble is the chorus type to reach for on a pad
+  topic: pads
+  status: corroborated
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 900
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: generic
+      t: 1121
+  added: 2026-09-06
+- id: give-a-pad-attack-and-sustain-on
+  claim: Give a pad attack and sustain on the amp envelope and take the envelope
+    off the filter entirely
+  topic: pads
+  status: corroborated
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 963
+    - video: vdiQv0dYyg8
+      channel: Matt Tinkler
+      cls: generic
+      t: 48
+  added: 2026-09-06
+- id: coloured-noise-mixed-in-under-a-pad
+  claim: Coloured noise mixed in under a pad is where the vintage character comes from
+  topic: pads
+  status: unverified
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 1042
+  added: 2026-09-06
+- id: route-a-pad-s-noise-oscillator-into
+  claim: Route a pad's noise oscillator into a second filter directly so its high
+    frequencies survive the lowpass that is darkening everything else
+  topic: pads
+  status: unverified
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 1052
+  added: 2026-09-06
+- id: make-a-pad-out-of-a-chord
+  claim: Make a pad out of a chord stab by looping a steady section of the sample
+    in Simpler - not the loud beginning - with a short loop and a fade
+  topic: pads
+  status: corroborated
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 32
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: generic
+      t: 859
+  added: 2026-09-06
+- id: delay-and-reverb-are-what-stop-a
+  claim: Delay and reverb are what stop a looped-sample pad from sounding like a
+    loop repeating
+  topic: pads
+  status: unverified
+  sources:
+    - video: nbS1pT8V7YU
+      channel: Olean's House
+      cls: reputable
+      t: 96
+  added: 2026-09-06
+- id: an-oscillator-shape-morphing-between-triangle-and
+  claim: An oscillator shape morphing between triangle and saw is warmer for a pad
+    than a plain saw
+  topic: pads
+  status: unverified
+  sources:
+    - video: vdiQv0dYyg8
+      channel: Matt Tinkler
+      cls: generic
+      t: 79
+  added: 2026-09-06
+- id: drift-s-stereo-mode-widens-with-less
+  claim: Drift's Stereo mode widens with less detune while Unison mode detunes
+    harder - stereo plus about 50 percent drift gives movement between voices
+    without the seasick detune
+  topic: pads
+  status: unverified
+  sources:
+    - video: vdiQv0dYyg8
+      channel: Matt Tinkler
+      cls: generic
+      t: 111
+  added: 2026-09-06
+- id: shape-the-filter-envelope-differently-from-the
+  claim: Shape the filter envelope differently from the amp envelope - long
+    attack, zero sustain, long decay - so the filter opens and closes on its own
+    timescale rather than tracking the volume
+  topic: pads
+  status: unverified
+  sources:
+    - video: vdiQv0dYyg8
+      channel: Matt Tinkler
+      cls: generic
+      t: 164
+  added: 2026-09-06
+- id: modulate-a-pad-s-oscillator-shape-by
+  claim: Modulate a pad's oscillator shape by only 10 to 15 percent - past that it
+    stops being movement and starts being a different sound
+  topic: pads
+  status: unverified
+  sources:
+    - video: vdiQv0dYyg8
+      channel: Matt Tinkler
+      cls: generic
+      t: 248
+  added: 2026-09-06
+- id: set-the-pad-lfo-shape-to-wander
+  claim: Set the pad LFO shape to Wander or another random mode so the movement
+    never lands on a period the ear can lock onto
+  topic: pads
+  status: unverified
+  sources:
+    - video: vdiQv0dYyg8
+      channel: Matt Tinkler
+      cls: generic
+      t: 298
+  added: 2026-09-06
+- id: increase-filter-key-tracking-on-a-pad
+  claim: Increase filter key tracking on a pad so the cutoff follows the incoming
+    note and no two notes sound identical
+  topic: pads
+  status: unverified
+  sources:
+    - video: vdiQv0dYyg8
+      channel: Matt Tinkler
+      cls: generic
+      t: 416
+  added: 2026-09-06
+- id: a-chorus-with-its-rate-at-the
+  claim: A chorus with its rate at the lowest setting and a low dry/wet is the
+    subtle version of unison width
+  topic: pads
+  status: unverified
+  sources:
+    - video: vdiQv0dYyg8
+      channel: Matt Tinkler
+      cls: generic
+      t: 460
+  added: 2026-09-06
+- id: offset-the-left-and-right-delay-times
+  claim: Offset the left and right delay times against each other to widen a pad's
+    delay
+  topic: pads
+  status: unverified
+  sources:
+    - video: vdiQv0dYyg8
+      channel: Matt Tinkler
+      cls: generic
+      t: 525
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: generic
+      t: 703
+  added: 2026-09-06
+- id: french-house-is-filter-disco-the-chords
+  claim: French house is filter disco - the chords start from a Rhodes emulation,
+    not a synth pad, and the pad quality comes from what is done to it
+    afterwards
+  topic: pads
+  status: unverified
+  sources:
+    - video: GmjT-XLPGss
+      channel: Estuera
+      cls: firsthand
+      t: 65
+  added: 2026-09-06
+- id: the-compressor-on-the-french-house-rhodes
+  claim: The compressor on the French house Rhodes exists to lift the quiet parts
+    and the reverb tail between chords - that is what creates the direct pumping
+    sound, not a sidechain
+  topic: pads
+  status: unverified
+  sources:
+    - video: GmjT-XLPGss
+      channel: Estuera
+      cls: firsthand
+      t: 262
+  added: 2026-09-06
+- id: filter-the-whole-french-house-submix-together
+  claim: Filter the whole French house submix together - bass, Rhodes and drums
+    into one group with one filter - rather than filtering each track separately
+  topic: mix
+  status: unverified
+  sources:
+    - video: GmjT-XLPGss
+      channel: Estuera
+      cls: firsthand
+      t: 425
+  added: 2026-09-06
+- id: before-plugin-filters-the-french-house-filter
+  claim: Before plugin filters the French house filter sweep was the sampler's own
+    filter or an outboard one like the MS-20 or a Sherman filterbank, which is
+    why it sounds driven rather than clean
+  topic: pads
+  status: unverified
+  sources:
+    - video: GmjT-XLPGss
+      channel: Estuera
+      cls: firsthand
+      t: 409
+  added: 2026-09-06
+- id: french-house-is-made-on-the-mixer
+  claim: French house is made on the mixer - heavy compression everywhere is what
+    produces the radio-like in-your-face sound, not the sound design
+  topic: mix
+  status: unverified
+  sources:
+    - video: GmjT-XLPGss
+      channel: Estuera
+      cls: firsthand
+      t: 246
+  added: 2026-09-06
+- id: french-house-kick-compression-is-a-slow
+  claim: French house kick compression is a slow attack, release a little below
+    medium, low threshold, high ratio and high makeup - punch through the mix
+    rather than boom
+  topic: mix
+  status: unverified
+  sources:
+    - video: GmjT-XLPGss
+      channel: Estuera
+      cls: firsthand
+      t: 296
+  added: 2026-09-06
+- id: bus-all-the-drums-and-bass-to
+  claim: Bus all the drums and bass to a group and blend a very heavily compressed
+    copy back in - doing whole groups in parallel at once is the typical house
+    mixing move
+  topic: mix
+  status: unverified
+  sources:
+    - video: GmjT-XLPGss
+      channel: Estuera
+      cls: firsthand
+      t: 327
+  added: 2026-09-06
+- id: a-multiband-compressor-and-limiter-on-the
+  claim: A multiband compressor and limiter on the master is what finishes the
+    French house in-your-face radio sound
+  topic: mix
+  status: unverified
+  sources:
+    - video: GmjT-XLPGss
+      channel: Estuera
+      cls: firsthand
+      t: 394
+  added: 2026-09-06
+- id: shuffle-is-what-makes-french-house-groove
+  claim: Shuffle is what makes French house groove - turn it up, it is not optional
+  topic: drums
+  status: unverified
+  sources:
+    - video: GmjT-XLPGss
+      channel: Estuera
+      cls: firsthand
+      t: 211
+  added: 2026-09-06
+- id: heavy-compression-means-french-house-has-to
+  claim: Heavy compression means French house has to be less is more - layering
+    many sounds under that much compression turns into a mess, so use a few
+    hooks fully
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: GmjT-XLPGss
+      channel: Estuera
+      cls: firsthand
+      t: 554
+  added: 2026-09-06
+- id: pitch-a-found-vocal-hook-up-slightly
+  claim: Pitch a found vocal hook up slightly to make it sit with the chords
+  topic: chops
+  status: unverified
+  sources:
+    - video: GmjT-XLPGss
+      channel: Estuera
+      cls: firsthand
+      t: 487
+  added: 2026-09-06
+- id: write-the-chords-large-and-spread-across
+  claim: Write the chords large and spread across octaves before touching the
+    synth - a pad's size starts in the MIDI, not the patch
+  topic: pads
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 19
+  added: 2026-09-06
+- id: wavetable-s-shimmer-unison-mode-sounds-like
+  claim: Wavetable's Shimmer unison mode sounds like the tunings drift like tape;
+    keep the unison amount around 30 percent before it goes properly out of tune
+  topic: pads
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 49
+  added: 2026-09-06
+- id: a-second-oscillator-on-the-same-wave
+  claim: A second oscillator on the same wave an octave down is what thickens a
+    pad - another octave of voices, not another timbre
+  topic: pads
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 116
+  added: 2026-09-06
+- id: set-a-pad-s-release-long-enough
+  claim: Set a pad's release long enough that each chord tail overlaps the next -
+    the gap between chords is what breaks the illusion
+  topic: pads
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 181
+  added: 2026-09-06
+- id: an-envelope-only-filter-is-predictable-and
+  claim: An envelope-only filter is predictable and boring because it does exactly
+    the same thing on every note
+  topic: pads
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 279
+  added: 2026-09-06
+- id: put-a-tempo-synced-lfo-on-the
+  claim: Put a tempo-synced LFO on the cutoff on top of the filter envelope and
+    set it to an odd length like 3 bars so it never lines up with the loop
+  topic: pads
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 296
+  added: 2026-09-06
+- id: turn-lfo-retrigger-off-so-the-filter
+  claim: Turn LFO retrigger off so the filter sits at a different position on
+    every chord - that is what makes it feel like someone is hand-turning the
+    knob
+  topic: pads
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 360
+  added: 2026-09-06
+- id: a-tiny-lfo-on-pitch-with-its
+  claim: A tiny LFO on pitch with its own attack, so the detune fades in towards
+    the tail of the chord, is the tape wobble trick
+  topic: pads
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 416
+  added: 2026-09-06
+- id: switch-wavetable-s-filter-from-clean-to
+  claim: Switch Wavetable's filter from Clean to an analog model to unlock its
+    Drive control - saturating inside the filter is where the grain comes from
+  topic: pads
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 510
+  added: 2026-09-06
+- id: with-filter-drive-high-the-resonance-stops
+  claim: With filter drive high the resonance stops sounding acidic - drive damps
+    the resonance, so the two fight each other
+  topic: pads
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 580
+  added: 2026-09-06
+- id: convolution-reverb-s-blackhole-impulse-response-is
+  claim: Convolution Reverb's Blackhole impulse response is the free stand-in for
+    the Eventide plugin
+  topic: pads
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 744
+  added: 2026-09-06
+- id: eq-the-low-end-out-of-the
+  claim: EQ the low end out of the reverb, not just out of the pad
+  topic: mix
+  status: unverified
+  sources:
+    - video: p5ETZc7Zfw4
+      channel: Ableton Tips by PML
+      cls: reputable
+      t: 810
+  added: 2026-09-06
+- id: an-operator-pad-is-saw-plus-square
+  claim: An Operator pad is saw plus square plus white noise with the oscillators
+    in parallel rather than FM-routed
+  topic: pads
+  status: unverified
+  sources:
+    - video: Rv7aHDWXINo
+      channel: Production Music Live
+      cls: reputable
+      t: 113
+  added: 2026-09-06
+- id: rack-the-pad-and-macro-filter-cutoff
+  claim: Rack the pad and macro filter cutoff, sidechain amount, chorus and reverb
+    dry/wet - the same patch then covers background support and lead just by
+    turning those four
+  topic: pads
+  status: unverified
+  sources:
+    - video: Rv7aHDWXINo
+      channel: Production Music Live
+      cls: reputable
+      t: 225
+  added: 2026-09-06
+- id: put-a-second-compressor-after-the-filter
+  claim: Put a second compressor after the filter on a pad, because moving the
+    cutoff changes the level a lot and the part stops sitting still in the mix
+  topic: pads
+  status: unverified
+  sources:
+    - video: Rv7aHDWXINo
+      channel: Production Music Live
+      cls: reputable
+      t: 348
+  added: 2026-09-06
+- id: a-pad-follows-the-harmony-while-a
+  claim: A pad follows the harmony while a drone sits on one note and carries
+    texture - techno leans on drones, deep house on pads
+  topic: pads
+  status: unverified
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 63
+  added: 2026-09-06
+- id: decide-what-the-pad-is-for-before
+  claim: Decide what the pad is for before designing it - underlying soundscape,
+    reinforcement under the main chords, or the focus of the track - because
+    that decides everything after
+  topic: pads
+  status: unverified
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 94
+  added: 2026-09-06
+- id: pad-layers-have-to-complement-each-other
+  claim: Pad layers have to complement each other, so give the second oscillator a
+    different wavetable rather than more of the first
+  topic: pads
+  status: unverified
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 274
+  added: 2026-09-06
+- id: treat-the-reverb-return-as-another-layer
+  claim: Treat the reverb return as another layer of the pad - it is derived from
+    the same source, so it adds width without adding a new timbre to fight with
+  topic: pads
+  status: unverified
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 777
+  added: 2026-09-06
+- id: plugin-order-on-a-pad-s-reverb
+  claim: Plugin order on a pad's reverb return changes the result - an effect
+    before the reverb gets softened by it, the same effect after it processes
+    the tail instead
+  topic: mix
+  status: unverified
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 587
+  added: 2026-09-06
+- id: when-two-pad-layers-get-dense-split
+  claim: When two pad layers get dense, split the chord between them - one
+    instrument takes the two lowest notes, the other the two highest, then push
+    them into different octaves
+  topic: pads
+  status: unverified
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 951
+  added: 2026-09-06
+- id: group-the-pad-layers-and-process-them
+  claim: Group the pad layers and process them as one - compress, EQ and automate
+    the filter across the group rather than per layer
+  topic: pads
+  status: unverified
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 1137
+  added: 2026-09-06
+- id: build-a-drone-by-sampling-the-tail
+  claim: Build a drone by sampling the tail of a reverb from one of the track's
+    own vocal hits - same source means it glues instead of adding a new sound
+  topic: pads
+  status: unverified
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 1284
+  added: 2026-09-06
+- id: turn-the-pad-up-louder-than-it
+  claim: Turn the pad up louder than it should sit so you can hear exactly where
+    it competes, EQ those spots, then bring it back down
+  topic: mix
+  status: unverified
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 1539
+  added: 2026-09-06
+- id: a-pad-loses-both-fights-by-default
+  claim: A pad loses both fights by default - EQ its low end out for the bass and
+    its highs out for the vocal
+  topic: mix
+  status: corroborated
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 1574
+    - video: x-mg8sfMkuY
+      channel: JordyW
+      cls: generic
+      t: 545
+  added: 2026-09-06
+- id: a-drone-should-bounce-off-the-kick
+  claim: A drone should bounce off the kick less than a pad does, because its job
+    is to unify rather than to move
+  topic: pads
+  status: unverified
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 1614
+  added: 2026-09-06
+- id: two-or-three-saturators-in-small-amounts
+  claim: Two or three saturators in small amounts on a pad build deeper texture
+    than one saturator pushed hard
+  topic: pads
+  status: unverified
+  sources:
+    - video: X2xijc3S8cc
+      channel: EDM Tips
+      cls: reputable
+      t: 1757
+  added: 2026-09-06
+- id: map-ableton-s-envelope-follower-from-an
+  claim: Map Ableton's Envelope Follower from an analog drum loop onto a synth's
+    filter cutoff - the drum machine's own groove then drives the synth, which
+    is where Bicep's organic movement comes from
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: N-6PNJUV_Ek
+      channel: Push Patterns
+      cls: reputable
+      t: 32
+  added: 2026-09-06
+- id: bicep-s-chopped-vocal-on-apricots-was
+  claim: Bicep's chopped vocal on Apricots was never chopped - they ran it through
+    a noise gate with its sidechain fed from an open 909 hi-hat, so the hat's
+    groove opens and closes the vocal for them
+  topic: chops
+  status: unverified
+  sources:
+    - video: N-6PNJUV_Ek
+      channel: Push Patterns
+      cls: reputable
+      t: 131
+  added: 2026-09-06
+- id: gate-settings-for-the-hat-driven-vocal
+  claim: "Gate settings for the hat-driven vocal, read off the screen: External
+    sidechain Post FX, SC gain 4.63 dB, SC filter at 200 Hz Res 0.71, threshold
+    -2.89 dB, attack 19.1 ms, hold 24.3 ms, release 3.37 ms, floor -inf,
+    lookahead 1.5 ms"
+  topic: chops
+  status: unverified
+  sources:
+    - video: N-6PNJUV_Ek
+      channel: Push Patterns
+      cls: reputable
+      t: 185
+  added: 2026-09-06
+- id: on-a-gated-vocal-the-gate-s
+  claim: On a gated vocal the gate's attack, hold and release are the envelope - a
+    very short release is what makes it choppy, and attack softens the front
+    edge so it does not click
+  topic: chops
+  status: unverified
+  sources:
+    - video: N-6PNJUV_Ek
+      channel: Push Patterns
+      cls: reputable
+      t: 170
+  added: 2026-09-06
+- id: modulate-the-amp-envelope-s-attack-dial
+  claim: Modulate the amp envelope's attack dial with an LFO rather than fixing it
+    - that breathing is what makes the Atlas lead feel alive
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: N-6PNJUV_Ek
+      channel: Push Patterns
+      cls: reputable
+      t: 214
+  added: 2026-09-06
+- id: put-a-second-very-slow-free-running
+  claim: Put a second very slow free-running LFO on portamento so a lead drifts
+    between glide-y and plucky - screen shows sine at 0.16 Hz, depth 21.3
+    percent, against depth 25.2 percent on the attack LFO
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: N-6PNJUV_Ek
+      channel: Push Patterns
+      cls: reputable
+      t: 250
+  added: 2026-09-06
+- id: bicep-s-apricots-pluck-has-a-little
+  claim: Bicep's Apricots pluck has a little attack on it so the start of the
+    sound is soft rather than snapped
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: JkPxjdfEYCc
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 46
+  added: 2026-09-06
+- id: to-swell-a-pluck-into-a-break
+  claim: To swell a pluck into a break, raise sustain to maximum and lengthen the
+    release rather than automating decay - the same snappy sound becomes a long
+    washed-out splash
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: JkPxjdfEYCc
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 97
+  added: 2026-09-06
+- id: the-bicep-drum-skeleton-is-the-classic
+  claim: The Bicep drum skeleton is the classic house pattern with the
+    four-on-the-floor kicks removed - kick and rim shot only, never disturbed,
+    acting as the heartbeat
+  topic: drums
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 84
+  added: 2026-09-06
+- id: fill-between-the-drum-skeleton-with-ghost
+  claim: Fill between the drum skeleton with ghost notes, emphasising swung
+    offbeat 16ths at low velocity - they are accents, not hits
+  topic: drums
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 131
+  added: 2026-09-06
+- id: build-the-drum-loop-as-a-b
+  claim: Build the drum loop as A-B-A-C - duplicate it, change one element in the
+    B, then change more in the last pass as a turnaround, so it never reads as a
+    loop
+  topic: drums
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 164
+  added: 2026-09-06
+- id: stack-the-rim-shot-with-two-separate
+  claim: Stack the rim shot with two separate claps, then drum buss plus delay and
+    reverb to glue them into one hit
+  topic: drums
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 245
+  added: 2026-09-06
+- id: two-hi-hat-parts-not-one-a
+  claim: Two hi-hat parts, not one - a straight upbeat hat plus a tiny shuffly one
+    off the grid at low velocity
+  topic: drums
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 304
+  added: 2026-09-06
+- id: decide-the-four-chords-before-drawing-any
+  claim: Decide the four chords before drawing any notes - Bicep lean on
+    four-chord loops, which is a pop approach, and chordify has already done the
+    identification work on their records
+  topic: keys
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 366
+  added: 2026-09-06
+- id: program-the-progression-on-operator-first-purely
+  claim: Program the progression on Operator first purely to hear the pitches -
+    the chords have to move you emotionally before any sound design happens
+  topic: keys
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 427
+  added: 2026-09-06
+- id: use-an-arpeggiator-as-a-trigger-sequencer
+  claim: Use an arpeggiator as a trigger sequencer rather than an arpeggio - two
+    notes on, one off, swing very high, playing the whole chord each time. That
+    rhythm is the signature Bicep chord movement
+  topic: keys
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 469
+  added: 2026-09-06
+- id: the-chords-hiding-and-opening-under-a
+  claim: The chords hiding and opening under a filter is the protagonist of a
+    Bicep track - hide them, open them, hide them again, and that push-pull
+    carries the whole thing
+  topic: keys
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 578
+  added: 2026-09-06
+- id: add-a-slow-reverb-drenched-string-pad
+  claim: Add a slow reverb-drenched string pad that improvises notes in the key
+    without following the chords - it fills the spectrum and stops the chord
+    loop feeling static
+  topic: pads
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 595
+  added: 2026-09-06
+- id: bicep-vocals-are-old-school-house-or
+  claim: Bicep vocals are old-school house or trance diva vocals pitched around
+    and drowned in reverb, used as an instrument and a supporting element rather
+    than the performance
+  topic: chops
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 687
+  added: 2026-09-06
+- id: take-small-slices-of-a-single-vocal
+  claim: Take small slices of a single vocal phrase and pitch them up so one word
+    sounds like a whole performance
+  topic: chops
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 752
+  added: 2026-09-06
+- id: a-reese-bass-is-two-detuned-saws
+  claim: A Reese bass is two detuned saws through a lowpass - in Wavetable that is
+    one waveform plus unison plus a lowpass, nothing more
+  topic: bass
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 790
+  added: 2026-09-06
+- id: in-the-arrangement-mute-the-chords-and
+  claim: In the arrangement mute the chords and bass and keep everything else -
+    hiding the harmony makes the return feel full, and the sparse version still
+    works because something melodic is still moving
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: NYx9HGDcdEs
+      channel: Underdog Electronic Music School
+      cls: reputable
+      t: 873
+  added: 2026-09-06
+- id: bicep-s-signature-stuttery-vocal-and-synth
+  claim: Bicep's signature stuttery vocal and synth sound comes from a gate
+    effect, not from chopping the audio up on the grid
+  topic: chops
+  status: corroborated
+  sources:
+    - video: N-6PNJUV_Ek
+      channel: Push Patterns
+      cls: reputable
+      t: 131
+    - video: k0AiJ99TXzE
+      channel: The Producer School
+      cls: generic
+      t: 619
+  added: 2026-09-06
+- id: bicep-sit-around-130-bpm-and-dropping
+  claim: Bicep sit around 130 bpm, and dropping the four-on-the-floor for a broken
+    kick pattern is what shifts the vibe off straight house
+  topic: drums
+  status: unverified
+  sources:
+    - video: k0AiJ99TXzE
+      channel: The Producer School
+      cls: generic
+      t: 63
+  added: 2026-09-06
+- id: put-the-stutter-gate-on-a-background
+  claim: Put the stutter gate on a background atmosphere drone as well as the
+    vocal - it is a texture move, not just a vocal move
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: k0AiJ99TXzE
+      channel: The Producer School
+      cls: generic
+      t: 188
+  added: 2026-09-06
+- id: automate-the-stutter-gate-s-wet-level
+  claim: Automate the stutter gate's wet level so the effect is on for the first
+    half of the drop and off for the second - the same vocal then reads as two
+    sections
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: k0AiJ99TXzE
+      channel: The Producer School
+      cls: generic
+      t: 808
+  added: 2026-09-06
+- id: the-opal-synth-shape-saw-plus-a
+  claim: "The Opal synth shape: saw plus a second saw with unison 8 for width, low
+    sustain with about 270 ms decay and a slight attack, an analog-model filter
+    with drive, and envelope 1 modulating the cutoff"
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: k0AiJ99TXzE
+      channel: The Producer School
+      cls: generic
+      t: 1219
+  added: 2026-09-06
+- id: map-the-mod-wheel-to-both-filter
+  claim: Map the mod wheel to both filter cutoff and envelope decay at once, so
+    opening the wheel lengthens the decay and opens the filter together - one
+    hand movement makes the sound grow
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: k0AiJ99TXzE
+      channel: The Producer School
+      cls: generic
+      t: 1290
+  added: 2026-09-06
+- id: glue-s-backbone-is-a-chopped-and
+  claim: Glue's backbone is a chopped and rearranged breakbeat rather than a
+    programmed pattern - slice the break and repurpose the slices into a new
+    order
+  topic: drums
+  status: unverified
+  sources:
+    - video: x-mg8sfMkuY
+      channel: JordyW
+      cls: generic
+      t: 222
+  added: 2026-09-06
+- id: chain-on-the-break-eq-to-cut
+  claim: "Chain on the break: EQ to cut the lows, reverb to place it in the stereo
+    field, Drum Buss for crunch on the percussion, and an Auto Filter last so
+    the arrangement has something to move"
+  topic: drums
+  status: unverified
+  sources:
+    - video: x-mg8sfMkuY
+      channel: JordyW
+      cls: generic
+      t: 238
+  added: 2026-09-06
+- id: layer-a-second-break-looped-from-just
+  claim: Layer a second break looped from just its shaker section, low-cut and
+    auto-panned left to right, under the main break
+  topic: drums
+  status: unverified
+  sources:
+    - video: x-mg8sfMkuY
+      channel: JordyW
+      cls: generic
+      t: 270
+  added: 2026-09-06
+- id: layer-acoustic-one-shot-kick-and-snare
+  claim: Layer acoustic one-shot kick and snare following the break's own kick
+    pattern - it gets presence and beef without flattening the break's groove
+  topic: drums
+  status: unverified
+  sources:
+    - video: x-mg8sfMkuY
+      channel: JordyW
+      cls: generic
+      t: 321
+  added: 2026-09-06
+- id: shorten-the-chord-notes-deliberately-so-a
+  claim: Shorten the chord notes deliberately so a gap of anticipation opens
+    before the next chord, and displace them off the grid rather than quantising
+    - that hesitation is the feel
+  topic: keys
+  status: unverified
+  sources:
+    - video: x-mg8sfMkuY
+      channel: JordyW
+      cls: generic
+      t: 497
+  added: 2026-09-06
+- id: roll-off-the-very-lowest-frequencies-of
+  claim: Roll off the very lowest frequencies of a sub bass too, not just the
+    highs, or it muddies the mix
+  topic: bass
+  status: unverified
+  sources:
+    - video: x-mg8sfMkuY
+      channel: JordyW
+      cls: generic
+      t: 620
+  added: 2026-09-06
+- id: utility-to-force-the-bass-mono-while
+  claim: Utility to force the bass mono while everything else stays wide - the mix
+    reads better when only the low end is centred
+  topic: mix
+  status: unverified
+  sources:
+    - video: x-mg8sfMkuY
+      channel: JordyW
+      cls: generic
+      t: 635
+  added: 2026-09-06
+- id: glue-s-vocal-is-gated-a-separate
+  claim: Glue's vocal is gated - a separate MIDI part on a synth dictates when the
+    sample sounds and when it does not, which is where the pumping comes from
+  topic: chops
+  status: unverified
+  sources:
+    - video: x-mg8sfMkuY
+      channel: JordyW
+      cls: generic
+      t: 775
+  added: 2026-09-06
+- id: arpeggiate-the-same-chords-an-octave-up
+  claim: Arpeggiate the same chords an octave up as an extra layer rather than
+    writing a new part
+  topic: keys
+  status: unverified
+  sources:
+    - video: x-mg8sfMkuY
+      channel: JordyW
+      cls: generic
+      t: 839
+  added: 2026-09-06
+- id: reverse-crash-for-transitions-and-a-dub
+  claim: Reverse crash for transitions and a dub siren for the rave signal
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: x-mg8sfMkuY
+      channel: JordyW
+      cls: generic
+      t: 935
+  added: 2026-09-06
+- id: the-space-laces-crunch-is-stacked-overdrive
+  claim: The Space Laces crunch is Serum 2's Distortion module in OVERDRIVE mode
+    with its STACK parameter at 14 - one device, not 14 plugin instances - an
+    idea borrowed from metal guitarists chaining overdrive pedals. It is not
+    wave shaping or added white noise as commonly assumed
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 225
+  added: 2026-09-06
+- id: stacking-overdrives-accentuates-the-low-end-and
+  claim: Stacking overdrives accentuates the low end and rhythmically shortens the
+    white noise - more stacks means choppier, and past a point the noise
+    vanishes into pure sub
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 258
+  added: 2026-09-06
+- id: the-crunch-source-is-a-sine-or
+  claim: The crunch source is a sine or sub sent through the tail end of a snare
+    in Serum 2's spectral oscillator set to manual mode, so it resynthesises
+    only that one point of the noise
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 164
+  added: 2026-09-06
+- id: move-the-spectral-oscillator-s-position-with
+  claim: Move the spectral oscillator's position with an LFO rather than leaving
+    it parked
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 410
+  added: 2026-09-06
+- id: boost-the-mids-with-an-eq-before
+  claim: Boost the mids with an EQ before the overdrive stack, then cut the
+    mid-range back out after it, because the overdrive dumps midrange into the
+    low end
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 285
+  added: 2026-09-06
+- id: slam-a-multiband-compressor-after-the-crunch
+  claim: Slam a multiband compressor after the crunch stack - attack and release
+    fully down, ratio very high, effectively multiband limiting - then a little
+    hard clipping at the end
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 300
+  added: 2026-09-06
+- id: route-the-distorted-noise-dirt-layer-to
+  claim: Route the distorted-noise dirt layer to direct out so it bypasses the
+    overdrive bus instead of being crushed by it
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 540
+  added: 2026-09-06
+- id: the-crunch-balance-shifts-with-pitch-the
+  claim: The crunch balance shifts with pitch - the spectral noise disappears on
+    high notes and needs turning up on low ones, so this technique needs
+    rebalancing per register
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 750
+  added: 2026-09-06
+- id: stack-distortions-incrementally-through-a-chain-rather
+  claim: Stack distortions incrementally through a chain rather than reaching for
+    one big distortion at the front - incremental stacking is what makes the
+    sound full
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 940
+  added: 2026-09-06
+- id: overdrive-stacking-eats-the-tonality-of-a
+  claim: Overdrive stacking eats the tonality of a bass - when the pitch stops
+    reading, turn down the layers that are not carrying the note rather than
+    backing off the drive
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 955
+  added: 2026-09-06
+- id: a-noisy-artifact-heavy-sub-beats-a
+  claim: A noisy artifact-heavy sub beats a clean sine sub for this style - the
+    rumble is the point, and it reads as boom in a club anyway
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 780
+  added: 2026-09-06
+- id: make-the-main-bass-the-focus-of
+  claim: Make the main bass the focus of the idea, then the call-and-response
+    answer sounds can be literally anything - a reverb tail from another bass,
+    pitched down, drenched, boosted and clipped works fine
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 890
+  added: 2026-09-06
+- id: layer-a-heavy-bass-the-way-future
+  claim: Layer a heavy bass the way future bass stacks chords - never the same
+    sound twice. One tonal lead layer, one very wide buzzy layer, one crispy
+    high-noise layer, one low-mid support layer, one all-rounder with a sharp
+    foley detail on top
+  topic: bass
+  status: unverified
+  sources:
+    - video: X1qprnMWX6M
+      channel: SPORTMODE
+      cls: reputable
+      t: 140
+  added: 2026-09-06
+- id: high-pass-each-bass-layer-at-a
+  claim: High-pass each bass layer at a different frequency - 290, 600, 800 - so
+    the stack fits together instead of fighting
+  topic: bass
+  status: unverified
+  sources:
+    - video: X1qprnMWX6M
+      channel: SPORTMODE
+      cls: reputable
+      t: 290
+  added: 2026-09-06
+- id: narrow-the-low-mid-layer-to-about
+  claim: Narrow the low-mid layer to about 50 percent width to tuck it toward mono
+    while the layers above it stay wide
+  topic: bass
+  status: unverified
+  sources:
+    - video: X1qprnMWX6M
+      channel: SPORTMODE
+      cls: reputable
+      t: 317
+  added: 2026-09-06
+- id: put-a-sub-inside-the-layer-group
+  claim: Put a sub inside the layer group and saturate the whole group, then cut
+    the lows after the saturation - the sub drives the saturator and crunches
+    every layer together
+  topic: bass
+  status: corroborated
+  sources:
+    - video: X1qprnMWX6M
+      channel: SPORTMODE
+      cls: reputable
+      t: 424
+    - video: ocrGmmh2kAs
+      channel: Cure
+      cls: generic
+      t: 225
+  added: 2026-09-06
+- id: the-amount-of-group-crunch-is-set
+  claim: The amount of group crunch is set by the sub's level and its envelope
+    shape - a plucky sub starting a few milliseconds late crunches differently
+    from a sustained one
+  topic: bass
+  status: unverified
+  sources:
+    - video: X1qprnMWX6M
+      channel: SPORTMODE
+      cls: reputable
+      t: 470
+  added: 2026-09-06
+- id: keep-a-second-clean-sub-outside-the
+  claim: Keep a second clean sub outside the crunched group - the sub inside the
+    group is a distortion driver, not the low end you actually hear
+  topic: bass
+  status: unverified
+  sources:
+    - video: X1qprnMWX6M
+      channel: SPORTMODE
+      cls: reputable
+      t: 620
+  added: 2026-09-06
+- id: two-reverbs-on-a-bass-group-a
+  claim: "Two reverbs on a bass group: a short one near 10 percent to put every
+    layer in the same space, and a long one much wetter used only for throws"
+  topic: bass
+  status: unverified
+  sources:
+    - video: X1qprnMWX6M
+      channel: SPORTMODE
+      cls: reputable
+      t: 580
+  added: 2026-09-06
+- id: barely-process-bass-layers-individually-eq-only
+  claim: Barely process bass layers individually - EQ only - and let the group
+    chain do the work
+  topic: bass
+  status: unverified
+  sources:
+    - video: X1qprnMWX6M
+      channel: SPORTMODE
+      cls: reputable
+      t: 395
+  added: 2026-09-06
+- id: the-space-laces-growl-is-fm-not
+  claim: The Space Laces growl is FM, not wavetable - per his own Reddit AMA it is
+    Citrus into Vocodex into Disperser, which is why wavetable-based tutorials
+    never land it
+  topic: bass
+  status: unverified
+  sources:
+    - video: dJPq_iLtv7s
+      channel: Teh Alien
+      cls: generic
+      t: 30
+  added: 2026-09-06
+- id: growl-chain-in-order-citrus-vocodex-two
+  claim: "Growl chain in order: Citrus, Vocodex, two OTTs back to back, Valhalla
+    UberMod, Disperser, EQ, limiter, mid-side EQ"
+  topic: bass
+  status: unverified
+  sources:
+    - video: dJPq_iLtv7s
+      channel: Teh Alien
+      cls: generic
+      t: 100
+  added: 2026-09-06
+- id: in-citrus-turn-the-operator-output-knob
+  claim: In Citrus, turn the operator output knob off so the signal is forced
+    through the filters rather than passing straight out
+  topic: bass
+  status: unverified
+  sources:
+    - video: dJPq_iLtv7s
+      channel: Teh Alien
+      cls: generic
+      t: 250
+  added: 2026-09-06
+- id: three-filters-on-the-growl-two-cherry
+  claim: Three filters on the growl - two cherry phaser, one lime high-pass - all
+    at 3x oversampling, with cutoffs mapped to the XY pad so they are performed
+  topic: bass
+  status: unverified
+  sources:
+    - video: dJPq_iLtv7s
+      channel: Teh Alien
+      cls: generic
+      t: 330
+  added: 2026-09-06
+- id: ubermod-diffusion-controls-growl-texture-more-diffusion
+  claim: UberMod diffusion controls growl texture - more diffusion goes smooth and
+    white-noisy, less stays squelchy, around 15 is the middle
+  topic: bass
+  status: unverified
+  sources:
+    - video: dJPq_iLtv7s
+      channel: Teh Alien
+      cls: generic
+      t: 545
+  added: 2026-09-06
+- id: turn-vocodex-s-draft-mode-off-it
+  claim: Turn Vocodex's draft mode off - it is on by default and makes a large
+    difference to the sound
+  topic: bass
+  status: unverified
+  sources:
+    - video: dJPq_iLtv7s
+      channel: Teh Alien
+      cls: generic
+      t: 500
+  added: 2026-09-06
+- id: mid-side-eq-cutting-the-low-end
+  claim: Mid-side EQ cutting the low end out of the sides removes the weird low
+    artifacts a growl chain generates
+  topic: bass
+  status: unverified
+  sources:
+    - video: dJPq_iLtv7s
+      channel: Teh Alien
+      cls: generic
+      t: 640
+  added: 2026-09-06
+- id: a-space-laces-bass-on-its-own
+  claim: A Space Laces bass on its own is missing two things - a rhythmic element
+    and a vowel element - and adding those matters more than more processing
+  topic: bass
+  status: unverified
+  sources:
+    - video: a2JdGrJ2xSY
+      channel: Cure
+      cls: reputable
+      t: 377
+  added: 2026-09-06
+- id: supply-the-vowel-with-heavily-distorted-pitch
+  claim: Supply the vowel with heavily distorted, pitch and formant shifted vocals
+    - shouts, deliberately unintelligible - filling the vowel space you EQ'd out
+    of the bass itself
+  topic: bass
+  status: unverified
+  sources:
+    - video: a2JdGrJ2xSY
+      channel: Cure
+      cls: reputable
+      t: 410
+  added: 2026-09-06
+- id: the-vowel-and-the-noise-should-play
+  claim: The vowel and the noise should play off each other and sound
+    inconsistent, creating a rhythm of their own - audible in Sandworm even with
+    no vocals in it
+  topic: bass
+  status: unverified
+  sources:
+    - video: a2JdGrJ2xSY
+      channel: Cure
+      cls: reputable
+      t: 545
+  added: 2026-09-06
+- id: add-the-rhythmic-element-with-only-the
+  claim: Add the rhythmic element with only the attack of a Reese - two detuned
+    saws distorted together, using the transient the fast pitch movement creates
+  topic: bass
+  status: unverified
+  sources:
+    - video: a2JdGrJ2xSY
+      channel: Cure
+      cls: reputable
+      t: 380
+  added: 2026-09-06
+- id: layer-techno-style-thump-and-rumble-samples
+  claim: Layer techno-style thump and rumble samples under a dubstep kick -
+    unusual for the genre and it is what sits in the backdrop of Space Laces
+    tracks
+  topic: drums
+  status: unverified
+  sources:
+    - video: a2JdGrJ2xSY
+      channel: Cure
+      cls: reputable
+      t: 55
+  added: 2026-09-06
+- id: build-the-clap-from-three-layers-a
+  claim: Build the clap from three layers - a transient, a mid-heavy layer with
+    reverb, and a crunch layer of noise plus a heavily distorted duplicate of
+    the clap
+  topic: drums
+  status: unverified
+  sources:
+    - video: a2JdGrJ2xSY
+      channel: Cure
+      cls: reputable
+      t: 78
+  added: 2026-09-06
+- id: gate-the-reverb-on-a-bass-with
+  claim: Gate the reverb on a bass with envelope 1 so it gives room without
+    leaving a tail
+  topic: bass
+  status: unverified
+  sources:
+    - video: a2JdGrJ2xSY
+      channel: Cure
+      cls: reputable
+      t: 175
+  added: 2026-09-06
+- id: make-accents-from-very-low-pitched-saws
+  claim: Make accents from very low pitched saws slow enough to hear the
+    individual cycles, panned hard left and right, plus geiger noise at a low
+    count so the clicks are separate
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: a2JdGrJ2xSY
+      channel: Cure
+      cls: reputable
+      t: 590
+  added: 2026-09-06
+- id: what-glues-a-stacked-bass-is-that
+  claim: What glues a stacked bass is that every layer goes through one shared
+    processing chain - the compression balances lows mids and highs across all
+    of them and the distortion softens the highs with added harmonics
+  topic: bass
+  status: unverified
+  sources:
+    - video: ocrGmmh2kAs
+      channel: Cure
+      cls: reputable
+      t: 81
+  added: 2026-09-06
+- id: give-the-sub-a-noise-layer-and
+  claim: Give the sub a noise layer and distort the two together so the sub
+    crunches the whole sound rather than sitting under it
+  topic: bass
+  status: unverified
+  sources:
+    - video: ocrGmmh2kAs
+      channel: Cure
+      cls: reputable
+      t: 225
+  added: 2026-09-06
+- id: heavy-high-end-boosting-stays-pleasant-rather
+  claim: Heavy high-end boosting stays pleasant rather than abrasive when the
+    distortion after it adds subtle harmonics - crunch the fundamental up into
+    the high end instead of just EQ-boosting
+  topic: mix
+  status: unverified
+  sources:
+    - video: ocrGmmh2kAs
+      channel: Cure
+      cls: reputable
+      t: 330
+  added: 2026-09-06
+- id: cut-the-sides-off-the-upper-tone
+  claim: Cut the sides off the upper tone with a linear phase EQ - the lead is
+    mono while the bass underneath stays stereo
+  topic: bass
+  status: unverified
+  sources:
+    - video: ocrGmmh2kAs
+      channel: Cure
+      cls: reputable
+      t: 114
+  added: 2026-09-06
+- id: a-16-bar-switch-up-can-be
+  claim: A 16 bar switch-up can be the identical patch with the upper tone moved
+    from 4 semitones to 7 - not a new sound
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: ocrGmmh2kAs
+      channel: Cure
+      cls: reputable
+      t: 400
+  added: 2026-09-06
+- id: record-modulation-as-a-live-performance-pitch
+  claim: Record modulation as a live performance - pitch bend, portamento, mod
+    wheel, an XY pad - rather than drawing MIDI and automation for it
+  topic: workflow
+  status: corroborated
+  sources:
+    - video: dJPq_iLtv7s
+      channel: Teh Alien
+      cls: generic
+      t: 680
+    - video: musicradar.com/news/classic-album-wookie-on-wookie
+      channel: Wookie
+      cls: firsthand
+  added: 2026-09-06
+- id: space-laces-sample-palette-is-vintage-spoken
+  claim: Space Laces' sample palette is vintage spoken word - old sci-fi and
+    horror trailers, documentary narration, boxing announcers, hip-hop acapellas
+    - used as hype and texture rather than as lyrics
+  topic: chops
+  status: unverified
+  sources:
+    - video: jRME2-zOtgg
+      channel: Audio Eats
+      cls: reputable
+      t: 15
+  added: 2026-09-06
+- id: vaultage-is-short-form-ideas-and-demos
+  claim: Vaultage is short-form ideas and demos from the vault released as one
+    continuous mix - a way to put out years of unfinished material without
+    rounding any of it into whole tracks
+  topic: workflow
+  status: unverified
+  sources:
+    - video: -_-1yYaQvxY
+      channel: Nawtystep
+      cls: reputable
+      t: 470
+  added: 2026-09-06
+- id: read-off-the-crunch-rack-a-very
+  claim: "Read off the crunch rack: a very narrow EQ boost at 427 Hz with Q 26 and
+    +7.7 dB feeding the overdrive stack, the stack's own pre/post filter at 425
+    Hz Q 1.9, then a 24 dB phaser filter. Serum 2 FX order is EQ, Distortion,
+    Filter, EQ, Compressor, EQ, Utility, Distortion"
+  topic: bass
+  status: unverified
+  sources:
+    - video: 9ayhjXMaJak
+      channel: oddprophet
+      cls: reputable
+      t: 235
+  added: 2026-09-06
+- id: the-spacey-resonant-space-laces-top-sound
+  claim: The spacey resonant Space Laces top sound is a vocoder used as a bank of
+    resonant harmonic EQs - bandwidth near zero makes each band a pinpoint
+    resonance, and going from 4 bands up to 40 is what builds the sound
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: Cv5dEmfoiJQ
+      channel: DrOziOfficial
+      cls: generic
+      t: 155
+  added: 2026-09-06
+- id: tune-the-vocoder-s-frequency-range-to
+  claim: Tune the vocoder's frequency range to the track's key - set the low bound
+    to the song's lowest harmonic, 40 Hz for E, so every resonance lands in key
+    instead of fighting the bass
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: Cv5dEmfoiJQ
+      channel: DrOziOfficial
+      cls: generic
+      t: 265
+  added: 2026-09-06
+- id: stack-a-second-vocoder-with-fewer-bands
+  claim: Stack a second vocoder with fewer bands on top of the first for a watery
+    low-bit-quality character
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: Cv5dEmfoiJQ
+      channel: DrOziOfficial
+      cls: generic
+      t: 345
+  added: 2026-09-06
+- id: modulate-the-vocoder-s-lower-frequency-bound
+  claim: Modulate the vocoder's lower frequency bound with a square LFO so the
+    resonant sound moves and becomes singable rather than static
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: Cv5dEmfoiJQ
+      channel: DrOziOfficial
+      cls: generic
+      t: 400
+  added: 2026-09-06
+- id: parallel-convolution-reverb-with-a-bass-or
+  claim: Parallel convolution reverb with a bass or weapon one-shot dragged in as
+    the impulse response, convolution only, its compressor sidechained from the
+    main sound and then crushed and limited with no EQ
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: Cv5dEmfoiJQ
+      channel: DrOziOfficial
+      cls: generic
+      t: 465
+  added: 2026-09-06
+- id: convolution-reverb-size-shifts-the-perceived-pitch
+  claim: Convolution reverb size shifts the perceived pitch of the tail, so treat
+    size as a tuning control and keep the decay short
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: Cv5dEmfoiJQ
+      channel: DrOziOfficial
+      cls: generic
+      t: 500
+  added: 2026-09-06
+- id: ring-modulation-is-the-element-that-actually
+  claim: Ring modulation is the element that actually makes the spacey resonant
+    sound - without it the vocoder stack is only halfway there
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: Cv5dEmfoiJQ
+      channel: DrOziOfficial
+      cls: generic
+      t: 610
+  added: 2026-09-06
+- id: over-compress-the-lo-fi-and-vinyl
+  claim: Over-compress the lo-fi and vinyl noise layers specifically to pull the
+    noise up, which is where the RC-20 style character comes from
+  topic: mix
+  status: unverified
+  sources:
+    - video: Cv5dEmfoiJQ
+      channel: DrOziOfficial
+      cls: generic
+      t: 700
+  added: 2026-09-06
