@@ -2600,12 +2600,16 @@
   claim: A 16 bar switch-up can be the identical patch with the upper tone moved
     from 4 semitones to 7 - not a new sound
   topic: arrangement
-  status: unverified
+  status: corroborated
   sources:
     - video: ocrGmmh2kAs
       channel: Cure
       cls: reputable
       t: 400
+    - video: _friZhdn6jc
+      channel: Ekko
+      cls: generic
+      t: 185
   added: 2026-09-06
 - id: record-modulation-as-a-live-performance-pitch
   claim: Record modulation as a live performance - pitch bend, portamento, mod
@@ -2749,3 +2753,285 @@
       cls: generic
       t: 700
   added: 2026-09-06
+- id: record-long-random-takes-on-a-synth
+  claim: Record long random takes on a synth you do not understand, then go back
+    through the recording hunting for the one sound worth manipulating - the
+    patch is found in the takes, not designed
+  topic: workflow
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 114
+  added: 2026-09-07
+- id: slice-a-found-recording-to-a-new
+  claim: Slice a found recording to a new MIDI track and build the part from its
+    slices rather than replaying it
+  topic: workflow
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 144
+  added: 2026-09-07
+- id: sample-a-random-acapella-purely-to-get
+  claim: Sample a random acapella purely to get a groove going with no intention
+    of keeping it - use sounds to reach the next stage of a song and then delete
+    them
+  topic: workflow
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 411
+  added: 2026-09-07
+- id: take-a-single-consonant-off-a-vocal
+  claim: Take a single consonant off a vocal - just the S - onto its own clip and
+    time that, instead of using the musical phrase
+  topic: chops
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 522
+  added: 2026-09-07
+- id: treat-the-master-channel-like-a-dj
+  claim: Treat the master channel like a DJ set - put a filter across it and cut
+    the bass, with Echo feedback automated into it
+  topic: mix
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 744
+  added: 2026-09-07
+- id: ableton-12-2-s-auto-filter-has
+  claim: "Ableton 12.2's Auto Filter has a DJ filter mode: centre is bypass, left
+    sweeps lowpass, right sweeps highpass, resonance underneath"
+  topic: mix
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 762
+  added: 2026-09-07
+- id: roar-has-a-noise-injector-that-adds
+  claim: Roar has a noise injector that adds noise into an 808 - it is the
+    difference between a clean sub and one with presence
+  topic: bass
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 890
+  added: 2026-09-07
+- id: write-two-eight-bar-sections-side-by
+  claim: Write two eight-bar sections side by side - one full with the bass and no
+    filter, one with the vocal delay increased and treated as a breakdown - and
+    move between drop feel and breakdown feel while writing rather than
+    arranging later
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 911
+  added: 2026-09-07
+- id: kick-most-dominant-bass-a-little-below
+  claim: Kick most dominant, bass a little below it, and the percussion arranged
+    to sit around the bass
+  topic: mix
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 959
+  added: 2026-09-07
+- id: clipping-is-a-bass-music-habit-worth
+  claim: Clipping is a bass-music habit worth borrowing into dance music
+  topic: mix
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 1029
+  added: 2026-09-07
+- id: inspiration-exists-but-it-has-to-find
+  claim: Inspiration exists but it has to find you working - turning up and
+    learning the craft is what raises the odds of the good idea, not waiting for
+    it
+  topic: workflow
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 1247
+  added: 2026-09-07
+- id: identify-your-own-musical-signature-and-do
+  claim: Identify your own musical signature and do not shy away from it - chasing
+    someone else's sound puts you second to the party by definition
+  topic: workflow
+  status: unverified
+  sources:
+    - video: BLvk4yIbxCw
+      channel: Chris Lake
+      cls: firsthand
+      t: 1278
+  added: 2026-09-07
+- id: fisher-brings-the-bass-in-during-the
+  claim: Fisher brings the bass in during the 16-bar intro rather than stripping
+    the low end out of it - the opposite of the usual advice
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: HeNipcIV9cc
+      channel: Zen World - EvoSounds
+      cls: reputable
+      t: 78
+  added: 2026-09-07
+- id: tech-house-tracks-usually-carry-three-build
+  claim: Tech house tracks usually carry three build-ups - a long first, a short
+    second, and a long final one for the last hoorah
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: HeNipcIV9cc
+      channel: Zen World - EvoSounds
+      cls: reputable
+      t: 358
+  added: 2026-09-07
+- id: the-only-difference-between-a-first-and
+  claim: The only difference between a first and second drop can be the addition
+    of a ride running through most of it
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: HeNipcIV9cc
+      channel: Zen World - EvoSounds
+      cls: reputable
+      t: 388
+  added: 2026-09-07
+- id: a-last-breakdown-does-not-have-to
+  claim: A last breakdown does not have to stop the drums - keep the beat running,
+    sing over it, and let a snare build do the lift
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: HeNipcIV9cc
+      channel: Zen World - EvoSounds
+      cls: reputable
+      t: 405
+  added: 2026-09-07
+- id: a-washout-is-reverb-rising-while-a
+  claim: A washout is reverb rising while a filter closes with a resonance boost,
+    then cut off dead at the drop - open then slam shut is the contrast
+  topic: arrangement
+  status: unverified
+  sources:
+    - video: HeNipcIV9cc
+      channel: Zen World - EvoSounds
+      cls: reputable
+      t: 439
+  added: 2026-09-07
+- id: accent-the-open-hat-every-two-bars
+  claim: Accent the open hat every two bars by layering a second hit onto it -
+    with only closed hats, open hat and clap, accents are how the loop gains
+    depth
+  topic: drums
+  status: unverified
+  sources:
+    - video: HeNipcIV9cc
+      channel: Zen World - EvoSounds
+      cls: reputable
+      t: 311
+  added: 2026-09-07
+- id: climax-a-rising-noise-into-a-drop
+  claim: Climax a rising noise into a drop by increasing its decay and release,
+    not just its volume
+  topic: sound-design
+  status: unverified
+  sources:
+    - video: HeNipcIV9cc
+      channel: Zen World - EvoSounds
+      cls: reputable
+      t: 265
+  added: 2026-09-07
+- id: there-is-often-a-quiet-square-ish
+  claim: There is often a quiet square-ish synth under a drop's vocal chop doing
+    the melodic work - remove the mid with a mid-side EQ to hear what is
+    actually holding the drop up
+  topic: mix
+  status: unverified
+  sources:
+    - video: HeNipcIV9cc
+      channel: Zen World - EvoSounds
+      cls: reputable
+      t: 218
+  added: 2026-09-07
+- id: build-tension-from-two-chords-rather-than
+  claim: Build tension from two chords rather than triads - an inverted G minor
+    with the bottom note dropped and the fifth removed, moving to an E flat
+  topic: keys
+  status: unverified
+  sources:
+    - video: HeNipcIV9cc
+      channel: Zen World - EvoSounds
+      cls: reputable
+      t: 173
+  added: 2026-09-07
+- id: keep-a-repeated-vocal-alive-by-repeating
+  claim: Keep a repeated vocal alive by repeating and pitching the main vocal down
+    an octave with Complex Pro to make a stutter
+  topic: chops
+  status: unverified
+  sources:
+    - video: HeNipcIV9cc
+      channel: Zen World - EvoSounds
+      cls: reputable
+      t: 134
+  added: 2026-09-07
+- id: tech-house-sits-around-126-bpm-and
+  claim: Tech house sits around 126 bpm and the bass deliberately does not vary
+    much - repetition is the style, not a lack of ideas
+  topic: bass
+  status: unverified
+  sources:
+    - video: _friZhdn6jc
+      channel: Ekko
+      cls: generic
+      t: 92
+  added: 2026-09-07
+- id: tech-house-bass-processing-distortion-eq-cutting
+  claim: "Tech house bass processing: distortion, EQ cutting all the sub out of
+    it, and sidechain - with the sub kept as a separate distorted sine
+    underneath"
+  topic: bass
+  status: unverified
+  sources:
+    - video: _friZhdn6jc
+      channel: Ekko
+      cls: generic
+      t: 100
+  added: 2026-09-07
+- id: fisher-drops-carry-a-synth-bass-perc
+  claim: Fisher drops carry a synth-bass perc shot that supplies the groove under
+    everything else
+  topic: drums
+  status: unverified
+  sources:
+    - video: _friZhdn6jc
+      channel: Ekko
+      cls: generic
+      t: 155
+  added: 2026-09-07
