@@ -30,7 +30,15 @@ export async function setParams(track: Track, deviceName: string, values: Record
     }
     const min = await p.get("min");
     const max = await p.get("max");
-    await p.set("value", Math.max(min, Math.min(max, v)));
+    // A parameter can be present but disabled - Auto Pan-Tremolo's Tremolo Shape is dead while the
+    // device is in Pan mode, for instance. Live throws on the write. One inapplicable knob should
+    // not abort a whole chain, so collect it and carry on. Order matters when a mode switch gates
+    // other params: set the mode first.
+    try {
+      await p.set("value", Math.max(min, Math.min(max, v)));
+    } catch {
+      missing.push(`${k} (disabled)`);
+    }
   }
   if (missing.length) console.error(`setParams(${deviceName}): unknown ${missing.join(", ")}`);
   return missing;
