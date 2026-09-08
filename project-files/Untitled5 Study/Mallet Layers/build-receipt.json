@@ -1,0 +1,90 @@
+{
+  "receipts": [
+    {
+      "track": "U5 Marimba",
+      "clip": "Marimba | quiet opening",
+      "startBar": 1,
+      "endBar": 8,
+      "notes": 96,
+      "verified": true
+    },
+    {
+      "track": "U5 Marimba",
+      "clip": "Marimba | kick-free passage",
+      "startBar": 33,
+      "endBar": 40,
+      "notes": 96,
+      "verified": true
+    },
+    {
+      "track": "U5 Marimba",
+      "clip": "Marimba | last answer",
+      "startBar": 49,
+      "endBar": 52,
+      "notes": 48,
+      "verified": true
+    },
+    {
+      "track": "U5 Electric Piano",
+      "clip": "Electric piano | opening",
+      "startBar": 1,
+      "endBar": 8,
+      "notes": 24,
+      "verified": true
+    },
+    {
+      "track": "U5 Electric Piano",
+      "clip": "Electric piano | under the riff",
+      "startBar": 17,
+      "endBar": 32,
+      "notes": 48,
+      "verified": true
+    },
+    {
+      "track": "U5 Electric Piano",
+      "clip": "Electric piano | open space",
+      "startBar": 33,
+      "endBar": 40,
+      "notes": 24,
+      "verified": true
+    },
+    {
+      "track": "U5 Electric Piano",
+      "clip": "Electric piano | return",
+      "startBar": 41,
+      "endBar": 48,
+      "notes": 24,
+      "verified": true
+    },
+    {
+      "track": "U5 Electric Piano",
+      "clip": "Electric piano | ending",
+      "startBar": 49,
+      "endBar": 56,
+      "notes": 24,
+      "verified": true
+    }
+  ],
+  "existingStructureUnchangedDuringBuild": true,
+  "existingTrackIds": [
+    "live_1461497336",
+    "live_1491981984",
+    "live_827402096",
+    "live_827400736",
+    "live_1324872608",
+    "live_3305456896",
+    "live_1410293928",
+    "live_1498907776",
+    "live_3201701056",
+    "live_2864604680",
+    "live_3046375312",
+    "live_1410364944",
+    "live_1834594960",
+    "live_2593737472",
+    "live_1688125312",
+    "live_3031340232"
+  ],
+  "currentPosition": 42.3779008989546,
+  "loopStart": 0,
+  "loopLength": 224
+}

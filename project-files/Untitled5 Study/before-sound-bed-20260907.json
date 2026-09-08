@@ -1,0 +1,60 @@
+{
+  "bpm": 120,
+  "playing": false,
+  "position": 360.5599582708958,
+  "loop": false,
+  "loopStart": 8,
+  "loopLength": 16,
+  "cues": [],
+  "tracks": [
+    {
+      "index": 0,
+      "id": "live_1549891432",
+      "name": "1-B_DEBOXED",
+      "mute": false,
+      "solo": false,
+      "volume": 0.8500000238418579,
+      "devices": [],
+      "clips": [
+        {
+          "id": "live_1932841904",
+          "name": "B_DEBOXED",
+          "start": 360.5599582708958,
+          "end": 376.1738415230603,
+          "muted": false,
+          "midi": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "id": "live_1323098232",
+      "name": "2-MIDI",
+      "mute": false,
+      "solo": false,
+      "volume": 0.8500000238418579,
+      "devices": [],
+      "clips": []
+    },
+    {
+      "index": 2,
+      "id": "live_1323098592",
+      "name": "3-Audio",
+      "mute": false,
+      "solo": false,
+      "volume": 0.8500000238418579,
+      "devices": [],
+      "clips": []
+    },
+    {
+      "index": 3,
+      "id": "live_1690695912",
+      "name": "4-Audio",
+      "mute": false,
+      "solo": false,
+      "volume": 0.8500000238418579,
+      "devices": [],
+      "clips": []
+    }
+  ]
+}
