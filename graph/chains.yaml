@@ -113,3 +113,83 @@ chains:
           EQ8 + Saturator + Auto Filter + Phaser-Flanger + Compressor + Utility,
           nothing dialled. Dialling it in the textbook French house way made it
           worse. The chain is the win, not the settings"
+  - id: u5-triplet-riff-123-70-b-minor-006
+    context: U5 triplet riff 123.70 B minor
+    nodes:
+      - ref: wavetable
+        slot: source
+      - ref: eq-eight
+        slot: shape
+      - ref: chorus-ensemble
+        slot: space
+      - ref: reverb
+        slot: space
+    verdicts: []
+  - id: u5-saturated-bass-123-70-b-minor-007
+    context: U5 saturated bass 123.70 B minor
+    nodes:
+      - ref: operator
+        slot: source
+      - ref: saturator
+        slot: shape
+      - ref: eq-eight
+        slot: shape
+      - ref: utility
+        slot: bus
+    verdicts: []
+  - id: u5-held-pad-123-70-b-minor-008
+    context: U5 held pad 123.70 B minor
+    nodes:
+      - ref: analog
+        slot: source
+      - ref: eq-eight
+        slot: shape
+      - ref: reverb
+        slot: space
+    verdicts: []
+  - id: u5-mallet-layer-collision
+    context: U5 arrangement collision 123.70 B minor
+    nodes:
+      - ref: collision
+        slot: source
+      - ref: eq-eight
+        slot: shape
+      - ref: reverb
+        slot: space
+    verdicts: []
+  - id: u5-mallet-layer-electric
+    context: U5 arrangement electric 123.70 B minor
+    nodes:
+      - ref: electric
+        slot: source
+      - ref: eq-eight
+        slot: shape
+      - ref: reverb
+        slot: space
+    verdicts: []
+  - id: sound-bed-electric
+    context: 8-bar B minor audition bed; mellow rootless chords
+    nodes:
+      - ref: electric
+        slot: source
+      - ref: eq-eight
+        slot: shape
+      - ref: reverb
+        slot: space
+    verdicts: []
+  - id: sound-bed-bass
+    context: 8-bar B minor audition bed; short offbeat triangle bass
+    nodes:
+      - ref: operator
+        slot: source
+      - ref: utility
+        slot: bus
+    verdicts: []
+  - id: sound-bed-clap
+    context: 8-bar B minor audition bed; 707 clap with small room
+    nodes:
+      - ref: drum-rack
+        slot: source
+      - ref: reverb
+        slot: space
+    verdicts: []

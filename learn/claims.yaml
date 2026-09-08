@@ -1530,13 +1530,14 @@
   claim: An Operator pad is saw plus square plus white noise with the oscillators
     in parallel rather than FM-routed
   topic: pads
-  status: unverified
+  status: proven
   sources:
     - video: Rv7aHDWXINo
       channel: Production Music Live
       cls: reputable
       t: 113
   added: 2026-09-06
+  tried: 2026-09-07
 - id: rack-the-pad-and-macro-filter-cutoff
   claim: Rack the pad and macro filter cutoff, sidechain amount, chorus and reverb
     dry/wet - the same patch then covers background support and lead just by

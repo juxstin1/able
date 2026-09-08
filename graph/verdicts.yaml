@@ -1216,3 +1216,36 @@ verdicts:
     note: "HP 190 + LP closed to 2.4k + hammered comp. Justin: 'made it much worse,
       sounded better before'. The keep on sound:stardust-vamp is the STOCK
       device settings, not this"
+  - subject: sound:pad-d-operator
+    v: keep
+    date: 2026-09-07
+    context: house 124 Emin
+    note: "Justin: the base sound for the pad - the foundation layer this track sits
+      on. Base, not bass: it is a pad, and it is the one the others build on"
+  - subject: sound:pad-a-classic
+    v: keep
+    date: 2026-09-07
+    context: house 124 Emin
+    note: Justin built an arrangement with automation around it
+  - subject: technique:an-operator-pad-is-saw-plus-square
+    v: keep
+    date: 2026-09-07
+    context: pads
+    note: Built it at 124 in E minor and Justin kept it as the base pad - the
+      foundation the rest of the track sits on, not an atmosphere layer. The
+      saw+square parallel stack is what makes it read as a foundation. (An
+      earlier note here said it won as a BASS; that was my misreading of "base"
+      and is corrected)
+  - subject: sound:chop-c-formant
+    v: keep
+    date: 2026-09-07
+    context: house 124 Emin chops
+    note: "8 hits pitched into an E minor riff, formant-shifted up, from Recording
+      (26). Justin: 'Chop C is goood'"
+  - subject: sound:chop-a-gate
+    v: bin
+    date: 2026-09-07
+    context: house 124 Emin chops
+    note: "Auto Pan-Tremolo gating a 57s D3 drone into rhythm. Justin: 'chop A is
+      bad lol'. Uniform LFO tremolo is not the Bicep gate - that one is driven
+      by a hi-hat's groove, which a steady LFO cannot fake"
