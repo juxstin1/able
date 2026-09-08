@@ -121,6 +121,18 @@ generating drums; never assume the GM layout in `DRUM`.
 | `learn-fetch.py <url\|--search q> [--frames s,s] [--crop right]` | YouTube tutorial -> clean transcript + 1080p frames in `out/learn/`. Frames carry the settings the words don't |
 | `learn.ts add\|corroborate\|tried\|prune\|stats` | the knowledge store. See `learn/README.md` for the four rules that stop it rotting |
 | `learn.ts search "<q>" [--transcripts]` | lexical lookup over claims and video transcripts, returns source + timestamp. No vector db - see `learn/README.md` |
+| `clip-dump.ts "<track>" [--kit "X.adg"] [--grid]` | read a track's clips back as a bar/beat grid, Arrangement and Session. Read-only - run it before commenting on a part instead of assuming |
+| `pad-audition.ts [--start 2] [--seed 5]` | four pad characters over one progression, a scene each (`--arrangement` lays them back to back). Each is built from a `learn/claims.yaml` claim, to see which survive a real track |
+| `chop-audition.py [--secs 3.0]` | ONE long chop per recording, for auditioning treatments. Deliberately not `chop-cut.py` - that slices many short chops for building a line |
+| `chop-audition.ts [--bpm 124]` | those long chops onto their own tracks, each through a different chain, back to back in Arrangement. `--params` re-applies devices only |
+| `build-sound-bed.ts [--bpm 123.70] [--files-only \| --check]` | eight-bar B minor bed to audition a sound against, rather than judging it dry and alone. `--check` meters one pass |
+| `song-bass.ts [--bars 40]` | sub under the E minor pad arrangement. Offbeat 8ths on purpose: it already rests where the kick lands, so it needs no sidechain |
+| `build-air-fx.py [--bpm 123.70]` | generate risers/swells/downlifters/impacts at tempo from scratch, no samples. Always a new timestamped folder - Live holds a handle on any wav a clip references |
+| `stage-air-fx.ts` | place those FX after the song as draggable clips. Decides nothing about where they go |
+| `audit-release-pair.py ORIG.wav REMASTER.wav OUT/` | local read-only original-vs-remaster audit. `audit-release-details.py` and `audit-release-mono-check.py` cross-check the mono losses. Measurements narrow what to listen to; they do not replace listening |
+| `build-14.ts [--start 14] [--bars 8]` | a steady groove from bar 14 - snare run, kick between them, hats closed-closed-open. Not a build; nothing accelerates and nothing drops |
+| `build-ambient-tonight.ts [--files-only]` | the 88-bar September Light ambient arrangement at 118 |
+| `import-untitled5.ts` / `tune-untitled5.ts` / `inspect-u5-arrangement.ts` / `add-u5-mallet-layers.ts` | the Untitled5 study: import the source, finish the sounds and meter a loop, snapshot the set, then layer marimba + electric piano. The layer pass re-hashes the source clip notes and refuses if the arrangement moved under it |
 
 `songs/*.yaml` are section lists (`name`, `scene`, `bars`) consumed by `arrange.ts` and
 `arrange-build.ts`. `songs/ukg.yaml` is the worked example.
@@ -164,4 +176,8 @@ Each of these was checked; don't spend time working around them:
   arrangement rather than a device at all. `docs/design.md` - the design and build order.
 - Live may be open with other work. Never delete or overwrite tracks or clips you did not create
   in this session.
+- `project-files/<name>/` is one Live project's working files: the `.als`, the MIDI and
+  `score.json` a build wrote before touching Live, and its receipts. `Backup/`, `Samples/`,
+  `Source/` and generated `FX Options/` audio are gitignored - `build-air-fx.py` remakes the
+  last of those on demand.
 - Agents hub project: `obsidian-vault/agents/projects/able/`.
