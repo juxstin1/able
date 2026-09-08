@@ -1271,3 +1271,12 @@ verdicts:
     note: "Em7 arp 16ths on Oscillation Guitar over the 132 UKG drums. Justin: 'the
       ukg ostinato is cool asl'. First time a bank top-pick has been placed in a
       real track rather than auditioned alone"
+  - subject: loop:ukg-chords-first-132-emin
+    v: keep
+    date: 2026-09-08
+    context: UKG 132 Emin
+    note: "Chords-first build at 132 in E minor: Em9/Cmaj9/Am11 family, garage
+      cluster voicing, 2-step Garage Kit drums, rolling sub, and an Em vocal
+      lead chopped across three tracks. Justin: 'this shit sounds like a real
+      song holay'. First time the chords were chosen BEFORE any other part - the
+      pitch set was decided rather than inherited"
