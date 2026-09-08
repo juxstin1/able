@@ -4,11 +4,10 @@ out/
 refs/
 __pycache__/
 
-# Ableton working files. The .als is the artefact worth keeping; everything else here
-# is either regenerable (FX Options comes back from build-air-fx.py) or bulk audio.
+# Ableton working files. Audio stays in the repo - bounces, sources and the generated
+# FX renders - so a clone is the whole project, not a project minus its sound.
+# What is excluded is only what Live rebuilds by itself: the timestamped auto-backups
+# it writes on every save, and the .asd analysis caches.
 project-files/**/Backup/
-project-files/**/Samples/
-project-files/**/FX Options/
-project-files/**/Source/
 *.asd
 project-files/**/current-arrangement-review-*.json

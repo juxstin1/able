@@ -1,0 +1,275 @@
+{
+  "bpm": 123.7,
+  "createdUtc": "20260907-031150",
+  "source": "Original locally synthesized noise and oscillators; no borrowed audio.",
+  "folder": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150",
+  "clips": [
+    {
+      "name": "01_AIR_BREATH_2bar",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\01_AIR_BREATH_2bar_123.70BPM.wav",
+      "group": "Risers",
+      "beats": 8,
+      "bars": 2.0,
+      "seconds": 3.8803541666666668,
+      "sampleRate": 48000,
+      "frames": 186257,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -9.9999992397986,
+      "rmsDbFS": -26.208416656729487,
+      "maxMeanDC": 7.735224080989342e-08,
+      "sha256": "52622449116d4e2f76cdfeb8e933f9b78dbb36488f55a8f91363e496116130f7",
+      "use": "Gentle airy lift. End the clip on the transition."
+    },
+    {
+      "name": "02_AIR_SILK_4bar",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\02_AIR_SILK_4bar_123.70BPM.wav",
+      "group": "Risers",
+      "beats": 16,
+      "bars": 4.0,
+      "seconds": 7.7607083333333335,
+      "sampleRate": 48000,
+      "frames": 372514,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -8.999998352441999,
+      "rmsDbFS": -25.742159484312733,
+      "maxMeanDC": 5.1967536652932426e-08,
+      "sha256": "1a4582e5d11b17835848f14a6dfbbc675bfddf40ebf83c48e9bd141842061896",
+      "use": "Smooth filtered noise rising into the next section."
+    },
+    {
+      "name": "03_AIR_WIDE_8bar",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\03_AIR_WIDE_8bar_123.70BPM.wav",
+      "group": "Risers",
+      "beats": 32,
+      "bars": 8.0,
+      "seconds": 15.521416666666667,
+      "sampleRate": 48000,
+      "frames": 745028,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -8.999998352441999,
+      "rmsDbFS": -27.08324618531264,
+      "maxMeanDC": 6.269884961243434e-08,
+      "sha256": "250ca6c24dcb765dd50933426eadf1faa53b03c553ee4f75b0548d5360692c8c",
+      "use": "Longest, widest build. End on the drop."
+    },
+    {
+      "name": "04_AIR_TRIPLETS_4bar",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\04_AIR_TRIPLETS_4bar_123.70BPM.wav",
+      "group": "Risers",
+      "beats": 16,
+      "bars": 4.0,
+      "seconds": 7.7607083333333335,
+      "sampleRate": 48000,
+      "frames": 372514,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -10.000002514143702,
+      "rmsDbFS": -29.966374684930237,
+      "maxMeanDC": 7.040124036874888e-08,
+      "sha256": "33f345028619e30070b239ed202a7517ff509623dfcc879f61765b5c6c8e14d1",
+      "use": "Three pulses per beat, opening into a continuous final wash."
+    },
+    {
+      "name": "05_REVERSE_AIR_1bar",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\05_REVERSE_AIR_1bar_123.70BPM.wav",
+      "group": "Swells",
+      "beats": 4,
+      "bars": 1.0,
+      "seconds": 1.9401875,
+      "sampleRate": 48000,
+      "frames": 93129,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -9.9999992397986,
+      "rmsDbFS": -28.185739476085395,
+      "maxMeanDC": 7.571848838490012e-08,
+      "sha256": "cc048918d3d26fecc1502380cfa12e57859102a552d7d7dfb456b5a8de6a9007",
+      "use": "Short inhale ending on a downbeat."
+    },
+    {
+      "name": "06_REVERSE_HOLLOW_2bar",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\06_REVERSE_HOLLOW_2bar_123.70BPM.wav",
+      "group": "Swells",
+      "beats": 8,
+      "bars": 2.0,
+      "seconds": 3.8803541666666668,
+      "sampleRate": 48000,
+      "frames": 186257,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -11.000003528489142,
+      "rmsDbFS": -28.36583313282345,
+      "maxMeanDC": 5.898861992159921e-08,
+      "sha256": "245080307f59b54ae6495095a167bd8f7fc9c8ec997dc7418529a381e93d70c0",
+      "use": "Darker reverse swell with less bright hiss."
+    },
+    {
+      "name": "07_REVERSE_HALO_Bm_2bar",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\07_REVERSE_HALO_Bm_2bar_123.70BPM.wav",
+      "group": "Swells",
+      "beats": 8,
+      "bars": 2.0,
+      "seconds": 3.8803541666666668,
+      "sampleRate": 48000,
+      "frames": 186257,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -11.999996131132004,
+      "rmsDbFS": -28.700743551144864,
+      "maxMeanDC": 2.1992823310048834e-07,
+      "sha256": "5cb9d8a483df322c41ccd4db8b1df27c2036ab4f1a903e68be77cb83afb57cf6",
+      "use": "Tonal shimmer: B, F#, D. Try before a B-minor downbeat."
+    },
+    {
+      "name": "08_STEREO_WHOOSH_1bar",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\08_STEREO_WHOOSH_1bar_123.70BPM.wav",
+      "group": "Swells",
+      "beats": 4,
+      "bars": 1.0,
+      "seconds": 1.9401875,
+      "sampleRate": 48000,
+      "frames": 93129,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -10.000002514143702,
+      "rmsDbFS": -26.911496615148373,
+      "maxMeanDC": 6.140886788120972e-08,
+      "sha256": "59bb89591d42991aabed823b7ead9aafff4b61198b8262c8210c5775fdd9c4b7",
+      "use": "Left-to-right sweep; peak sits halfway through the clip."
+    },
+    {
+      "name": "09_AIR_FALL_2bar",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\09_AIR_FALL_2bar_123.70BPM.wav",
+      "group": "Falls",
+      "beats": 8,
+      "bars": 2.0,
+      "seconds": 3.8803541666666668,
+      "sampleRate": 48000,
+      "frames": 186257,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -11.000003528489142,
+      "rmsDbFS": -30.747088545959546,
+      "maxMeanDC": 7.670389465208491e-08,
+      "sha256": "5df7bc0129b88db4a4006609f8de65c795c116155d973a42dc5d412896f800bc",
+      "use": "Start on the drop; bright air falls away."
+    },
+    {
+      "name": "10_AIR_LONG_TAIL_4bar",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\10_AIR_LONG_TAIL_4bar_123.70BPM.wav",
+      "group": "Falls",
+      "beats": 16,
+      "bars": 4.0,
+      "seconds": 7.7607083333333335,
+      "sampleRate": 48000,
+      "frames": 372514,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -12.000000253286988,
+      "rmsDbFS": -31.26910409030362,
+      "maxMeanDC": 5.398553807007977e-08,
+      "sha256": "7d712aa9c2a5838d3a01723087fe59752b79b903d99b7e209b73c6a24fd12108",
+      "use": "Long diffuse downlifter for a breakdown or final drop."
+    },
+    {
+      "name": "11_SOFT_BLOOM_IMPACT_2bar",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\11_SOFT_BLOOM_IMPACT_2bar_123.70BPM.wav",
+      "group": "Hits",
+      "beats": 8,
+      "bars": 2.0,
+      "seconds": 3.8803541666666668,
+      "sampleRate": 48000,
+      "frames": 186257,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -9.000001270704788,
+      "rmsDbFS": -33.425049020285286,
+      "maxMeanDC": 2.291756269906282e-05,
+      "sha256": "641834aa3d3135c7d9d2797fa195f302a0a4df33eae7afb7cd533ec2b2fe8169",
+      "use": "Rounded low thump plus air. Start on the downbeat."
+    },
+    {
+      "name": "12_TINY_AIR_TICK_1beat",
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\12_TINY_AIR_TICK_1beat_123.70BPM.wav",
+      "group": "Hits",
+      "beats": 1,
+      "bars": 0.25,
+      "seconds": 0.48504166666666665,
+      "sampleRate": 48000,
+      "frames": 23282,
+      "channels": 2,
+      "subtype": "PCM_24",
+      "peakDbFS": -11.999996131132004,
+      "rmsDbFS": -32.524422799889386,
+      "maxMeanDC": 1.0709481574796584e-07,
+      "sha256": "77b3ca44b6f891809bf72ef72285395f17a831e93306eb3579d318d4250a7126",
+      "use": "Small transition accent with no low thump."
+    }
+  ],
+  "preview": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\00_AUDITION_ALL_OPTIONS.wav",
+  "previewCues": [
+    {
+      "name": "01_AIR_BREATH_2bar",
+      "startSeconds": 0,
+      "endSeconds": 3.8803541666666668
+    },
+    {
+      "name": "02_AIR_SILK_4bar",
+      "startSeconds": 4.380354166666667,
+      "endSeconds": 12.1410625
+    },
+    {
+      "name": "03_AIR_WIDE_8bar",
+      "startSeconds": 12.6410625,
+      "endSeconds": 28.162479166666667
+    },
+    {
+      "name": "04_AIR_TRIPLETS_4bar",
+      "startSeconds": 28.662479166666667,
+      "endSeconds": 36.4231875
+    },
+    {
+      "name": "05_REVERSE_AIR_1bar",
+      "startSeconds": 36.9231875,
+      "endSeconds": 38.863375
+    },
+    {
+      "name": "06_REVERSE_HOLLOW_2bar",
+      "startSeconds": 39.363375,
+      "endSeconds": 43.24372916666667
+    },
+    {
+      "name": "07_REVERSE_HALO_Bm_2bar",
+      "startSeconds": 43.74372916666667,
+      "endSeconds": 47.62408333333333
+    },
+    {
+      "name": "08_STEREO_WHOOSH_1bar",
+      "startSeconds": 48.12408333333333,
+      "endSeconds": 50.06427083333333
+    },
+    {
+      "name": "09_AIR_FALL_2bar",
+      "startSeconds": 50.56427083333333,
+      "endSeconds": 54.444625
+    },
+    {
+      "name": "10_AIR_LONG_TAIL_4bar",
+      "startSeconds": 54.944625,
+      "endSeconds": 62.705333333333336
+    },
+    {
+      "name": "11_SOFT_BLOOM_IMPACT_2bar",
+      "startSeconds": 63.205333333333336,
+      "endSeconds": 67.0856875
+    },
+    {
+      "name": "12_TINY_AIR_TICK_1beat",
+      "startSeconds": 67.5856875,
+      "endSeconds": 68.07072916666667
+    }
+  ]
+}

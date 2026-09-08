@@ -176,8 +176,9 @@ Each of these was checked; don't spend time working around them:
   arrangement rather than a device at all. `docs/design.md` - the design and build order.
 - Live may be open with other work. Never delete or overwrite tracks or clips you did not create
   in this session.
-- `project-files/<name>/` is one Live project's working files: the `.als`, the MIDI and
-  `score.json` a build wrote before touching Live, and its receipts. `Backup/`, `Samples/`,
-  `Source/` and generated `FX Options/` audio are gitignored - `build-air-fx.py` remakes the
-  last of those on demand.
+- `project-files/<name>/` is one Live project's working files, audio included: the `.als`, the
+  source MIDI, the `score.json` a build wrote before touching Live, its receipts, bounced and
+  consolidated `Samples/`, and the generated `FX Options/` renders. A clone is the whole project,
+  not a project minus its sound. Only what Live rebuilds by itself is excluded - the timestamped
+  `Backup/` autosaves and the `.asd` analysis caches.
 - Agents hub project: `obsidian-vault/agents/projects/able/`.
