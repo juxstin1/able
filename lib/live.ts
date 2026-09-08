@@ -2,7 +2,9 @@ import { Ableton } from "ableton-js";
 
 /** Open a connection, run fn, always close. Live must have the AbletonJS control surface enabled. */
 export async function withLive<T>(fn: (live: Ableton) => Promise<T>): Promise<T> {
-  const live = new Ableton({ logger: undefined });
+  // Default 2000ms command timeout is too tight for loading heavy devices (Drum Racks,
+  // sampled instruments) back-to-back - each browser.load_item can take several seconds.
+  const live = new Ableton({ logger: undefined, commandTimeoutMs: 10000 });
   await live.start(8000);
   try {
     return await fn(live);

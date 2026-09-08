@@ -31,10 +31,18 @@ print(
   await withLive(async (live) => {
     const ref = /^\d+$/.test(trackRef) ? Number(trackRef) : trackRef;
     const t = await findTrack(live, ref);
-    const devices = await t.get("devices");
-    let hasCompressor = false;
-    for (const d of devices) if ((await d.get("name")) === "Compressor") hasCompressor = true;
-    if (!hasCompressor) await loadOnTrack(live, t, "audio_effects", ["Compressor"]);
+    const hasCompressor = async () => {
+      for (const d of await t.get("devices")) if ((await d.get("name")) === "Compressor") return true;
+      return false;
+    };
+    if (!(await hasCompressor())) {
+      await loadOnTrack(live, t, "audio_effects", ["Compressor"]);
+      // Live applies a loaded device a beat after loadItem resolves - poll instead of trusting
+      // one immediate read (same class of lag that broke ensureScenes; here it's a bounded
+      // re-read with no side effect per attempt, so it's safe to retry).
+      for (let i = 0; i < 20 && !(await hasCompressor()); i++) await new Promise((r) => setTimeout(r, 150));
+      if (!(await hasCompressor())) throw new Error("loaded Compressor but it never showed up in track.devices after 3s");
+    }
     const missing = await setParams(t, "Compressor", DEPTHS[depth]);
     return {
       track: await t.get("name"),

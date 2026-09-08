@@ -45,11 +45,11 @@ export const STYLES: Record<string, Style> = {
     bpm: 132, kit: "Garage Kit.adg", prefix: "UKG ",
     drums: (bars, pads) => [...kickSnare({ bars, style: "ukg", pads }), ...straightHats({ bars, pads, base: 16, swingAmt: 0.62, accent: 104, ghost: 58 })],
     hats: (bars, pads) => straightHats({ bars, pads, base: 16, swingAmt: 0.62, accent: 104, ghost: 58 }),
-    bass: (bars, root) => bassline({ bars, root: root.replace(/\d/, "1"), style: "ukg" }),
+    bass: (bars, root) => bassline({ bars, root: root.replace(/\d/, "1"), style: "fullclip" }),
     keys: (bars, root) => chords({ bars, key: root.replace(/\d/, "3"), progression: [0, 0, 3, 4], minor: true, voicing: "seventh", rhythm: "skank" }),
     keysCalm: (bars, root) => chords({ bars, key: root.replace(/\d/, "3"), progression: [0, 0, 3, 4], minor: true, voicing: "triad", rhythm: "pad" }),
     bassInstrument: "operator-808", keysDevice: ["Electric"],
-    drumsDesc: "kickSnare ukg 2-step (kick 1 + and-of-2, clap+snare 2/4, rim fill bar 4) + straightHats 16ths swing .62", bassDesc: "bassline ukg (sub, octave flick, 5th, b7 answer)", keysDesc: "chords i-i-iv-v seventh skank (offbeat 8ths)",
+    drumsDesc: "kickSnare ukg 2-step (kick 1 + and-of-2, clap+snare 2/4, rim fill bar 4) + straightHats 16ths swing .62", bassDesc: "bassline fullclip (one held note per bar, 4-bar cycle, glide-tied)", keysDesc: "chords i-i-iv-v seventh skank (offbeat 8ths)",
   },
   house: {
     bpm: 124, kit: "909 Core Kit.adg", prefix: "House ",

@@ -92,6 +92,103 @@ export function writeMidi(file: string, notes: Note[], bpm = 120, ppq = 480) {
   fs.writeFileSync(out, Buffer.from([...header, ...trk, ...body]));
   return out;
 }
+
+// ---- Standard MIDI File reader. Handles format 0/1 (all tracks flattened), running status,
+// meta/sysex events skipped except tempo. No dependency, symmetric with writeMidi above.
+export function readMidi(file: string): { notes: Note[]; ppq: number; bpm?: number } {
+  const buf = fs.readFileSync(file);
+  let pos = 0;
+  const str = (n: number) => {
+    const s = buf.toString("ascii", pos, pos + n);
+    pos += n;
+    return s;
+  };
+  const u8 = () => buf[pos++];
+  const u16 = () => {
+    const v = buf.readUInt16BE(pos);
+    pos += 2;
+    return v;
+  };
+  const u32 = () => {
+    const v = buf.readUInt32BE(pos);
+    pos += 4;
+    return v;
+  };
+  const vlqRead = () => {
+    let v = 0;
+    for (;;) {
+      const b = u8();
+      v = (v << 7) | (b & 0x7f);
+      if (!(b & 0x80)) return v;
+    }
+  };
+
+  if (str(4) !== "MThd") throw new Error(`${file}: not a MIDI file (missing MThd)`);
+  u32(); // header length, always 6
+  u16(); // format - flattened regardless
+  const numTracks = u16();
+  const division = u16();
+  if (division & 0x8000) throw new Error(`${file}: SMPTE time division not supported`);
+  const ppq = division;
+
+  let bpm: number | undefined;
+  const notes: Note[] = [];
+  for (let t = 0; t < numTracks; t++) {
+    if (str(4) !== "MTrk") throw new Error(`${file}: expected MTrk`);
+    const trackEnd = pos + u32();
+    let tick = 0;
+    let running = 0;
+    const active = new Map<number, { start: number; velocity: number }>();
+    const close = (note: number, endTick: number) => {
+      const a = active.get(note);
+      if (!a) return;
+      notes.push({ pitch: note, time: a.start / ppq, duration: Math.max(endTick - a.start, 1) / ppq, velocity: a.velocity });
+      active.delete(note);
+    };
+    while (pos < trackEnd) {
+      tick += vlqRead();
+      let status = buf[pos];
+      if (status & 0x80) {
+        pos++;
+        running = status;
+      } else status = running;
+      const type = status & 0xf0;
+      if (status === 0xff) {
+        const metaType = u8();
+        const len = vlqRead();
+        if (metaType === 0x51 && len === 3) bpm = 60_000_000 / ((buf[pos] << 16) | (buf[pos + 1] << 8) | buf[pos + 2]);
+        pos += len;
+      } else if (status === 0xf0 || status === 0xf7) {
+        pos += vlqRead();
+      } else if (type === 0x90 || type === 0x80) {
+        const note = u8();
+        const vel = u8();
+        if (type === 0x90 && vel > 0) active.set(note, { start: tick, velocity: vel });
+        else close(note, tick);
+      } else if (type === 0xa0 || type === 0xb0 || type === 0xe0) {
+        pos += 2;
+      } else if (type === 0xc0 || type === 0xd0) {
+        pos += 1;
+      } else {
+        throw new Error(`${file}: unhandled status byte 0x${status.toString(16)} at ${pos}`);
+      }
+    }
+    pos = trackEnd;
+  }
+  notes.sort((a, b) => a.time - b.time);
+  return { notes, ppq, bpm };
+}
+
+// GM-style drum note -> role, the inverse of DRUM above. For remapping an imported pattern
+// (written against GM note numbers) onto a specific kit's actual pad notes via padsFor().
+const GM_ROLE = new Map<number, keyof typeof DRUM>(Object.entries(DRUM).map(([role, note]) => [note, role as keyof typeof DRUM]));
+export function remapDrumNotes(notes: Note[], pads: Record<keyof typeof DRUM, number>): Note[] {
+  return notes.map((n) => {
+    const role = GM_ROLE.get(n.pitch);
+    return role ? { ...n, pitch: pads[role] } : n;
+  });
+}
+
 function vlq(n: number): number[] {
   const bytes = [n & 0x7f];
   while ((n >>= 7) > 0) bytes.unshift((n & 0x7f) | 0x80);
@@ -111,6 +208,25 @@ export async function pushClip(live: Ableton, track: Track, slot: number, notes:
   }
   await s.createClip(lengthBeats);
   const clip = (await s.get("clip"))!;
+  await clip.setNotes(notes.map((n) => ({ pitch: n.pitch, time: n.time, duration: n.duration, velocity: n.velocity, muted: n.muted ?? false })));
+  if (name) await clip.set("name", name);
+  return clip;
+}
+
+/** Delete any Arrangement clip(s) on `track` that overlap [startBeat, startBeat + lengthBeats). */
+export async function clearArrangementRange(track: Track, startBeat: number, lengthBeats: number) {
+  const end = startBeat + lengthBeats;
+  for (const c of await track.get("arrangement_clips")) {
+    const cStart = await c.get("start_time");
+    const cEnd = cStart + (await c.get("length"));
+    if (cStart < end && cEnd > startBeat) await track.deleteClip(c.raw.id);
+  }
+}
+
+/** Put notes into an Arrangement clip on `track` at `startBeat`, deleting any existing clip(s) that overlap the range first. */
+export async function replaceArrangementClip(track: Track, startBeat: number, lengthBeats: number, notes: Note[], name?: string) {
+  await clearArrangementRange(track, startBeat, lengthBeats);
+  const clip = await track.createMidiClip(startBeat, lengthBeats);
   await clip.setNotes(notes.map((n) => ({ pitch: n.pitch, time: n.time, duration: n.duration, velocity: n.velocity, muted: n.muted ?? false })));
   if (name) await clip.set("name", name);
   return clip;

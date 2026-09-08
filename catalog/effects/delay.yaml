@@ -12,5 +12,5 @@ source: core-library
 load:
   root: audio_effects
   path:
-    - Align Delay
-  uri: query:AudioFx#Align%20Delay
+    - Delay
+  uri: query:AudioFx#Delay

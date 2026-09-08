@@ -141,3 +141,38 @@ loops:
       drums: "-"
       bass: "-"
       keys: Electric (default)
+  - date: 2026-09-08
+    id: house-7
+    style: house
+    bpm: 124
+    root: F1
+    kit: AG Techno Kit.adg
+    scene: 0
+    parts:
+      seed: 7
+      bars: 2
+      drums: kickSnare house + straightHats 16ths swing .54
+      bass: bassline pulse 8ths on root
+      keys: chords i-i-VI-iv spread stab, 2 per bar
+    sounds:
+      drums: drum-rack:AG Techno Kit.adg
+      bass: operator-pulse
+      keys: Electric (default)
+  - date: 2026-09-08
+    id: ukg-7
+    style: ukg
+    bpm: 132
+    root: F1
+    kit: 909 Core Kit.adg
+    scene: 0
+    parts:
+      seed: 7
+      bars: 2
+      drums: kickSnare ukg 2-step (kick 1 + and-of-2, clap+snare 2/4, rim fill bar 4)
+        + straightHats 16ths swing .62
+      bass: bassline fullclip (one held note per bar, 4-bar cycle, glide-tied)
+      keys: chords i-i-iv-v seventh skank (offbeat 8ths)
+    sounds:
+      drums: drum-rack:909 Core Kit.adg
+      bass: operator-808
+      keys: Electric (default)

@@ -50,7 +50,7 @@ export function kitPads(file: string): { note: number; name: string }[] {
 }
 
 const ROLE: [keyof typeof DRUM, RegExp][] = [
-  ["kick", /kick|bd\b|808 ?(?!.*(hat|snare|clap))/i],
+  ["kick", /kick|bd\b|bass ?drum|808 ?(?!.*(hat|snare|clap))/i],
   ["snare", /snare|sd\b/i],
   ["clap", /clap/i],
   ["ohat", /open|oh\b|hat.*open/i],

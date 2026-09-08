@@ -15,6 +15,7 @@ export interface VerdictRow {
   date: string;
   context?: string; // "house bass", "trap" - the situation it was judged in
   note?: string; // Justin's words, verbatim where possible
+  tag?: string; // cross-cutting label for querying across subjects, e.g. "conditioning-bell", "bass-candidate"
 }
 export interface LoopRecord {
   id: string; // style-seed
@@ -35,12 +36,19 @@ const save = (f: string, key: string, rows: unknown[]) => {
   fs.writeFileSync(f, YAML.stringify({ [key]: rows }));
 };
 
-export function logVerdict(subject: string, v: Verdict, note?: string, context?: string): VerdictRow {
+export function logVerdict(subject: string, v: Verdict, note?: string, context?: string, tag?: string): VerdictRow {
   const rows = load<VerdictRow>(TASTE_FILE, "verdicts");
-  const row: VerdictRow = { subject, v, date: today(), context, note };
+  const row: VerdictRow = { subject, v, date: today(), context, note, tag };
   rows.push(row);
   save(TASTE_FILE, "verdicts", rows);
   return row;
+}
+
+/** Latest verdict per subject carrying a given tag - the point of tagging across unrelated subjects. */
+export function byTag(tag: string): VerdictRow[] {
+  const latest = new Map<string, VerdictRow>();
+  for (const r of verdicts()) if (r.tag === tag) latest.set(r.subject, r);
+  return [...latest.values()];
 }
 
 export function verdicts(filter?: (r: VerdictRow) => boolean): VerdictRow[] {

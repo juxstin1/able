@@ -1,0 +1,22 @@
+banks:
+  kick:
+    bar: distinct
+    note: one slot in the track - only exceptional survives
+  lead:
+    bar: distinct
+    note: adequate gets binned; must be unique or it's dead weight
+  bass:
+    bar: functional
+    note: structural role; adequate is fine if it layers well
+  downlifters:
+    bar: distinct
+    note: 3/10 kept, harshest round yet - one round of data, but treat as distinct until a second round says otherwise
+  sustained-beds:
+    bar: functional
+    note: 8/10 kept - unique-but-unplaced still keeps here, same as bass
+  hats:
+    bar: functional
+    note: 8/10 kept - groove/feel carries it even when the tone alone is nothing special
+  claps:
+    bar: distinct
+    note: 5/10 kept, split hard between "exactly right" and "god awful" - little middle ground
