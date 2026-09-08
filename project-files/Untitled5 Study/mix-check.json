@@ -1,0 +1,45 @@
+{
+  "bpm": 123.69999694824219,
+  "bars": 16,
+  "parametersVerified": 64,
+  "peaks": [
+    {
+      "name": "U5 Riff",
+      "peak": 0.7634227275848389,
+      "peakDb": -2.344698299376965
+    },
+    {
+      "name": "U5 Chords",
+      "peak": 0.5458305478096008,
+      "peakDb": -5.258843247492642
+    },
+    {
+      "name": "U5 Bass",
+      "peak": 0.700621485710144,
+      "peakDb": -3.090330969191058
+    },
+    {
+      "name": "U5 Kick",
+      "peak": 0.7698047757148743,
+      "peakDb": -2.272387979139197
+    },
+    {
+      "name": "U5 Clap",
+      "peak": 0.6811111569404602,
+      "peakDb": -3.3356401139780827
+    },
+    {
+      "name": "U5 Hats optional",
+      "peak": 0.3941900432109833,
+      "peakDb": -8.085886993984829
+    },
+    {
+      "name": "Master",
+      "peak": 0.8255875110626221,
+      "peakDb": -1.6647377076902874
+    }
+  ],
+  "playing": false,
+  "clipFree": true,
+  "allPartsAudibleOnMeters": true
+}

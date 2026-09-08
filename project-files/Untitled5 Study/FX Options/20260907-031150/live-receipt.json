@@ -1,0 +1,239 @@
+{
+  "paletteStartBar": 97,
+  "songEndBar": 84,
+  "clips": [
+    {
+      "name": "AIR BREATH 2bar",
+      "track": "FX Options - Risers",
+      "startBar": 97,
+      "endBeat": 391.9999966179654,
+      "beats": 8,
+      "seconds": 3.8803541666666668,
+      "warping": false,
+      "lengthErrorBeats": 2.4947365062644167e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\01_AIR_BREATH_2bar_123.70BPM.wav"
+    },
+    {
+      "name": "AIR SILK 4bar",
+      "track": "FX Options - Risers",
+      "startBar": 100,
+      "endBeat": 411.99999323593073,
+      "beats": 16,
+      "seconds": 7.7607083333333335,
+      "warping": false,
+      "lengthErrorBeats": 4.9894786968707194e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\02_AIR_SILK_4bar_123.70BPM.wav"
+    },
+    {
+      "name": "AIR WIDE 8bar",
+      "track": "FX Options - Risers",
+      "startBar": 105,
+      "endBeat": 447.99998647186146,
+      "beats": 32,
+      "seconds": 15.521416666666667,
+      "warping": false,
+      "lengthErrorBeats": 9.978957393741439e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\03_AIR_WIDE_8bar_123.70BPM.wav"
+    },
+    {
+      "name": "AIR TRIPLETS 4bar",
+      "track": "FX Options - Risers",
+      "startBar": 114,
+      "endBeat": 467.99999323593073,
+      "beats": 16,
+      "seconds": 7.7607083333333335,
+      "warping": false,
+      "lengthErrorBeats": 4.9894786968707194e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\04_AIR_TRIPLETS_4bar_123.70BPM.wav"
+    },
+    {
+      "name": "REVERSE AIR 1bar",
+      "track": "FX Options - Swells",
+      "startBar": 119,
+      "endBeat": 476.00001977189476,
+      "beats": 4,
+      "seconds": 1.9401875,
+      "warping": false,
+      "lengthErrorBeats": 2.525553721710594e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\05_REVERSE_AIR_1bar_123.70BPM.wav"
+    },
+    {
+      "name": "REVERSE HOLLOW 2bar",
+      "track": "FX Options - Swells",
+      "startBar": 121,
+      "endBeat": 487.9999966179654,
+      "beats": 8,
+      "seconds": 3.8803541666666668,
+      "warping": false,
+      "lengthErrorBeats": 2.4947365062644167e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\06_REVERSE_HOLLOW_2bar_123.70BPM.wav"
+    },
+    {
+      "name": "REVERSE HALO Bm 2bar",
+      "track": "FX Options - Swells",
+      "startBar": 124,
+      "endBeat": 499.9999966179654,
+      "beats": 8,
+      "seconds": 3.8803541666666668,
+      "warping": false,
+      "lengthErrorBeats": 2.4947365062644167e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\07_REVERSE_HALO_Bm_2bar_123.70BPM.wav"
+    },
+    {
+      "name": "STEREO WHOOSH 1bar",
+      "track": "FX Options - Swells",
+      "startBar": 127,
+      "endBeat": 508.00001977189476,
+      "beats": 4,
+      "seconds": 1.9401875,
+      "warping": false,
+      "lengthErrorBeats": 2.525553721710594e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\08_STEREO_WHOOSH_1bar_123.70BPM.wav"
+    },
+    {
+      "name": "AIR FALL 2bar",
+      "track": "FX Options - Downlifters",
+      "startBar": 129,
+      "endBeat": 519.9999966179654,
+      "beats": 8,
+      "seconds": 3.8803541666666668,
+      "warping": false,
+      "lengthErrorBeats": 2.4947365062644167e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\09_AIR_FALL_2bar_123.70BPM.wav"
+    },
+    {
+      "name": "AIR LONG TAIL 4bar",
+      "track": "FX Options - Downlifters",
+      "startBar": 132,
+      "endBeat": 539.9999932359308,
+      "beats": 16,
+      "seconds": 7.7607083333333335,
+      "warping": false,
+      "lengthErrorBeats": 4.9894730125288334e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\10_AIR_LONG_TAIL_4bar_123.70BPM.wav"
+    },
+    {
+      "name": "SOFT BLOOM IMPACT 2bar",
+      "track": "FX Options - Impacts",
+      "startBar": 137,
+      "endBeat": 551.9999966179654,
+      "beats": 8,
+      "seconds": 3.8803541666666668,
+      "warping": false,
+      "lengthErrorBeats": 2.4947365062644167e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\11_SOFT_BLOOM_IMPACT_2bar_123.70BPM.wav"
+    },
+    {
+      "name": "TINY AIR TICK 1beat",
+      "track": "FX Options - Impacts",
+      "startBar": 140,
+      "endBeat": 556.9999942765568,
+      "beats": 1,
+      "seconds": 0.48504166666666665,
+      "warping": false,
+      "lengthErrorBeats": 6.511616057469638e-8,
+      "file": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Untitled5 Study\\FX Options\\20260907-031150\\12_TINY_AIR_TICK_1beat_123.70BPM.wav"
+    }
+  ],
+  "before": {
+    "bpm": 123.69999694824219,
+    "loop": true,
+    "loopStart": 0,
+    "loopLength": 304,
+    "playing": true
+  },
+  "after": {
+    "bpm": 123.69999694824219,
+    "loop": true,
+    "loopStart": 0,
+    "loopLength": 304,
+    "playing": true
+  },
+  "existingClipLayoutsUnchanged": true,
+  "layoutChecks": [
+    {
+      "track": "1-MIDI",
+      "unchanged": true
+    },
+    {
+      "track": "2-MIDI",
+      "unchanged": true
+    },
+    {
+      "track": "3-Audio",
+      "unchanged": true
+    },
+    {
+      "track": "4-Audio",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Riff",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Riff",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Riff",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Chords",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Bass",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Bass",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Bass",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Kick",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Kick",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Kick",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Kick",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Clap",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Clap (Bounce)",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Clap",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Hats optional",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Marimba",
+      "unchanged": true
+    },
+    {
+      "track": "U5 Electric Piano",
+      "unchanged": true
+    }
+  ]
+}

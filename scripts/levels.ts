@@ -13,7 +13,7 @@ const seconds = Number(flag("seconds", "4"));
 
 withLive(async (live) => {
   const tracks = await live.song.get("tracks");
-  if (scene !== undefined) await fireScene(live, Number(scene));
+  if (scene !== undefined) await fireScene(live, Number(scene) - 1);
   else if (!(await live.song.get("is_playing"))) await live.song.startPlaying();
 
   const peaks = await peakLevels(live, tracks, seconds * 1000);

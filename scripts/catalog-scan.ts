@@ -6,7 +6,7 @@ import { CATALOG, LIVE_CORE, FACTORY_PACKS, VST3_DIRS, VST2_DIRS } from "../lib/
 import { stub, KIND_DIR, type Entry, type Kind, type Format } from "../lib/catalog.js";
 import { print } from "../lib/live.js";
 
-const KNOWN_INSTRUMENTS = [/^surge xt$/i, /^fabfilter (one|twin)/i, /^k1v/i, /^speedrum/i, /^drumtraqs/i];
+const KNOWN_INSTRUMENTS = [/^surge xt$/i, /^fabfilter (one|twin)/i, /^k1v/i, /^speedrum/i, /^drumtraqs/i, /^serum ?\d*$/i, /^vital/i, /^massive/i];
 const slug = (s: string) =>
   s.toLowerCase().replace(/\.(vst3|dll)$/i, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const clean = (s: string) => s.replace(/\.(vst3|dll)$/i, "").replace(/_x64$/i, "");

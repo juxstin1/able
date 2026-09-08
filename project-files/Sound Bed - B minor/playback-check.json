@@ -1,0 +1,36 @@
+{
+  "bpm": 131,
+  "bpmAtEnd": 131,
+  "bars": 8,
+  "peaks": [
+    {
+      "name": "BED - Kick",
+      "meterPeak": 0.7266607880592346
+    },
+    {
+      "name": "BED - Clap",
+      "meterPeak": 0.6277724504470825
+    },
+    {
+      "name": "BED - Hats",
+      "meterPeak": 0.5366266369819641
+    },
+    {
+      "name": "BED - Round Bass",
+      "meterPeak": 0.6000993251800537
+    },
+    {
+      "name": "BED - Soft Chords",
+      "meterPeak": 0.4858512878417969
+    },
+    {
+      "name": "Master",
+      "meterPeak": 0.7332112193107605
+    }
+  ],
+  "allPartsActive": true,
+  "allMetersBelowOne": true,
+  "userPlaybackPreserved": false,
+  "stopped": true,
+  "note": "Live meter check only; not a rendered loudness or listening assessment."
+}

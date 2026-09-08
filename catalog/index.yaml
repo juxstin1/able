@@ -5,13 +5,13 @@ analog:
   format: native
   name: Analog
   tags:
-    - analog
-    - synth
-    - bass
-    - leads
-    - pads
-    - vintage
-    - core
+  - analog
+  - synth
+  - bass
+  - leads
+  - pads
+  - vintage
+  - core
   good_for: vintage analog basses, brass-style leads, detuned 2-osc pads
 collision:
   path: instruments/collision.yaml
@@ -20,7 +20,7 @@ collision:
   format: native
   name: Collision
   tags: []
-  good_for: ""
+  good_for: ''
 drift:
   path: instruments/drift.yaml
   id: drift
@@ -28,14 +28,14 @@ drift:
   format: native
   name: Drift
   tags:
-    - analog
-    - synth
-    - bass
-    - leads
-    - keys
-    - warm
-    - simple
-    - core
+  - analog
+  - synth
+  - bass
+  - leads
+  - keys
+  - warm
+  - simple
+  - core
   good_for: fast warm analog bass and leads with minimal menu diving; MPE-ready
 electric:
   path: instruments/electric.yaml
@@ -44,7 +44,7 @@ electric:
   format: native
   name: Electric
   tags: []
-  good_for: ""
+  good_for: ''
 external-instrument:
   path: instruments/external-instrument.yaml
   id: external-instrument
@@ -52,7 +52,7 @@ external-instrument:
   format: native
   name: External Instrument
   tags: []
-  good_for: ""
+  good_for: ''
 impulse:
   path: instruments/impulse.yaml
   id: impulse
@@ -60,7 +60,7 @@ impulse:
   format: native
   name: Impulse
   tags: []
-  good_for: ""
+  good_for: ''
 max-instrument:
   path: instruments/max-instrument.yaml
   id: max-instrument
@@ -68,7 +68,7 @@ max-instrument:
   format: native
   name: Max Instrument
   tags: []
-  good_for: ""
+  good_for: ''
 meld:
   path: instruments/meld.yaml
   id: meld
@@ -76,13 +76,13 @@ meld:
   format: native
   name: Meld
   tags:
-    - synth
-    - macro
-    - experimental
-    - bass
-    - textures
-    - mpe
-    - core
+  - synth
+  - macro
+  - experimental
+  - bass
+  - textures
+  - mpe
+  - core
   good_for: two-engine bipolar synth for unusual textures, moving basses, MPE leads
 operator:
   path: instruments/operator.yaml
@@ -91,16 +91,15 @@ operator:
   format: native
   name: Operator
   tags:
-    - fm
-    - synth
-    - bass
-    - "808"
-    - bells
-    - plucks
-    - keys
-    - core
-  good_for: 808 sub bass (single sine osc + pitch env), FM bells and plucks, clean
-    sine subs
+  - fm
+  - synth
+  - bass
+  - '808'
+  - bells
+  - plucks
+  - keys
+  - core
+  good_for: 808 sub bass (single sine osc + pitch env), FM bells and plucks, clean sine subs
 sampler:
   path: instruments/sampler.yaml
   id: sampler
@@ -108,11 +107,11 @@ sampler:
   format: native
   name: Sampler
   tags:
-    - sampler
-    - multisample
-    - keys
-    - orchestral
-    - core
+  - sampler
+  - multisample
+  - keys
+  - orchestral
+  - core
   good_for: multi-sampled instruments with key zones and velocity layers
 simpler:
   path: instruments/simpler.yaml
@@ -121,14 +120,13 @@ simpler:
   format: native
   name: Simpler
   tags:
-    - sampler
-    - one-shot
-    - slice
-    - loops
-    - vocal chops
-    - core
-  good_for: one-shot playback, loop slicing to MIDI, quick chops; Warp modes for
-    tempo lock
+  - sampler
+  - one-shot
+  - slice
+  - loops
+  - vocal chops
+  - core
+  good_for: one-shot playback, loop slicing to MIDI, quick chops; Warp modes for tempo lock
 tension:
   path: instruments/tension.yaml
   id: tension
@@ -136,7 +134,7 @@ tension:
   format: native
   name: Tension
   tags: []
-  good_for: ""
+  good_for: ''
 wavetable:
   path: instruments/wavetable.yaml
   id: wavetable
@@ -144,14 +142,14 @@ wavetable:
   format: native
   name: Wavetable
   tags:
-    - wavetable
-    - synth
-    - pads
-    - leads
-    - bass
-    - reese
-    - modern
-    - core
+  - wavetable
+  - synth
+  - pads
+  - leads
+  - bass
+  - reese
+  - modern
+  - core
   good_for: wide pads, growl/reese bass via unison + wavetable position, modern leads
 amp:
   path: effects/amp.yaml
@@ -160,7 +158,7 @@ amp:
   format: native
   name: Amp
   tags: []
-  good_for: ""
+  good_for: ''
 auto-filter:
   path: effects/auto-filter.yaml
   id: auto-filter
@@ -168,12 +166,12 @@ auto-filter:
   format: native
   name: Auto Filter
   tags:
-    - filter
-    - sweep
-    - lfo
-    - envelope
-    - sidechain
-    - core
+  - filter
+  - sweep
+  - lfo
+  - envelope
+  - sidechain
+  - core
   good_for: filter sweeps on builds, envelope-followed wah, sidechained filter ducking
 auto-pan-tremolo:
   path: effects/auto-pan-tremolo.yaml
@@ -182,7 +180,7 @@ auto-pan-tremolo:
   format: native
   name: Auto Pan-Tremolo
   tags: []
-  good_for: ""
+  good_for: ''
 auto-shift:
   path: effects/auto-shift.yaml
   id: auto-shift
@@ -190,7 +188,7 @@ auto-shift:
   format: native
   name: Auto Shift
   tags: []
-  good_for: ""
+  good_for: ''
 beat-repeat:
   path: effects/beat-repeat.yaml
   id: beat-repeat
@@ -198,7 +196,7 @@ beat-repeat:
   format: native
   name: Beat Repeat
   tags: []
-  good_for: ""
+  good_for: ''
 cabinet:
   path: effects/cabinet.yaml
   id: cabinet
@@ -206,7 +204,7 @@ cabinet:
   format: native
   name: Cabinet
   tags: []
-  good_for: ""
+  good_for: ''
 channel-eq:
   path: effects/channel-eq.yaml
   id: channel-eq
@@ -214,7 +212,7 @@ channel-eq:
   format: native
   name: Channel EQ
   tags: []
-  good_for: ""
+  good_for: ''
 chorus-ensemble:
   path: effects/chorus-ensemble.yaml
   id: chorus-ensemble
@@ -222,7 +220,7 @@ chorus-ensemble:
   format: native
   name: Chorus-Ensemble
   tags: []
-  good_for: ""
+  good_for: ''
 compressor:
   path: effects/compressor.yaml
   id: compressor
@@ -230,11 +228,11 @@ compressor:
   format: native
   name: Compressor
   tags:
-    - compressor
-    - sidechain
-    - ducking
-    - dynamics
-    - core
+  - compressor
+  - sidechain
+  - ducking
+  - dynamics
+  - core
   good_for: sidechain ducking (bass under kick), per-track dynamics
 corpus:
   path: effects/corpus.yaml
@@ -243,7 +241,7 @@ corpus:
   format: native
   name: Corpus
   tags: []
-  good_for: ""
+  good_for: ''
 delay:
   path: effects/delay.yaml
   id: delay
@@ -251,7 +249,7 @@ delay:
   format: native
   name: Delay
   tags: []
-  good_for: ""
+  good_for: ''
 drum-buss:
   path: effects/drum-buss.yaml
   id: drum-buss
@@ -259,15 +257,14 @@ drum-buss:
   format: native
   name: Drum Buss
   tags:
-    - drums
-    - bus
-    - transient
-    - saturation
-    - boom
-    - glue
-    - core
-  good_for: drum bus glue; Boom for extra sub on kick, Crunch for grit, Transients
-    for punch
+  - drums
+  - bus
+  - transient
+  - saturation
+  - boom
+  - glue
+  - core
+  good_for: drum bus glue; Boom for extra sub on kick, Crunch for grit, Transients for punch
 dynamic-tube:
   path: effects/dynamic-tube.yaml
   id: dynamic-tube
@@ -275,7 +272,7 @@ dynamic-tube:
   format: native
   name: Dynamic Tube
   tags: []
-  good_for: ""
+  good_for: ''
 echo:
   path: effects/echo.yaml
   id: echo
@@ -283,13 +280,12 @@ echo:
   format: native
   name: Echo
   tags:
-    - delay
-    - tape
-    - dub
-    - modulation
-    - core
-  good_for: dub and tape delays with filter and modulation; ping-pong; reverb tail
-    built in
+  - delay
+  - tape
+  - dub
+  - modulation
+  - core
+  good_for: dub and tape delays with filter and modulation; ping-pong; reverb tail built in
 envelope-follower:
   path: effects/envelope-follower.yaml
   id: envelope-follower
@@ -297,7 +293,7 @@ envelope-follower:
   format: native
   name: Envelope Follower
   tags: []
-  good_for: ""
+  good_for: ''
 eq-eight:
   path: effects/eq-eight.yaml
   id: eq-eight
@@ -305,11 +301,11 @@ eq-eight:
   format: native
   name: EQ Eight
   tags:
-    - eq
-    - surgical
-    - highpass
-    - mix
-    - core
+  - eq
+  - surgical
+  - highpass
+  - mix
+  - core
   good_for: surgical cuts, high-pass everything that is not bass, mid/side mode
 eq-three:
   path: effects/eq-three.yaml
@@ -318,7 +314,7 @@ eq-three:
   format: native
   name: EQ Three
   tags: []
-  good_for: ""
+  good_for: ''
 erosion:
   path: effects/erosion.yaml
   id: erosion
@@ -326,7 +322,7 @@ erosion:
   format: native
   name: Erosion
   tags: []
-  good_for: ""
+  good_for: ''
 external-audio-effect:
   path: effects/external-audio-effect.yaml
   id: external-audio-effect
@@ -334,7 +330,7 @@ external-audio-effect:
   format: native
   name: External Audio Effect
   tags: []
-  good_for: ""
+  good_for: ''
 filter-delay:
   path: effects/filter-delay.yaml
   id: filter-delay
@@ -342,7 +338,7 @@ filter-delay:
   format: native
   name: Filter Delay
   tags: []
-  good_for: ""
+  good_for: ''
 gate:
   path: effects/gate.yaml
   id: gate
@@ -350,7 +346,7 @@ gate:
   format: native
   name: Gate
   tags: []
-  good_for: ""
+  good_for: ''
 glue-compressor:
   path: effects/glue-compressor.yaml
   id: glue-compressor
@@ -358,13 +354,13 @@ glue-compressor:
   format: native
   name: Glue Compressor
   tags:
-    - compressor
-    - bus
-    - glue
-    - ssl
-    - master
-    - drums
-    - core
+  - compressor
+  - bus
+  - glue
+  - ssl
+  - master
+  - drums
+  - core
   good_for: SSL-style bus glue on drums or master; 2:1, slow attack, auto release
 grain-delay:
   path: effects/grain-delay.yaml
@@ -373,7 +369,7 @@ grain-delay:
   format: native
   name: Grain Delay
   tags: []
-  good_for: ""
+  good_for: ''
 hybrid-reverb:
   path: effects/hybrid-reverb.yaml
   id: hybrid-reverb
@@ -381,11 +377,11 @@ hybrid-reverb:
   format: native
   name: Hybrid Reverb
   tags:
-    - reverb
-    - convolution
-    - algorithmic
-    - space
-    - core
+  - reverb
+  - convolution
+  - algorithmic
+  - space
+  - core
   good_for: convolution + algorithmic blend; rooms, halls, shimmer; per-band EQ on tail
 lfo:
   path: effects/lfo.yaml
@@ -394,7 +390,7 @@ lfo:
   format: native
   name: LFO
   tags: []
-  good_for: ""
+  good_for: ''
 limiter:
   path: effects/limiter.yaml
   id: limiter
@@ -402,7 +398,7 @@ limiter:
   format: native
   name: Limiter
   tags: []
-  good_for: ""
+  good_for: ''
 looper:
   path: effects/looper.yaml
   id: looper
@@ -410,7 +406,7 @@ looper:
   format: native
   name: Looper
   tags: []
-  good_for: ""
+  good_for: ''
 max-audio-effect:
   path: effects/max-audio-effect.yaml
   id: max-audio-effect
@@ -418,7 +414,7 @@ max-audio-effect:
   format: native
   name: Max Audio Effect
   tags: []
-  good_for: ""
+  good_for: ''
 multiband-dynamics:
   path: effects/multiband-dynamics.yaml
   id: multiband-dynamics
@@ -426,7 +422,7 @@ multiband-dynamics:
   format: native
   name: Multiband Dynamics
   tags: []
-  good_for: ""
+  good_for: ''
 overdrive:
   path: effects/overdrive.yaml
   id: overdrive
@@ -434,7 +430,7 @@ overdrive:
   format: native
   name: Overdrive
   tags: []
-  good_for: ""
+  good_for: ''
 pedal:
   path: effects/pedal.yaml
   id: pedal
@@ -442,7 +438,7 @@ pedal:
   format: native
   name: Pedal
   tags: []
-  good_for: ""
+  good_for: ''
 phaser-flanger:
   path: effects/phaser-flanger.yaml
   id: phaser-flanger
@@ -450,7 +446,7 @@ phaser-flanger:
   format: native
   name: Phaser-Flanger
   tags: []
-  good_for: ""
+  good_for: ''
 redux:
   path: effects/redux.yaml
   id: redux
@@ -458,7 +454,7 @@ redux:
   format: native
   name: Redux
   tags: []
-  good_for: ""
+  good_for: ''
 resonators:
   path: effects/resonators.yaml
   id: resonators
@@ -466,7 +462,7 @@ resonators:
   format: native
   name: Resonators
   tags: []
-  good_for: ""
+  good_for: ''
 reverb:
   path: effects/reverb.yaml
   id: reverb
@@ -474,7 +470,7 @@ reverb:
   format: native
   name: Reverb
   tags: []
-  good_for: ""
+  good_for: ''
 roar:
   path: effects/roar.yaml
   id: roar
@@ -482,12 +478,12 @@ roar:
   format: native
   name: Roar
   tags:
-    - distortion
-    - saturation
-    - multiband
-    - feedback
-    - aggressive
-    - core
+  - distortion
+  - saturation
+  - multiband
+  - feedback
+  - aggressive
+  - core
   good_for: aggressive multi-stage distortion with routing; big bass and lead colour
 saturator:
   path: effects/saturator.yaml
@@ -496,15 +492,14 @@ saturator:
   format: native
   name: Saturator
   tags:
-    - saturation
-    - distortion
-    - warmth
-    - drive
-    - bass
-    - drums
-    - core
-  good_for: adding harmonics to 808s so they read on small speakers; gentle drive
-    on drums
+  - saturation
+  - distortion
+  - warmth
+  - drive
+  - bass
+  - drums
+  - core
+  good_for: adding harmonics to 808s so they read on small speakers; gentle drive on drums
 shaper:
   path: effects/shaper.yaml
   id: shaper
@@ -512,7 +507,7 @@ shaper:
   format: native
   name: Shaper
   tags: []
-  good_for: ""
+  good_for: ''
 shifter:
   path: effects/shifter.yaml
   id: shifter
@@ -520,7 +515,7 @@ shifter:
   format: native
   name: Shifter
   tags: []
-  good_for: ""
+  good_for: ''
 spectral-resonator:
   path: effects/spectral-resonator.yaml
   id: spectral-resonator
@@ -528,7 +523,7 @@ spectral-resonator:
   format: native
   name: Spectral Resonator
   tags: []
-  good_for: ""
+  good_for: ''
 spectral-time:
   path: effects/spectral-time.yaml
   id: spectral-time
@@ -536,7 +531,7 @@ spectral-time:
   format: native
   name: Spectral Time
   tags: []
-  good_for: ""
+  good_for: ''
 spectrum:
   path: effects/spectrum.yaml
   id: spectrum
@@ -544,7 +539,7 @@ spectrum:
   format: native
   name: Spectrum
   tags: []
-  good_for: ""
+  good_for: ''
 tuner:
   path: effects/tuner.yaml
   id: tuner
@@ -552,7 +547,7 @@ tuner:
   format: native
   name: Tuner
   tags: []
-  good_for: ""
+  good_for: ''
 utility:
   path: effects/utility.yaml
   id: utility
@@ -560,7 +555,7 @@ utility:
   format: native
   name: Utility
   tags: []
-  good_for: ""
+  good_for: ''
 vinyl-distortion:
   path: effects/vinyl-distortion.yaml
   id: vinyl-distortion
@@ -568,7 +563,7 @@ vinyl-distortion:
   format: native
   name: Vinyl Distortion
   tags: []
-  good_for: ""
+  good_for: ''
 vocoder:
   path: effects/vocoder.yaml
   id: vocoder
@@ -576,7 +571,7 @@ vocoder:
   format: native
   name: Vocoder
   tags: []
-  good_for: ""
+  good_for: ''
 arpeggiator:
   path: midi-effects/arpeggiator.yaml
   id: arpeggiator
@@ -584,11 +579,11 @@ arpeggiator:
   format: native
   name: Arpeggiator
   tags:
-    - arp
-    - midi
-    - sequencer
-    - plucks
-    - core
+  - arp
+  - midi
+  - sequencer
+  - plucks
+  - core
   good_for: instant movement from held chords; rate 1/16 with gate ~50%
 chord:
   path: midi-effects/chord.yaml
@@ -597,7 +592,7 @@ chord:
   format: native
   name: Chord
   tags: []
-  good_for: ""
+  good_for: ''
 envelope-midi:
   path: midi-effects/envelope-midi.yaml
   id: envelope-midi
@@ -605,7 +600,7 @@ envelope-midi:
   format: native
   name: Envelope MIDI
   tags: []
-  good_for: ""
+  good_for: ''
 max-midi-effect:
   path: midi-effects/max-midi-effect.yaml
   id: max-midi-effect
@@ -613,7 +608,7 @@ max-midi-effect:
   format: native
   name: Max MIDI Effect
   tags: []
-  good_for: ""
+  good_for: ''
 mpe-control:
   path: midi-effects/mpe-control.yaml
   id: mpe-control
@@ -621,7 +616,7 @@ mpe-control:
   format: native
   name: MPE Control
   tags: []
-  good_for: ""
+  good_for: ''
 note-echo:
   path: midi-effects/note-echo.yaml
   id: note-echo
@@ -629,7 +624,7 @@ note-echo:
   format: native
   name: Note Echo
   tags: []
-  good_for: ""
+  good_for: ''
 note-length:
   path: midi-effects/note-length.yaml
   id: note-length
@@ -637,7 +632,7 @@ note-length:
   format: native
   name: Note Length
   tags: []
-  good_for: ""
+  good_for: ''
 pitch:
   path: midi-effects/pitch.yaml
   id: pitch
@@ -645,7 +640,7 @@ pitch:
   format: native
   name: Pitch
   tags: []
-  good_for: ""
+  good_for: ''
 random:
   path: midi-effects/random.yaml
   id: random
@@ -653,7 +648,7 @@ random:
   format: native
   name: Random
   tags: []
-  good_for: ""
+  good_for: ''
 scale:
   path: midi-effects/scale.yaml
   id: scale
@@ -661,10 +656,10 @@ scale:
   format: native
   name: Scale
   tags:
-    - midi
-    - key
-    - quantize
-    - core
+  - midi
+  - key
+  - quantize
+  - core
   good_for: forcing generated notes into the track key
 velocity:
   path: midi-effects/velocity.yaml
@@ -673,7 +668,7 @@ velocity:
   format: native
   name: Velocity
   tags: []
-  good_for: ""
+  good_for: ''
 drum-rack:
   path: instruments/drum-rack.yaml
   id: drum-rack
@@ -681,16 +676,15 @@ drum-rack:
   format: native
   name: Drum Rack
   tags:
-    - drums
-    - sampler
-    - kit
-    - one-shots
-    - trap
-    - hip-hop
-    - house
-    - core
-  good_for: any sampled drum kit; 128 pads, per-pad chains, choke groups for
-    open/closed hats
+  - drums
+  - sampler
+  - kit
+  - one-shots
+  - trap
+  - hip-hop
+  - house
+  - core
+  good_for: any sampled drum kit; 128 pads, per-pad chains, choke groups for open/closed hats
 instrument-rack:
   path: instruments/instrument-rack.yaml
   id: instrument-rack
@@ -698,7 +692,7 @@ instrument-rack:
   format: native
   name: Instrument Rack
   tags: []
-  good_for: ""
+  good_for: ''
 chowtapemodel:
   path: effects/chowtapemodel.yaml
   id: chowtapemodel
@@ -706,11 +700,11 @@ chowtapemodel:
   format: vst3
   name: CHOWTapeModel
   tags:
-    - tape
-    - saturation
-    - wow-flutter
-    - lo-fi
-    - free
+  - tape
+  - saturation
+  - wow-flutter
+  - lo-fi
+  - free
   good_for: physical tape saturation and wobble; lo-fi hip-hop texture
 drumtraqs:
   path: instruments/drumtraqs.yaml
@@ -719,7 +713,7 @@ drumtraqs:
   format: vst3
   name: drumtraqs
   tags: []
-  good_for: ""
+  good_for: ''
 fabfilter-micro:
   path: effects/fabfilter-micro.yaml
   id: fabfilter-micro
@@ -727,7 +721,7 @@ fabfilter-micro:
   format: vst3
   name: FabFilter Micro
   tags: []
-  good_for: ""
+  good_for: ''
 fabfilter-one:
   path: instruments/fabfilter-one.yaml
   id: fabfilter-one
@@ -735,7 +729,7 @@ fabfilter-one:
   format: vst3
   name: FabFilter One
   tags: []
-  good_for: ""
+  good_for: ''
 fabfilter-pro-c-2:
   path: effects/fabfilter-pro-c-2.yaml
   id: fabfilter-pro-c-2
@@ -743,13 +737,12 @@ fabfilter-pro-c-2:
   format: vst3
   name: FabFilter Pro-C 2
   tags:
-    - compressor
-    - sidechain
-    - bus
-    - vocal
-    - mix
-  good_for: transparent or characterful compression; styles
-    Clean/Vocal/Punch/Pumping/Bus/Mastering
+  - compressor
+  - sidechain
+  - bus
+  - vocal
+  - mix
+  good_for: transparent or characterful compression; styles Clean/Vocal/Punch/Pumping/Bus/Mastering
 fabfilter-pro-ds:
   path: effects/fabfilter-pro-ds.yaml
   id: fabfilter-pro-ds
@@ -757,7 +750,7 @@ fabfilter-pro-ds:
   format: vst3
   name: FabFilter Pro-DS
   tags: []
-  good_for: ""
+  good_for: ''
 fabfilter-pro-g:
   path: effects/fabfilter-pro-g.yaml
   id: fabfilter-pro-g
@@ -765,7 +758,7 @@ fabfilter-pro-g:
   format: vst3
   name: FabFilter Pro-G
   tags: []
-  good_for: ""
+  good_for: ''
 fabfilter-pro-l-2:
   path: effects/fabfilter-pro-l-2.yaml
   id: fabfilter-pro-l-2
@@ -773,10 +766,10 @@ fabfilter-pro-l-2:
   format: vst3
   name: FabFilter Pro-L 2
   tags:
-    - limiter
-    - master
-    - loudness
-    - true-peak
+  - limiter
+  - master
+  - loudness
+  - true-peak
   good_for: final limiter; Modern or Aggressive style for electronic
 fabfilter-pro-mb:
   path: effects/fabfilter-pro-mb.yaml
@@ -785,11 +778,11 @@ fabfilter-pro-mb:
   format: vst3
   name: FabFilter Pro-MB
   tags:
-    - multiband
-    - compressor
-    - dynamics
-    - master
-    - bass
+  - multiband
+  - compressor
+  - dynamics
+  - master
+  - bass
   good_for: taming low end or harsh highs without touching the rest
 fabfilter-pro-q-4:
   path: effects/fabfilter-pro-q-4.yaml
@@ -798,12 +791,12 @@ fabfilter-pro-q-4:
   format: vst3
   name: FabFilter Pro-Q 4
   tags:
-    - eq
-    - surgical
-    - dynamic-eq
-    - linear-phase
-    - mix
-    - master
+  - eq
+  - surgical
+  - dynamic-eq
+  - linear-phase
+  - mix
+  - master
   good_for: the default EQ for everything; dynamic bands, spectrum grab, mid/side
 fabfilter-pro-r-2:
   path: effects/fabfilter-pro-r-2.yaml
@@ -812,11 +805,11 @@ fabfilter-pro-r-2:
   format: vst3
   name: FabFilter Pro-R 2
   tags:
-    - reverb
-    - algorithmic
-    - space
-    - vocal
-    - mix
+  - reverb
+  - algorithmic
+  - space
+  - vocal
+  - mix
   good_for: natural reverb with decay-rate EQ; vocals, snares, plates
 fabfilter-saturn-2:
   path: effects/fabfilter-saturn-2.yaml
@@ -825,16 +818,15 @@ fabfilter-saturn-2:
   format: vst3
   name: FabFilter Saturn 2
   tags:
-    - saturation
-    - multiband
-    - warmth
-    - distortion
-    - tape
-    - tube
-    - mix
-    - master
-  good_for: multiband saturation; warm bass low band while keeping highs clean;
-    parallel warmth on a bus
+  - saturation
+  - multiband
+  - warmth
+  - distortion
+  - tape
+  - tube
+  - mix
+  - master
+  good_for: multiband saturation; warm bass low band while keeping highs clean; parallel warmth on a bus
 fabfilter-simplon:
   path: effects/fabfilter-simplon.yaml
   id: fabfilter-simplon
@@ -842,7 +834,7 @@ fabfilter-simplon:
   format: vst3
   name: FabFilter Simplon
   tags: []
-  good_for: ""
+  good_for: ''
 fabfilter-timeless-3:
   path: effects/fabfilter-timeless-3.yaml
   id: fabfilter-timeless-3
@@ -850,10 +842,10 @@ fabfilter-timeless-3:
   format: vst3
   name: FabFilter Timeless 3
   tags:
-    - delay
-    - modulation
-    - creative
-    - tape
+  - delay
+  - modulation
+  - creative
+  - tape
   good_for: creative delays with modulated filters and drive
 fabfilter-twin-3:
   path: instruments/fabfilter-twin-3.yaml
@@ -862,7 +854,7 @@ fabfilter-twin-3:
   format: vst3
   name: FabFilter Twin 3
   tags: []
-  good_for: ""
+  good_for: ''
 fabfilter-volcano-3:
   path: effects/fabfilter-volcano-3.yaml
   id: fabfilter-volcano-3
@@ -870,7 +862,7 @@ fabfilter-volcano-3:
   format: vst3
   name: FabFilter Volcano 3
   tags: []
-  good_for: ""
+  good_for: ''
 intersect:
   path: effects/intersect.yaml
   id: intersect
@@ -878,7 +870,7 @@ intersect:
   format: vst3
   name: INTERSECT
   tags: []
-  good_for: ""
+  good_for: ''
 nectar-4-auto-level:
   path: effects/nectar-4-auto-level.yaml
   id: nectar-4-auto-level
@@ -886,8 +878,8 @@ nectar-4-auto-level:
   format: vst3
   name: Nectar 4 Auto-Level
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-backer:
   path: effects/nectar-4-backer.yaml
   id: nectar-4-backer
@@ -895,8 +887,8 @@ nectar-4-backer:
   format: vst3
   name: Nectar 4 Backer
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-breath-control:
   path: effects/nectar-4-breath-control.yaml
   id: nectar-4-breath-control
@@ -904,8 +896,8 @@ nectar-4-breath-control:
   format: vst3
   name: Nectar 4 Breath Control
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-compressor:
   path: effects/nectar-4-compressor.yaml
   id: nectar-4-compressor
@@ -913,8 +905,8 @@ nectar-4-compressor:
   format: vst3
   name: Nectar 4 Compressor
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-deesser:
   path: effects/nectar-4-deesser.yaml
   id: nectar-4-deesser
@@ -922,8 +914,8 @@ nectar-4-deesser:
   format: vst3
   name: Nectar 4 DeEsser
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-delay:
   path: effects/nectar-4-delay.yaml
   id: nectar-4-delay
@@ -931,8 +923,8 @@ nectar-4-delay:
   format: vst3
   name: Nectar 4 Delay
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-dimension:
   path: effects/nectar-4-dimension.yaml
   id: nectar-4-dimension
@@ -940,8 +932,8 @@ nectar-4-dimension:
   format: vst3
   name: Nectar 4 Dimension
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-equalizer:
   path: effects/nectar-4-equalizer.yaml
   id: nectar-4-equalizer
@@ -949,8 +941,8 @@ nectar-4-equalizer:
   format: vst3
   name: Nectar 4 Equalizer
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-gate:
   path: effects/nectar-4-gate.yaml
   id: nectar-4-gate
@@ -958,8 +950,8 @@ nectar-4-gate:
   format: vst3
   name: Nectar 4 Gate
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-pitch:
   path: effects/nectar-4-pitch.yaml
   id: nectar-4-pitch
@@ -967,8 +959,8 @@ nectar-4-pitch:
   format: vst3
   name: Nectar 4 Pitch
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-reverb:
   path: effects/nectar-4-reverb.yaml
   id: nectar-4-reverb
@@ -976,8 +968,8 @@ nectar-4-reverb:
   format: vst3
   name: Nectar 4 Reverb
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-saturation:
   path: effects/nectar-4-saturation.yaml
   id: nectar-4-saturation
@@ -985,8 +977,8 @@ nectar-4-saturation:
   format: vst3
   name: Nectar 4 Saturation
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4-voices:
   path: effects/nectar-4-voices.yaml
   id: nectar-4-voices
@@ -994,8 +986,8 @@ nectar-4-voices:
   format: vst3
   name: Nectar 4 Voices
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 nectar-4:
   path: effects/nectar-4.yaml
   id: nectar-4
@@ -1003,11 +995,11 @@ nectar-4:
   format: vst3
   name: Nectar 4
   tags:
-    - vocal
-    - channel-strip
-    - pitch
-    - de-ess
-    - harmony
+  - vocal
+  - channel-strip
+  - pitch
+  - de-ess
+  - harmony
   good_for: vocal chain in one device; pitch correction, breath control, backing voices
 neoverb:
   path: effects/neoverb.yaml
@@ -1016,7 +1008,7 @@ neoverb:
   format: vst3
   name: Neoverb
   tags: []
-  good_for: ""
+  good_for: ''
 neutron-5-clipper:
   path: effects/neutron-5-clipper.yaml
   id: neutron-5-clipper
@@ -1024,8 +1016,8 @@ neutron-5-clipper:
   format: vst3
   name: Neutron 5 Clipper
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 neutron-5-compressor:
   path: effects/neutron-5-compressor.yaml
   id: neutron-5-compressor
@@ -1033,8 +1025,8 @@ neutron-5-compressor:
   format: vst3
   name: Neutron 5 Compressor
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 neutron-5-density:
   path: effects/neutron-5-density.yaml
   id: neutron-5-density
@@ -1042,8 +1034,8 @@ neutron-5-density:
   format: vst3
   name: Neutron 5 Density
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 neutron-5-equalizer:
   path: effects/neutron-5-equalizer.yaml
   id: neutron-5-equalizer
@@ -1051,8 +1043,8 @@ neutron-5-equalizer:
   format: vst3
   name: Neutron 5 Equalizer
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 neutron-5-exciter:
   path: effects/neutron-5-exciter.yaml
   id: neutron-5-exciter
@@ -1060,8 +1052,8 @@ neutron-5-exciter:
   format: vst3
   name: Neutron 5 Exciter
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 neutron-5-gate:
   path: effects/neutron-5-gate.yaml
   id: neutron-5-gate
@@ -1069,8 +1061,8 @@ neutron-5-gate:
   format: vst3
   name: Neutron 5 Gate
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 neutron-5-phase:
   path: effects/neutron-5-phase.yaml
   id: neutron-5-phase
@@ -1078,8 +1070,8 @@ neutron-5-phase:
   format: vst3
   name: Neutron 5 Phase
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 neutron-5-sculptor:
   path: effects/neutron-5-sculptor.yaml
   id: neutron-5-sculptor
@@ -1087,8 +1079,8 @@ neutron-5-sculptor:
   format: vst3
   name: Neutron 5 Sculptor
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 neutron-5-transient-shaper:
   path: effects/neutron-5-transient-shaper.yaml
   id: neutron-5-transient-shaper
@@ -1096,8 +1088,8 @@ neutron-5-transient-shaper:
   format: vst3
   name: Neutron 5 Transient Shaper
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 neutron-5-unmask:
   path: effects/neutron-5-unmask.yaml
   id: neutron-5-unmask
@@ -1105,8 +1097,8 @@ neutron-5-unmask:
   format: vst3
   name: Neutron 5 Unmask
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 neutron-5-visual-mixer:
   path: effects/neutron-5-visual-mixer.yaml
   id: neutron-5-visual-mixer
@@ -1114,8 +1106,8 @@ neutron-5-visual-mixer:
   format: vst3
   name: Neutron 5 Visual Mixer
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 neutron-5:
   path: effects/neutron-5.yaml
   id: neutron-5
@@ -1123,12 +1115,12 @@ neutron-5:
   format: vst3
   name: Neutron 5
   tags:
-    - mixing
-    - channel-strip
-    - eq
-    - compressor
-    - unmask
-    - ai-assist
+  - mixing
+  - channel-strip
+  - eq
+  - compressor
+  - unmask
+  - ai-assist
   good_for: per-track channel strip; Unmask to carve space between bass and kick
 ozone-12-bass-control:
   path: effects/ozone-12-bass-control.yaml
@@ -1137,8 +1129,8 @@ ozone-12-bass-control:
   format: vst3
   name: Ozone 12 Bass Control
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-clarity:
   path: effects/ozone-12-clarity.yaml
   id: ozone-12-clarity
@@ -1146,8 +1138,8 @@ ozone-12-clarity:
   format: vst3
   name: Ozone 12 Clarity
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-dynamic-eq:
   path: effects/ozone-12-dynamic-eq.yaml
   id: ozone-12-dynamic-eq
@@ -1155,8 +1147,8 @@ ozone-12-dynamic-eq:
   format: vst3
   name: Ozone 12 Dynamic EQ
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-dynamics:
   path: effects/ozone-12-dynamics.yaml
   id: ozone-12-dynamics
@@ -1164,8 +1156,8 @@ ozone-12-dynamics:
   format: vst3
   name: Ozone 12 Dynamics
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-equalizer:
   path: effects/ozone-12-equalizer.yaml
   id: ozone-12-equalizer
@@ -1173,8 +1165,8 @@ ozone-12-equalizer:
   format: vst3
   name: Ozone 12 Equalizer
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-exciter:
   path: effects/ozone-12-exciter.yaml
   id: ozone-12-exciter
@@ -1182,8 +1174,8 @@ ozone-12-exciter:
   format: vst3
   name: Ozone 12 Exciter
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-imager:
   path: effects/ozone-12-imager.yaml
   id: ozone-12-imager
@@ -1191,8 +1183,8 @@ ozone-12-imager:
   format: vst3
   name: Ozone 12 Imager
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-impact:
   path: effects/ozone-12-impact.yaml
   id: ozone-12-impact
@@ -1200,8 +1192,8 @@ ozone-12-impact:
   format: vst3
   name: Ozone 12 Impact
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-low-end-focus:
   path: effects/ozone-12-low-end-focus.yaml
   id: ozone-12-low-end-focus
@@ -1209,8 +1201,8 @@ ozone-12-low-end-focus:
   format: vst3
   name: Ozone 12 Low End Focus
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-master-rebalance:
   path: effects/ozone-12-master-rebalance.yaml
   id: ozone-12-master-rebalance
@@ -1218,8 +1210,8 @@ ozone-12-master-rebalance:
   format: vst3
   name: Ozone 12 Master Rebalance
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-match-eq:
   path: effects/ozone-12-match-eq.yaml
   id: ozone-12-match-eq
@@ -1227,8 +1219,8 @@ ozone-12-match-eq:
   format: vst3
   name: Ozone 12 Match EQ
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-maximizer:
   path: effects/ozone-12-maximizer.yaml
   id: ozone-12-maximizer
@@ -1236,8 +1228,8 @@ ozone-12-maximizer:
   format: vst3
   name: Ozone 12 Maximizer
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-spectral-shaper:
   path: effects/ozone-12-spectral-shaper.yaml
   id: ozone-12-spectral-shaper
@@ -1245,8 +1237,8 @@ ozone-12-spectral-shaper:
   format: vst3
   name: Ozone 12 Spectral Shaper
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-stabilizer:
   path: effects/ozone-12-stabilizer.yaml
   id: ozone-12-stabilizer
@@ -1254,8 +1246,8 @@ ozone-12-stabilizer:
   format: vst3
   name: Ozone 12 Stabilizer
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-stem-eq:
   path: effects/ozone-12-stem-eq.yaml
   id: ozone-12-stem-eq
@@ -1263,8 +1255,8 @@ ozone-12-stem-eq:
   format: vst3
   name: Ozone 12 Stem EQ
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-unlimiter:
   path: effects/ozone-12-unlimiter.yaml
   id: ozone-12-unlimiter
@@ -1272,8 +1264,8 @@ ozone-12-unlimiter:
   format: vst3
   name: Ozone 12 Unlimiter
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-vintage-compressor:
   path: effects/ozone-12-vintage-compressor.yaml
   id: ozone-12-vintage-compressor
@@ -1281,8 +1273,8 @@ ozone-12-vintage-compressor:
   format: vst3
   name: Ozone 12 Vintage Compressor
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-vintage-eq:
   path: effects/ozone-12-vintage-eq.yaml
   id: ozone-12-vintage-eq
@@ -1290,8 +1282,8 @@ ozone-12-vintage-eq:
   format: vst3
   name: Ozone 12 Vintage EQ
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-vintage-limiter:
   path: effects/ozone-12-vintage-limiter.yaml
   id: ozone-12-vintage-limiter
@@ -1299,8 +1291,8 @@ ozone-12-vintage-limiter:
   format: vst3
   name: Ozone 12 Vintage Limiter
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12-vintage-tape:
   path: effects/ozone-12-vintage-tape.yaml
   id: ozone-12-vintage-tape
@@ -1308,8 +1300,8 @@ ozone-12-vintage-tape:
   format: vst3
   name: Ozone 12 Vintage Tape
   tags:
-    - component
-  good_for: ""
+  - component
+  good_for: ''
 ozone-12:
   path: effects/ozone-12.yaml
   id: ozone-12
@@ -1317,12 +1309,12 @@ ozone-12:
   format: vst3
   name: Ozone 12
   tags:
-    - mastering
-    - master
-    - limiter
-    - eq
-    - imager
-    - ai-assist
+  - mastering
+  - master
+  - limiter
+  - eq
+  - imager
+  - ai-assist
   good_for: mastering chain on the master track; Master Assistant for a starting point
 tonal-balance-control-2:
   path: effects/tonal-balance-control-2.yaml
@@ -1331,7 +1323,7 @@ tonal-balance-control-2:
   format: vst3
   name: Tonal Balance Control 2
   tags: []
-  good_for: ""
+  good_for: ''
 vocalsynth-2:
   path: effects/vocalsynth-2.yaml
   id: vocalsynth-2
@@ -1339,7 +1331,7 @@ vocalsynth-2:
   format: vst3
   name: VocalSynth 2
   tags: []
-  good_for: ""
+  good_for: ''
 k1v:
   path: instruments/k1v.yaml
   id: k1v
@@ -1347,7 +1339,7 @@ k1v:
   format: vst3
   name: K1v
   tags: []
-  good_for: ""
+  good_for: ''
 neutone-morpho:
   path: effects/neutone-morpho.yaml
   id: neutone-morpho
@@ -1355,10 +1347,10 @@ neutone-morpho:
   format: vst3
   name: Neutone Morpho
   tags:
-    - ai
-    - tone-transfer
-    - experimental
-    - textures
+  - ai
+  - tone-transfer
+  - experimental
+  - textures
   good_for: neural tone transfer; turn a hum into a violin, drums into a voice
 paulxstretch:
   path: effects/paulxstretch.yaml
@@ -1367,11 +1359,11 @@ paulxstretch:
   format: vst3
   name: PaulXStretch
   tags:
-    - stretch
-    - ambient
-    - textures
-    - granular
-    - free
+  - stretch
+  - ambient
+  - textures
+  - granular
+  - free
   good_for: extreme time-stretching any sample into a pad or drone
 speedrumlite:
   path: instruments/speedrumlite.yaml
@@ -1380,7 +1372,7 @@ speedrumlite:
   format: vst3
   name: SpeedrumLite
   tags: []
-  good_for: ""
+  good_for: ''
 surge-xt-effects:
   path: effects/surge-xt-effects.yaml
   id: surge-xt-effects
@@ -1388,7 +1380,7 @@ surge-xt-effects:
   format: vst3
   name: Surge XT Effects
   tags: []
-  good_for: ""
+  good_for: ''
 surge-xt:
   path: instruments/surge-xt.yaml
   id: surge-xt
@@ -1396,17 +1388,16 @@ surge-xt:
   format: vst3
   name: Surge XT
   tags:
-    - synth
-    - hybrid
-    - wavetable
-    - fm
-    - bass
-    - leads
-    - pads
-    - free
-    - deep
-  good_for: anything; huge preset bank, 3 osc per scene, great for aggressive bass
-    and lush pads
+  - synth
+  - hybrid
+  - wavetable
+  - fm
+  - bass
+  - leads
+  - pads
+  - free
+  - deep
+  good_for: anything; huge preset bank, 3 osc per scene, great for aggressive bass and lush pads
 dpmeter5:
   path: effects/dpmeter5.yaml
   id: dpmeter5
@@ -1414,7 +1405,7 @@ dpmeter5:
   format: vst3
   name: dpMeter5
   tags: []
-  good_for: ""
+  good_for: ''
 tdr-nova:
   path: effects/tdr-nova.yaml
   id: tdr-nova
@@ -1422,10 +1413,10 @@ tdr-nova:
   format: vst3
   name: TDR Nova
   tags:
-    - dynamic-eq
-    - eq
-    - free
-    - mix
+  - dynamic-eq
+  - eq
+  - free
+  - mix
   good_for: dynamic EQ when Pro-Q is overkill
 valhallasupermassive:
   path: effects/valhallasupermassive.yaml
@@ -1434,12 +1425,12 @@ valhallasupermassive:
   format: vst3
   name: ValhallaSupermassive
   tags:
-    - reverb
-    - delay
-    - ambient
-    - huge
-    - free
-    - pads
+  - reverb
+  - delay
+  - ambient
+  - huge
+  - free
+  - pads
   good_for: enormous washes and clouds on pads and vocals; delay-into-reverb modes
 pack-build-and-drop:
   path: packs/pack-build-and-drop.yaml
@@ -1448,11 +1439,11 @@ pack-build-and-drop:
   format: pack
   name: Build and Drop
   tags:
-    - edm
-    - build
-    - risers
-    - drop
-    - fx
+  - edm
+  - build
+  - risers
+  - drop
+  - fx
   good_for: riser and drop effect racks
 pack-chop-and-swing:
   path: packs/pack-chop-and-swing.yaml
@@ -1461,11 +1452,11 @@ pack-chop-and-swing:
   format: pack
   name: Chop and Swing
   tags:
-    - hip-hop
-    - chop
-    - swing
-    - sampling
-    - lo-fi
+  - hip-hop
+  - chop
+  - swing
+  - sampling
+  - lo-fi
   good_for: sample-chopping racks and swung grooves
 pack-convolution-reverb:
   path: packs/pack-convolution-reverb.yaml
@@ -1474,7 +1465,7 @@ pack-convolution-reverb:
   format: pack
   name: Convolution Reverb
   tags: []
-  good_for: ""
+  good_for: ''
 pack-creative-extensions:
   path: packs/pack-creative-extensions.yaml
   id: pack-creative-extensions
@@ -1482,7 +1473,7 @@ pack-creative-extensions:
   format: pack
   name: Creative Extensions
   tags: []
-  good_for: ""
+  good_for: ''
 pack-cv-tools:
   path: packs/pack-cv-tools.yaml
   id: pack-cv-tools
@@ -1490,7 +1481,7 @@ pack-cv-tools:
   format: pack
   name: CV Tools
   tags: []
-  good_for: ""
+  good_for: ''
 pack-drive-and-glow:
   path: packs/pack-drive-and-glow.yaml
   id: pack-drive-and-glow
@@ -1498,10 +1489,10 @@ pack-drive-and-glow:
   format: pack
   name: Drive and Glow
   tags:
-    - saturation
-    - racks
-    - warmth
-    - distortion
+  - saturation
+  - racks
+  - warmth
+  - distortion
   good_for: saturation and warmth effect racks
 pack-drum-booth:
   path: packs/pack-drum-booth.yaml
@@ -1510,10 +1501,10 @@ pack-drum-booth:
   format: pack
   name: Drum Booth
   tags:
-    - acoustic
-    - drums
-    - live
-    - kits
+  - acoustic
+  - drums
+  - live
+  - kits
   good_for: acoustic drum kits recorded in a room
 pack-drum-essentials:
   path: packs/pack-drum-essentials.yaml
@@ -1522,11 +1513,11 @@ pack-drum-essentials:
   format: pack
   name: Drum Essentials
   tags:
-    - drums
-    - electronic
-    - kits
-    - house
-    - techno
+  - drums
+  - electronic
+  - kits
+  - house
+  - techno
   good_for: general electronic kits across genres
 pack-electric-keyboards:
   path: packs/pack-electric-keyboards.yaml
@@ -1535,11 +1526,11 @@ pack-electric-keyboards:
   format: pack
   name: Electric Keyboards
   tags:
-    - keys
-    - rhodes
-    - wurlitzer
-    - clav
-    - sampled
+  - keys
+  - rhodes
+  - wurlitzer
+  - clav
+  - sampled
   good_for: sampled electric pianos and clav
 pack-expressive-chords:
   path: packs/pack-expressive-chords.yaml
@@ -1548,7 +1539,7 @@ pack-expressive-chords:
   format: pack
   name: Expressive Chords
   tags: []
-  good_for: ""
+  good_for: ''
 pack-generators-by-iftah:
   path: packs/pack-generators-by-iftah.yaml
   id: pack-generators-by-iftah
@@ -1556,7 +1547,7 @@ pack-generators-by-iftah:
   format: pack
   name: Generators by Iftah
   tags: []
-  good_for: ""
+  good_for: ''
 pack-golden-era-hip-hop-drums-by-sound-oracle:
   path: packs/pack-golden-era-hip-hop-drums-by-sound-oracle.yaml
   id: pack-golden-era-hip-hop-drums-by-sound-oracle
@@ -1564,11 +1555,11 @@ pack-golden-era-hip-hop-drums-by-sound-oracle:
   format: pack
   name: Golden Era Hip-Hop Drums by Sound Oracle
   tags:
-    - hip-hop
-    - boom-bap
-    - drums
-    - dusty
-    - kits
+  - hip-hop
+  - boom-bap
+  - drums
+  - dusty
+  - kits
   good_for: 90s boom-bap kits and breaks
 pack-granulator-iii:
   path: packs/pack-granulator-iii.yaml
@@ -1577,10 +1568,10 @@ pack-granulator-iii:
   format: pack
   name: Granulator III
   tags:
-    - granular
-    - m4l
-    - textures
-    - pads
+  - granular
+  - m4l
+  - textures
+  - pads
   good_for: granular pads and textures from any sample
 pack-guitar-and-bass:
   path: packs/pack-guitar-and-bass.yaml
@@ -1589,7 +1580,7 @@ pack-guitar-and-bass:
   format: pack
   name: Guitar and Bass
   tags: []
-  good_for: ""
+  good_for: ''
 pack-microtuner:
   path: packs/pack-microtuner.yaml
   id: pack-microtuner
@@ -1597,7 +1588,7 @@ pack-microtuner:
   format: pack
   name: Microtuner
   tags: []
-  good_for: ""
+  good_for: ''
 pack-midi-tools-by-philip-meyer:
   path: packs/pack-midi-tools-by-philip-meyer.yaml
   id: pack-midi-tools-by-philip-meyer
@@ -1605,7 +1596,7 @@ pack-midi-tools-by-philip-meyer:
   format: pack
   name: MIDI Tools by Philip Meyer
   tags: []
-  good_for: ""
+  good_for: ''
 pack-orchestral-brass:
   path: packs/pack-orchestral-brass.yaml
   id: pack-orchestral-brass
@@ -1613,10 +1604,10 @@ pack-orchestral-brass:
   format: pack
   name: Orchestral Brass
   tags:
-    - brass
-    - orchestral
-    - sampled
-    - cinematic
+  - brass
+  - orchestral
+  - sampled
+  - cinematic
   good_for: brass sections
 pack-orchestral-strings:
   path: packs/pack-orchestral-strings.yaml
@@ -1625,10 +1616,10 @@ pack-orchestral-strings:
   format: pack
   name: Orchestral Strings
   tags:
-    - strings
-    - orchestral
-    - sampled
-    - cinematic
+  - strings
+  - orchestral
+  - sampled
+  - cinematic
   good_for: string sections and solo strings
 pack-performance-pack-by-iftah:
   path: packs/pack-performance-pack-by-iftah.yaml
@@ -1637,7 +1628,7 @@ pack-performance-pack-by-iftah:
   format: pack
   name: Performance Pack by Iftah
   tags: []
-  good_for: ""
+  good_for: ''
 pack-pitchloop89:
   path: packs/pack-pitchloop89.yaml
   id: pack-pitchloop89
@@ -1645,7 +1636,7 @@ pack-pitchloop89:
   format: pack
   name: PitchLoop89
   tags: []
-  good_for: ""
+  good_for: ''
 pack-punch-and-tilt:
   path: packs/pack-punch-and-tilt.yaml
   id: pack-punch-and-tilt
@@ -1653,10 +1644,10 @@ pack-punch-and-tilt:
   format: pack
   name: Punch and Tilt
   tags:
-    - drums
-    - racks
-    - transient
-    - eq
+  - drums
+  - racks
+  - transient
+  - eq
   good_for: drum-shaping effect racks
 pack-sequencers:
   path: packs/pack-sequencers.yaml
@@ -1665,10 +1656,10 @@ pack-sequencers:
   format: pack
   name: Sequencers
   tags:
-    - m4l
-    - sequencer
-    - midi
-    - generative
+  - m4l
+  - sequencer
+  - midi
+  - generative
   good_for: step and generative MIDI sequencers
 pack-surround-panner:
   path: packs/pack-surround-panner.yaml
@@ -1677,7 +1668,7 @@ pack-surround-panner:
   format: pack
   name: Surround Panner
   tags: []
-  good_for: ""
+  good_for: ''
 pack-synth-essentials:
   path: packs/pack-synth-essentials.yaml
   id: pack-synth-essentials
@@ -1685,11 +1676,11 @@ pack-synth-essentials:
   format: pack
   name: Synth Essentials
   tags:
-    - synth
-    - presets
-    - bass
-    - leads
-    - pads
+  - synth
+  - presets
+  - bass
+  - leads
+  - pads
   good_for: curated native synth presets by role
 pack-trap-drums-by-sound-oracle:
   path: packs/pack-trap-drums-by-sound-oracle.yaml
@@ -1698,11 +1689,11 @@ pack-trap-drums-by-sound-oracle:
   format: pack
   name: Trap Drums by Sound Oracle
   tags:
-    - trap
-    - drums
-    - "808"
-    - hats
-    - kits
+  - trap
+  - drums
+  - '808'
+  - hats
+  - kits
   good_for: trap kits, 808s, hi-hat one-shots
 pack-upright-piano-by-spitfire-audio:
   path: packs/pack-upright-piano-by-spitfire-audio.yaml
@@ -1711,10 +1702,10 @@ pack-upright-piano-by-spitfire-audio:
   format: pack
   name: Upright Piano by Spitfire Audio
   tags:
-    - piano
-    - upright
-    - sampled
-    - intimate
+  - piano
+  - upright
+  - sampled
+  - intimate
   good_for: intimate felt-style upright piano
 pack-voice-box:
   path: packs/pack-voice-box.yaml
@@ -1723,4 +1714,24 @@ pack-voice-box:
   format: pack
   name: Voice Box
   tags: []
-  good_for: ""
+  good_for: ''
+serum2:
+  path: instruments/serum2.yaml
+  id: serum2
+  kind: instrument
+  format: vst3
+  name: Serum 2
+  tags:
+  - synth
+  - wavetable
+  - granular
+  - spectral
+  - bass
+  - leads
+  - stabs
+  - ukg
+  - speed-garage
+  - tech-house
+  - womp
+  good_for: UKG and speed garage bass - womps, Reese, sub plus driven mid. Three oscillators, two filters and dual warp make
+    the waveform-warping route to harmonics (FM, ring mod, hard sync) straightforward

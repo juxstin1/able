@@ -1,0 +1,60 @@
+{
+  "folder": "C:\\Users\\juxxs\\Desktop\\able\\project-files\\Sound Bed - B minor",
+  "bpm": 120,
+  "key": "B minor",
+  "bars": 8,
+  "startBeat": 0,
+  "startBar": 1,
+  "endBar": 8,
+  "tracks": [
+    {
+      "name": "BED - Kick",
+      "trackId": "live_1548563696",
+      "clipId": "live_1502259440",
+      "notes": 32,
+      "start": 0,
+      "end": 32,
+      "verified": true
+    },
+    {
+      "name": "BED - Clap",
+      "trackId": "live_1931269888",
+      "clipId": "live_1570594992",
+      "notes": 16,
+      "start": 0,
+      "end": 32,
+      "verified": true
+    },
+    {
+      "name": "BED - Hats",
+      "trackId": "live_1259122384",
+      "clipId": "live_1491839968",
+      "notes": 48,
+      "start": 0,
+      "end": 32,
+      "verified": true
+    },
+    {
+      "name": "BED - Round Bass",
+      "trackId": "live_3045757768",
+      "clipId": "live_3045737808",
+      "notes": 32,
+      "start": 0,
+      "end": 32,
+      "verified": true
+    },
+    {
+      "name": "BED - Soft Chords",
+      "trackId": "live_1405354760",
+      "clipId": "live_1404398696",
+      "notes": 32,
+      "start": 0,
+      "end": 32,
+      "verified": true
+    }
+  ],
+  "playTrackId": "live_1404347040",
+  "existingStructureUnchanged": true,
+  "playing": false,
+  "parametersVerified": 29
+}

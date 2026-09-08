@@ -1,0 +1,79 @@
+{
+  "observedExistingPlayback": true,
+  "startPosition": 149.31654826070996,
+  "endPosition": 166.5520811688317,
+  "levels": [
+    {
+      "name": "U5 Marimba",
+      "peak": 0.6742162108421326
+    },
+    {
+      "name": "U5 Electric Piano",
+      "peak": 0.4811570942401886
+    },
+    {
+      "name": "Master",
+      "peak": 0.926834225654602
+    }
+  ],
+  "tracks": [
+    {
+      "name": "U5 Marimba",
+      "mute": false,
+      "solo": false,
+      "mutedViaSolo": false,
+      "clips": [
+        {
+          "name": "Marimba | quiet opening",
+          "start": 0,
+          "end": 32
+        },
+        {
+          "name": "Marimba | kick-free passage",
+          "start": 128,
+          "end": 160
+        },
+        {
+          "name": "Marimba | last answer",
+          "start": 192,
+          "end": 208
+        }
+      ]
+    },
+    {
+      "name": "U5 Electric Piano",
+      "mute": false,
+      "solo": false,
+      "mutedViaSolo": false,
+      "clips": [
+        {
+          "name": "Electric piano | opening",
+          "start": 0,
+          "end": 32
+        },
+        {
+          "name": "Electric piano | under the riff",
+          "start": 64,
+          "end": 128
+        },
+        {
+          "name": "Electric piano | open space",
+          "start": 128,
+          "end": 160
+        },
+        {
+          "name": "Electric piano | return",
+          "start": 160,
+          "end": 192
+        },
+        {
+          "name": "Electric piano | ending",
+          "start": 192,
+          "end": 224
+        }
+      ]
+    }
+  ],
+  "masterDevices": [],
+  "noMeterReachedOne": true
+}

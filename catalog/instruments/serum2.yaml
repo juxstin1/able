@@ -1,0 +1,49 @@
+tags:
+  - synth
+  - wavetable
+  - granular
+  - spectral
+  - bass
+  - leads
+  - stabs
+  - ukg
+  - speed-garage
+  - tech-house
+  - womp
+good_for: UKG and speed garage bass - womps, Reese, sub plus driven mid. Three
+  oscillators, two filters and dual warp make the waveform-warping route to
+  harmonics (FM, ring mod, hard sync) straightforward
+avoid: when Operator would do. John Summit's rolling tech house bass is one
+  Operator saw with pitch bend drawn into the clip - reaching for Serum there is
+  the wrong instinct
+key_params:
+  - osc A/B wavetable + OCT
+  - warp menu 1/2
+  - filter type, cutoff, res, drive
+  - env 2 -> cutoff (this is the womp)
+  - macros 1-8
+presets: []
+notes: >-
+  Serum 2 (v2.0.16, 17 Mar 2025), free upgrade from Serum 1, both can stay
+  installed. Serum 1 presets load but Xfer only claims they load, not that they
+  sound identical - the changelog carries S1 Warp-modulation compatibility fixes
+  and a "Re-import Serum 1 Data" action. Leave finished tracks on Serum 1, start
+  new work here.
+
+  Factory wavetables live in Documents/Xfer/Serum 2 Presets/Tables/. Speed garage
+  womp starting point - Tables/Analog/BSOD_Square.wav on two oscillators at
+  OCT -2 into MG Low 18, env 2 to cutoff at attack 770 ms, decay 1.00 s,
+  sustain 100%, release 15 ms. Read off a tutorial frame and confirmed against
+  the installed wavetable file. See learn/claims.yaml.
+id: serum2
+kind: instrument
+format: vst3
+name: Serum 2
+source: C:\Program Files\Common Files\VST3\Serum2.vst3
+load:
+  root: plugins
+  path:
+    - VST3
+    - Xfer Records
+    - Serum 2
+  uri: query:Plugins#VST3:Xfer%20Records:Serum%202

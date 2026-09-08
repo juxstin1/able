@@ -1,0 +1,176 @@
+[
+  {
+    "track": "BED - Clap",
+    "device": "Reverb",
+    "param": "Dry/Wet",
+    "value": 0.07500000298023224
+  },
+  {
+    "track": "BED - Clap",
+    "device": "Reverb",
+    "param": "Decay Time",
+    "value": 0.23999999463558197
+  },
+  {
+    "track": "BED - Clap",
+    "device": "Reverb",
+    "param": "Room Size",
+    "value": 0.41999995708465576
+  },
+  {
+    "track": "BED - Clap",
+    "device": "Reverb",
+    "param": "In Lo Cut On",
+    "value": 1
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Osc-A Wave",
+    "value": 19
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Osc-A Level",
+    "value": 1
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Osc-B Level",
+    "value": 0
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Osc-C Level",
+    "value": 0
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Osc-D Level",
+    "value": 0
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Ae Attack",
+    "value": 0.10000000149011612
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Ae Decay",
+    "value": 0.4300000071525574
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Ae Sustain",
+    "value": 0.8199999928474426
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Ae Release",
+    "value": 0.36000001430511475
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Pe On",
+    "value": 0
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Glide On",
+    "value": 0
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Filter On",
+    "value": 0
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Operator",
+    "param": "Volume",
+    "value": 0.4000000059604645
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Utility",
+    "param": "Mono",
+    "value": 1
+  },
+  {
+    "track": "BED - Round Bass",
+    "device": "Utility",
+    "param": "DC Filter",
+    "value": 1
+  },
+  {
+    "track": "BED - Soft Chords",
+    "device": "EQ Eight",
+    "param": "1 Filter On A",
+    "value": 1
+  },
+  {
+    "track": "BED - Soft Chords",
+    "device": "EQ Eight",
+    "param": "1 Filter Type A",
+    "value": 1
+  },
+  {
+    "track": "BED - Soft Chords",
+    "device": "EQ Eight",
+    "param": "1 Frequency A",
+    "value": 0.3518679141998291
+  },
+  {
+    "track": "BED - Soft Chords",
+    "device": "EQ Eight",
+    "param": "8 Filter On A",
+    "value": 1
+  },
+  {
+    "track": "BED - Soft Chords",
+    "device": "EQ Eight",
+    "param": "8 Filter Type A",
+    "value": 6
+  },
+  {
+    "track": "BED - Soft Chords",
+    "device": "EQ Eight",
+    "param": "8 Frequency A",
+    "value": 0.8021849989891052
+  },
+  {
+    "track": "BED - Soft Chords",
+    "device": "Reverb",
+    "param": "Dry/Wet",
+    "value": 0.25
+  },
+  {
+    "track": "BED - Soft Chords",
+    "device": "Reverb",
+    "param": "Decay Time",
+    "value": 0.3799999952316284
+  },
+  {
+    "track": "BED - Soft Chords",
+    "device": "Reverb",
+    "param": "Room Size",
+    "value": 0.7400000095367432
+  },
+  {
+    "track": "BED - Soft Chords",
+    "device": "Reverb",
+    "param": "In Lo Cut On",
+    "value": 1
+  }
+]

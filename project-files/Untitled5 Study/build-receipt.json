@@ -1,0 +1,75 @@
+{
+  "bpm": 123.69999694824219,
+  "beats": 64,
+  "tracks": [
+    {
+      "name": "U5 Riff",
+      "notes": 384,
+      "start": 0,
+      "end": 64,
+      "maxTimingErrorBeats": 0,
+      "devices": [
+        "Bright SAW Lead",
+        "EQ Eight",
+        "Chorus-Ensemble",
+        "Reverb"
+      ]
+    },
+    {
+      "name": "U5 Chords",
+      "notes": 80,
+      "start": 0,
+      "end": 64,
+      "maxTimingErrorBeats": 0,
+      "devices": [
+        "Johnny's Soft Pad",
+        "EQ Eight",
+        "Reverb"
+      ]
+    },
+    {
+      "name": "U5 Bass",
+      "notes": 16,
+      "start": 0,
+      "end": 64,
+      "maxTimingErrorBeats": 0,
+      "devices": [
+        "Operator",
+        "Saturator",
+        "EQ Eight",
+        "Utility"
+      ]
+    },
+    {
+      "name": "U5 Kick",
+      "notes": 64,
+      "start": 0,
+      "end": 64,
+      "maxTimingErrorBeats": 0,
+      "devices": [
+        "909 Core Kit"
+      ]
+    },
+    {
+      "name": "U5 Clap",
+      "notes": 32,
+      "start": 0,
+      "end": 64,
+      "maxTimingErrorBeats": 0,
+      "devices": [
+        "909 Core Kit",
+        "Reverb"
+      ]
+    },
+    {
+      "name": "U5 Hats optional",
+      "notes": 128,
+      "start": 0,
+      "end": 64,
+      "maxTimingErrorBeats": 0,
+      "devices": [
+        "909 Core Kit"
+      ]
+    }
+  ]
+}

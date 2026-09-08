@@ -1,0 +1,2484 @@
+{
+  "U5 Marimba": [
+    {
+      "name": "Marimba Classic",
+      "params": [
+        {
+          "name": "Device On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Structure",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "PB Range",
+          "min": 0,
+          "max": 24,
+          "value": 5
+        },
+        {
+          "name": "Voices",
+          "min": 0,
+          "max": 8,
+          "value": 6
+        },
+        {
+          "name": "Retrigger",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Volume",
+          "min": 0,
+          "max": 1,
+          "value": 0.27562499046325684
+        },
+        {
+          "name": "Note PB Range",
+          "min": 0,
+          "max": 48,
+          "value": 48
+        },
+        {
+          "name": "Mallet On/Off",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Mallet Volume",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Mallet Volume < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 3.7795276641845703
+        },
+        {
+          "name": "Mallet Volume < Key",
+          "min": -2,
+          "max": 2,
+          "value": -0.90625
+        },
+        {
+          "name": "Mallet Stiffness",
+          "min": 0,
+          "max": 1,
+          "value": 0.9365079402923584
+        },
+        {
+          "name": "Mallet Stiffness < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0.625
+        },
+        {
+          "name": "Mallet Stiffness < Key",
+          "min": -2,
+          "max": 2,
+          "value": -0.21875
+        },
+        {
+          "name": "Mallet Noise Amount",
+          "min": 0,
+          "max": 1,
+          "value": 0.3492063581943512
+        },
+        {
+          "name": "Mallet Noise Amount < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 3.7795276641845703
+        },
+        {
+          "name": "Mallet Noise Amount < Key",
+          "min": -2,
+          "max": 2,
+          "value": 0
+        },
+        {
+          "name": "Mallet Noise Color",
+          "min": 0,
+          "max": 1,
+          "value": 0.5158730149269104
+        },
+        {
+          "name": "Noise On/Off",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Noise Volume",
+          "min": 0,
+          "max": 1,
+          "value": 0.5118110179901123
+        },
+        {
+          "name": "Noise Volume < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 3.7795276641845703
+        },
+        {
+          "name": "Noise Volume < Key",
+          "min": -2,
+          "max": 2,
+          "value": 0
+        },
+        {
+          "name": "Noise Filter Type",
+          "min": 0,
+          "max": 3,
+          "value": 1
+        },
+        {
+          "name": "Noise Filter Freq",
+          "min": 0,
+          "max": 1,
+          "value": 0.43382352590560913
+        },
+        {
+          "name": "Noise Freq < Vel",
+          "min": -8,
+          "max": 8,
+          "value": 0
+        },
+        {
+          "name": "Noise Freq < Key",
+          "min": -2,
+          "max": 2,
+          "value": 0
+        },
+        {
+          "name": "Noise Freq < Env",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "Noise Filter Q",
+          "min": 0,
+          "max": 1,
+          "value": 0.6953125
+        },
+        {
+          "name": "Noise Attack",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Noise Decay",
+          "min": 0,
+          "max": 1,
+          "value": 0.28125
+        },
+        {
+          "name": "Noise Sustain",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Noise Release",
+          "min": 0,
+          "max": 1,
+          "value": 0.20000000298023224
+        },
+        {
+          "name": "Res 1 On/Off",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Res 1 Type",
+          "min": 0,
+          "max": 6,
+          "value": 1
+        },
+        {
+          "name": "Res 1 Quality",
+          "min": 0,
+          "max": 3,
+          "value": 0
+        },
+        {
+          "name": "Res 1 Tune",
+          "min": -48,
+          "max": 48,
+          "value": 0
+        },
+        {
+          "name": "Res 1 Fine Tune",
+          "min": -50,
+          "max": 50,
+          "value": 0
+        },
+        {
+          "name": "Res 1 Tune < Key",
+          "min": -2,
+          "max": 2,
+          "value": 1
+        },
+        {
+          "name": "Res 1 Pitch Env.",
+          "min": -1,
+          "max": 1,
+          "value": 0.0063492064364254475
+        },
+        {
+          "name": "Res 1 Pitch Env. < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0.390625
+        },
+        {
+          "name": "Res 1 Pitch Env. Time",
+          "min": 0,
+          "max": 1,
+          "value": 0.4126984179019928
+        },
+        {
+          "name": "Res 1 Decay",
+          "min": 0,
+          "max": 1,
+          "value": 0.5275590419769287
+        },
+        {
+          "name": "Res 1 Decay < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "Res 1 Decay < Key",
+          "min": -2,
+          "max": 2,
+          "value": -0.5
+        },
+        {
+          "name": "Res 1 Off Decay",
+          "min": 0,
+          "max": 1,
+          "value": 0.296875
+        },
+        {
+          "name": "Res 1 Material",
+          "min": -1,
+          "max": 1,
+          "value": -1
+        },
+        {
+          "name": "Res 1 Material < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0.19999980926513672
+        },
+        {
+          "name": "Res 1 Material < Key",
+          "min": -2,
+          "max": 2,
+          "value": 0
+        },
+        {
+          "name": "Res 1 Radius",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "Res 1 Radius < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "Res 1 Radius < Key",
+          "min": -2,
+          "max": 2,
+          "value": 0
+        },
+        {
+          "name": "Res 1 Ratio",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 1 Brightness",
+          "min": -1,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 1 Bleed",
+          "min": 0,
+          "max": 1,
+          "value": 0.171875
+        },
+        {
+          "name": "Res 1 Inharmonics",
+          "min": -1,
+          "max": 1,
+          "value": 0.007874011993408203
+        },
+        {
+          "name": "Res 1 Inharmonics < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0.546875
+        },
+        {
+          "name": "Res 1 Opening",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Res 1 Opening < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "Res 1 Hit",
+          "min": 0,
+          "max": 1,
+          "value": 0.5952380895614624
+        },
+        {
+          "name": "Res 1 Hit < Random",
+          "min": 0,
+          "max": 1,
+          "value": 0.1328125
+        },
+        {
+          "name": "Res 1 Listening L",
+          "min": 0,
+          "max": 1,
+          "value": 0.1796875
+        },
+        {
+          "name": "Res 1 Listening R",
+          "min": 0,
+          "max": 1,
+          "value": 0.8999999761581421
+        },
+        {
+          "name": "Res 1 Pan",
+          "min": -1,
+          "max": 1,
+          "value": 0.03999999910593033
+        },
+        {
+          "name": "Res 1 Pan < Key",
+          "min": -1,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 1 Volume",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "Res 2 On/Off",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Type",
+          "min": 0,
+          "max": 6,
+          "value": 1
+        },
+        {
+          "name": "Res 2 Quality",
+          "min": 0,
+          "max": 3,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Tune",
+          "min": -48,
+          "max": 48,
+          "value": 12
+        },
+        {
+          "name": "Res 2 Fine Tune",
+          "min": -50,
+          "max": 50,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Tune < Key",
+          "min": -2,
+          "max": 2,
+          "value": 1
+        },
+        {
+          "name": "Res 2 Pitch Env.",
+          "min": -1,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Pitch Env. < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Pitch Env. Time",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "Res 2 Decay",
+          "min": 0,
+          "max": 1,
+          "value": 0.4453125
+        },
+        {
+          "name": "Res 2 Decay < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Decay < Key",
+          "min": -2,
+          "max": 2,
+          "value": -0.40625
+        },
+        {
+          "name": "Res 2 Off Decay",
+          "min": 0,
+          "max": 1,
+          "value": 0.3984375
+        },
+        {
+          "name": "Res 2 Material",
+          "min": -1,
+          "max": 1,
+          "value": -1
+        },
+        {
+          "name": "Res 2 Material < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Material < Key",
+          "min": -2,
+          "max": 2,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Radius",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "Res 2 Radius < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Radius < Key",
+          "min": -2,
+          "max": 2,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Ratio",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Brightness",
+          "min": -1,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Bleed",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Inharmonics",
+          "min": -1,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Inharmonics < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Opening",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Res 2 Opening < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Hit",
+          "min": 0,
+          "max": 1,
+          "value": 0.0634920671582222
+        },
+        {
+          "name": "Res 2 Hit < Random",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Listening L",
+          "min": 0,
+          "max": 1,
+          "value": 0.10000000149011612
+        },
+        {
+          "name": "Res 2 Listening R",
+          "min": 0,
+          "max": 1,
+          "value": 0.8999999761581421
+        },
+        {
+          "name": "Res 2 Pan",
+          "min": -1,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Pan < Key",
+          "min": -1,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Res 2 Volume",
+          "min": 0,
+          "max": 1,
+          "value": 0.6269841194152832
+        },
+        {
+          "name": "LFO 1 On/Off",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "LFO 1 Shape",
+          "min": 0,
+          "max": 6,
+          "value": 0
+        },
+        {
+          "name": "LFO 1 Retrigger",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "LFO 1 Sync",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "LFO 1 Rate",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "LFO 1 Sync Rate",
+          "min": 0,
+          "max": 21,
+          "value": 4
+        },
+        {
+          "name": "LFO 1 Rate < Key",
+          "min": -2,
+          "max": 2,
+          "value": 0
+        },
+        {
+          "name": "LFO 1 Offset",
+          "min": 0,
+          "max": 360,
+          "value": 0
+        },
+        {
+          "name": "LFO 1 Depth",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "LFO 1 Depth < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "LFO 1 Dest A",
+          "min": 0,
+          "max": 16,
+          "value": 0
+        },
+        {
+          "name": "LFO 1 Amt A",
+          "min": -5,
+          "max": 5,
+          "value": 2.5
+        },
+        {
+          "name": "LFO 1 Dest B",
+          "min": 0,
+          "max": 16,
+          "value": 0
+        },
+        {
+          "name": "LFO 1 Amt B",
+          "min": -5,
+          "max": 5,
+          "value": 2.5
+        },
+        {
+          "name": "LFO 2 On/Off",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "LFO 2 Shape",
+          "min": 0,
+          "max": 6,
+          "value": 0
+        },
+        {
+          "name": "LFO 2 Retrigger",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "LFO 2 Sync",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "LFO 2 Rate",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "LFO 2 Sync Rate",
+          "min": 0,
+          "max": 21,
+          "value": 4
+        },
+        {
+          "name": "LFO 2 Rate < Key",
+          "min": -2,
+          "max": 2,
+          "value": 0
+        },
+        {
+          "name": "LFO 2 Offset",
+          "min": 0,
+          "max": 360,
+          "value": 0
+        },
+        {
+          "name": "LFO 2 Depth",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "LFO 2 Depth < Vel",
+          "min": -5,
+          "max": 5,
+          "value": 0
+        },
+        {
+          "name": "LFO 2 Dest A",
+          "min": 0,
+          "max": 16,
+          "value": 0
+        },
+        {
+          "name": "LFO 2 Amt A",
+          "min": -5,
+          "max": 5,
+          "value": 2.5
+        },
+        {
+          "name": "LFO 2 Dest B",
+          "min": 0,
+          "max": 16,
+          "value": 0
+        },
+        {
+          "name": "LFO 2 Amt B",
+          "min": -5,
+          "max": 5,
+          "value": 2.5
+        },
+        {
+          "name": "PB Dest A",
+          "min": 0,
+          "max": 17,
+          "value": 0
+        },
+        {
+          "name": "PB Amt A",
+          "min": -5,
+          "max": 5,
+          "value": 2.5
+        },
+        {
+          "name": "MW Dest A",
+          "min": 0,
+          "max": 17,
+          "value": 13
+        },
+        {
+          "name": "MW Amt A",
+          "min": -5,
+          "max": 5,
+          "value": 2.5
+        },
+        {
+          "name": "MW Dest B",
+          "min": 0,
+          "max": 17,
+          "value": 0
+        },
+        {
+          "name": "MW Amt B",
+          "min": -5,
+          "max": 5,
+          "value": 2.5
+        },
+        {
+          "name": "Press Dest A",
+          "min": 0,
+          "max": 17,
+          "value": 0
+        },
+        {
+          "name": "Press Amt A",
+          "min": -5,
+          "max": 5,
+          "value": 2.5
+        },
+        {
+          "name": "Press Dest B",
+          "min": 0,
+          "max": 17,
+          "value": 0
+        },
+        {
+          "name": "Press Amt B",
+          "min": -5,
+          "max": 5,
+          "value": 2.5
+        },
+        {
+          "name": "Slide Dest A",
+          "min": 0,
+          "max": 17,
+          "value": 0
+        },
+        {
+          "name": "Slide Amt A",
+          "min": -5,
+          "max": 5,
+          "value": 2.5
+        },
+        {
+          "name": "Slide Dest B",
+          "min": 0,
+          "max": 17,
+          "value": 0
+        },
+        {
+          "name": "Slide Amt B",
+          "min": -5,
+          "max": 5,
+          "value": 2.5
+        }
+      ]
+    },
+    {
+      "name": "EQ Eight",
+      "params": [
+        {
+          "name": "Device On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Output",
+          "min": -12,
+          "max": 12,
+          "value": 0
+        },
+        {
+          "name": "Scale",
+          "min": -2,
+          "max": 2,
+          "value": 1
+        },
+        {
+          "name": "Adaptive Q",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "1 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "1 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 2
+        },
+        {
+          "name": "1 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.14274713397026062
+        },
+        {
+          "name": "1 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "1 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "1 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "1 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 1
+        },
+        {
+          "name": "1 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.1801268309354782
+        },
+        {
+          "name": "1 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "1 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "2 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "2 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "2 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.3892475962638855
+        },
+        {
+          "name": "2 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "2 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "2 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "2 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 2
+        },
+        {
+          "name": "2 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.3892475962638855
+        },
+        {
+          "name": "2 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "2 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "3 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "3 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "3 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.5983683466911316
+        },
+        {
+          "name": "3 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "3 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "3 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "3 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "3 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.2991841733455658
+        },
+        {
+          "name": "3 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "3 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "4 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "4 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 5
+        },
+        {
+          "name": "4 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.8074891567230225
+        },
+        {
+          "name": "4 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "4 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "4 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "4 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "4 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.5083049535751343
+        },
+        {
+          "name": "4 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "4 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "5 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "5 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "5 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.2991841733455658
+        },
+        {
+          "name": "5 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "5 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "5 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "5 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "5 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.6884317994117737
+        },
+        {
+          "name": "5 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "5 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "6 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "6 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "6 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.8975525498390198
+        },
+        {
+          "name": "6 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "6 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "6 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "6 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "6 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.8975525498390198
+        },
+        {
+          "name": "6 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "6 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "7 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "7 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "7 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.8074891567230225
+        },
+        {
+          "name": "7 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "7 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "7 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "7 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 5
+        },
+        {
+          "name": "7 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.8074891567230225
+        },
+        {
+          "name": "7 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "7 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "8 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "8 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 6
+        },
+        {
+          "name": "8 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.9739260673522949
+        },
+        {
+          "name": "8 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "8 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "8 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "8 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 6
+        },
+        {
+          "name": "8 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.9739260673522949
+        },
+        {
+          "name": "8 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "8 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        }
+      ]
+    },
+    {
+      "name": "Reverb",
+      "params": [
+        {
+          "name": "Device On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Predelay",
+          "min": 0,
+          "max": 1,
+          "value": 0.2589765787124634
+        },
+        {
+          "name": "In Lo Cut On",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "In Hi Cut On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Input Freq",
+          "min": 0,
+          "max": 1,
+          "value": 0.47729402780532837
+        },
+        {
+          "name": "Input Width",
+          "min": 0,
+          "max": 1,
+          "value": 0.6294117569923401
+        },
+        {
+          "name": "ER Spin On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "ER Spin Rate",
+          "min": 0,
+          "max": 1,
+          "value": 0.48569256067276
+        },
+        {
+          "name": "ER Spin Amount",
+          "min": 0,
+          "max": 1,
+          "value": 0.6544755101203918
+        },
+        {
+          "name": "ER Shape",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "Diff. Hi On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Diff. Hi Type",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Diff. Hi Freq",
+          "min": 0,
+          "max": 1,
+          "value": 0.8102341890335083
+        },
+        {
+          "name": "HiShelf Gain",
+          "min": 0,
+          "max": 1,
+          "value": 0.625
+        },
+        {
+          "name": "Diff. Lo On",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Diff. Lo Freq",
+          "min": 0,
+          "max": 1,
+          "value": 0.227199524641037
+        },
+        {
+          "name": "LowShelf Gain",
+          "min": 0,
+          "max": 1,
+          "value": 0.6875
+        },
+        {
+          "name": "Chorus On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Chorus Rate",
+          "min": 0,
+          "max": 1,
+          "value": 0.10369296371936798
+        },
+        {
+          "name": "Chorus Amount",
+          "min": 0,
+          "max": 1,
+          "value": 0.002506265649572015
+        },
+        {
+          "name": "Decay Time",
+          "min": 0,
+          "max": 1,
+          "value": 0.31413534283638
+        },
+        {
+          "name": "Diffusion",
+          "min": 0,
+          "max": 1,
+          "value": 0.6246089935302734
+        },
+        {
+          "name": "Scale",
+          "min": 0,
+          "max": 1,
+          "value": 0.3684210479259491
+        },
+        {
+          "name": "Freeze On",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Flat On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Cut On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Room Size",
+          "min": 0,
+          "max": 1,
+          "value": 0.7915151119232178
+        },
+        {
+          "name": "Size Smoothing",
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        {
+          "name": "Stereo Image",
+          "min": 0,
+          "max": 1,
+          "value": 0.8333333134651184
+        },
+        {
+          "name": "Density",
+          "min": 0,
+          "max": 3,
+          "value": 1
+        },
+        {
+          "name": "Reflect Level",
+          "min": 0,
+          "max": 1,
+          "value": 0.49356332421302795
+        },
+        {
+          "name": "Diffuse Level",
+          "min": 0,
+          "max": 1,
+          "value": 0.49356332421302795
+        },
+        {
+          "name": "Dry/Wet",
+          "min": 0,
+          "max": 1,
+          "value": 0.550000011920929
+        }
+      ]
+    }
+  ],
+  "U5 Electric Piano": [
+    {
+      "name": "E-Piano MKI Mellow",
+      "params": [
+        {
+          "name": "Device On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Voices",
+          "min": 0,
+          "max": 30,
+          "value": 30
+        },
+        {
+          "name": "PB Range",
+          "min": 0,
+          "max": 1,
+          "value": 0.1666666716337204
+        },
+        {
+          "name": "Note PB Range",
+          "min": 0,
+          "max": 48,
+          "value": 0
+        },
+        {
+          "name": "Volume",
+          "min": 0,
+          "max": 1,
+          "value": 0.4365079402923584
+        },
+        {
+          "name": "Semitone",
+          "min": 0,
+          "max": 24,
+          "value": 12
+        },
+        {
+          "name": "Detune",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "KB Stretch",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "M Stiffness",
+          "min": 0,
+          "max": 1,
+          "value": 0.21259842813014984
+        },
+        {
+          "name": "M Stiff < Key",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "M Stiff < Vel",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "M Force",
+          "min": 0,
+          "max": 1,
+          "value": 0.4094488322734833
+        },
+        {
+          "name": "M Force < Key",
+          "min": 0,
+          "max": 1,
+          "value": 0.3515625
+        },
+        {
+          "name": "M Force < Vel",
+          "min": 0,
+          "max": 1,
+          "value": 0.7936508059501648
+        },
+        {
+          "name": "Noise Pitch",
+          "min": 0,
+          "max": 1,
+          "value": 0.421875
+        },
+        {
+          "name": "Noise Decay",
+          "min": 0,
+          "max": 1,
+          "value": 0.375
+        },
+        {
+          "name": "Noise Amount",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Noise < Key",
+          "min": 0,
+          "max": 1,
+          "value": 0.5555555820465088
+        },
+        {
+          "name": "F Release",
+          "min": 0,
+          "max": 1,
+          "value": 0.05511811003088951
+        },
+        {
+          "name": "F Tine Decay",
+          "min": 0,
+          "max": 1,
+          "value": 0.375
+        },
+        {
+          "name": "F Tine Vol",
+          "min": 0,
+          "max": 1,
+          "value": 0.7301587462425232
+        },
+        {
+          "name": "F Tine < Key",
+          "min": 0,
+          "max": 1,
+          "value": 0.7857142686843872
+        },
+        {
+          "name": "F Tine Color",
+          "min": 0,
+          "max": 1,
+          "value": 0.5158730149269104
+        },
+        {
+          "name": "F Tone Decay",
+          "min": 0,
+          "max": 1,
+          "value": 0.5158730149269104
+        },
+        {
+          "name": "F Tone Vol",
+          "min": 0,
+          "max": 1,
+          "value": 0.4803149700164795
+        },
+        {
+          "name": "P Symmetry",
+          "min": 0,
+          "max": 1,
+          "value": 0.8015873432159424
+        },
+        {
+          "name": "P Distance",
+          "min": 0,
+          "max": 1,
+          "value": 0.3984375
+        },
+        {
+          "name": "Pickup Model",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "P Amp In",
+          "min": 0,
+          "max": 1,
+          "value": 0.4296875
+        },
+        {
+          "name": "P Amp Out",
+          "min": 0,
+          "max": 1,
+          "value": 0.5396825671195984
+        },
+        {
+          "name": "P Amp < Key",
+          "min": 0,
+          "max": 1,
+          "value": 0.5714285969734192
+        },
+        {
+          "name": "Damp Tone",
+          "min": 0,
+          "max": 1,
+          "value": 0.4453125
+        },
+        {
+          "name": "Damp Amount",
+          "min": 0,
+          "max": 1,
+          "value": 0.078125
+        },
+        {
+          "name": "Damp Balance",
+          "min": 0,
+          "max": 1,
+          "value": 0.2421875
+        }
+      ]
+    },
+    {
+      "name": "EQ Eight",
+      "params": [
+        {
+          "name": "Device On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Output",
+          "min": -12,
+          "max": 12,
+          "value": 0
+        },
+        {
+          "name": "Scale",
+          "min": -2,
+          "max": 2,
+          "value": 1
+        },
+        {
+          "name": "Adaptive Q",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "1 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "1 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 2
+        },
+        {
+          "name": "1 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.14274713397026062
+        },
+        {
+          "name": "1 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "1 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "1 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "1 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 1
+        },
+        {
+          "name": "1 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.1801268309354782
+        },
+        {
+          "name": "1 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "1 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "2 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "2 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "2 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.3892475962638855
+        },
+        {
+          "name": "2 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "2 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "2 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "2 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 2
+        },
+        {
+          "name": "2 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.3892475962638855
+        },
+        {
+          "name": "2 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "2 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "3 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "3 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "3 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.5983683466911316
+        },
+        {
+          "name": "3 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "3 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "3 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "3 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "3 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.2991841733455658
+        },
+        {
+          "name": "3 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "3 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "4 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "4 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 5
+        },
+        {
+          "name": "4 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.8074891567230225
+        },
+        {
+          "name": "4 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "4 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "4 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "4 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "4 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.5083049535751343
+        },
+        {
+          "name": "4 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "4 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "5 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "5 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "5 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.2991841733455658
+        },
+        {
+          "name": "5 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "5 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "5 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "5 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "5 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.6884317994117737
+        },
+        {
+          "name": "5 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "5 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "6 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "6 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "6 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.8975525498390198
+        },
+        {
+          "name": "6 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "6 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "6 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "6 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "6 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.8975525498390198
+        },
+        {
+          "name": "6 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "6 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "7 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "7 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 3
+        },
+        {
+          "name": "7 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.8074891567230225
+        },
+        {
+          "name": "7 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "7 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "7 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "7 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 5
+        },
+        {
+          "name": "7 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.8074891567230225
+        },
+        {
+          "name": "7 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "7 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "8 Filter On A",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "8 Filter Type A",
+          "min": 0,
+          "max": 7,
+          "value": 6
+        },
+        {
+          "name": "8 Frequency A",
+          "min": 0,
+          "max": 1,
+          "value": 0.9739260673522949
+        },
+        {
+          "name": "8 Gain A",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "8 Q A",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        },
+        {
+          "name": "8 Filter On B",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "8 Filter Type B",
+          "min": 0,
+          "max": 7,
+          "value": 6
+        },
+        {
+          "name": "8 Frequency B",
+          "min": 0,
+          "max": 1,
+          "value": 0.9739260673522949
+        },
+        {
+          "name": "8 Gain B",
+          "min": -15,
+          "max": 15,
+          "value": 0
+        },
+        {
+          "name": "8 Q B",
+          "min": 0,
+          "max": 1,
+          "value": 0.37666621804237366
+        }
+      ]
+    },
+    {
+      "name": "Reverb",
+      "params": [
+        {
+          "name": "Device On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Predelay",
+          "min": 0,
+          "max": 1,
+          "value": 0.2589765787124634
+        },
+        {
+          "name": "In Lo Cut On",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "In Hi Cut On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Input Freq",
+          "min": 0,
+          "max": 1,
+          "value": 0.47729402780532837
+        },
+        {
+          "name": "Input Width",
+          "min": 0,
+          "max": 1,
+          "value": 0.6294117569923401
+        },
+        {
+          "name": "ER Spin On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "ER Spin Rate",
+          "min": 0,
+          "max": 1,
+          "value": 0.48569256067276
+        },
+        {
+          "name": "ER Spin Amount",
+          "min": 0,
+          "max": 1,
+          "value": 0.6544755101203918
+        },
+        {
+          "name": "ER Shape",
+          "min": 0,
+          "max": 1,
+          "value": 0.5
+        },
+        {
+          "name": "Diff. Hi On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Diff. Hi Type",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Diff. Hi Freq",
+          "min": 0,
+          "max": 1,
+          "value": 0.8102341890335083
+        },
+        {
+          "name": "HiShelf Gain",
+          "min": 0,
+          "max": 1,
+          "value": 0.625
+        },
+        {
+          "name": "Diff. Lo On",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Diff. Lo Freq",
+          "min": 0,
+          "max": 1,
+          "value": 0.227199524641037
+        },
+        {
+          "name": "LowShelf Gain",
+          "min": 0,
+          "max": 1,
+          "value": 0.6875
+        },
+        {
+          "name": "Chorus On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Chorus Rate",
+          "min": 0,
+          "max": 1,
+          "value": 0.10369296371936798
+        },
+        {
+          "name": "Chorus Amount",
+          "min": 0,
+          "max": 1,
+          "value": 0.002506265649572015
+        },
+        {
+          "name": "Decay Time",
+          "min": 0,
+          "max": 1,
+          "value": 0.31413534283638
+        },
+        {
+          "name": "Diffusion",
+          "min": 0,
+          "max": 1,
+          "value": 0.6246089935302734
+        },
+        {
+          "name": "Scale",
+          "min": 0,
+          "max": 1,
+          "value": 0.3684210479259491
+        },
+        {
+          "name": "Freeze On",
+          "min": 0,
+          "max": 1,
+          "value": 0
+        },
+        {
+          "name": "Flat On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Cut On",
+          "min": 0,
+          "max": 1,
+          "value": 1
+        },
+        {
+          "name": "Room Size",
+          "min": 0,
+          "max": 1,
+          "value": 0.7915151119232178
+        },
+        {
+          "name": "Size Smoothing",
+          "min": 0,
+          "max": 2,
+          "value": 2
+        },
+        {
+          "name": "Stereo Image",
+          "min": 0,
+          "max": 1,
+          "value": 0.8333333134651184
+        },
+        {
+          "name": "Density",
+          "min": 0,
+          "max": 3,
+          "value": 1
+        },
+        {
+          "name": "Reflect Level",
+          "min": 0,
+          "max": 1,
+          "value": 0.49356332421302795
+        },
+        {
+          "name": "Diffuse Level",
+          "min": 0,
+          "max": 1,
+          "value": 0.49356332421302795
+        },
+        {
+          "name": "Dry/Wet",
+          "min": 0,
+          "max": 1,
+          "value": 0.550000011920929
+        }
+      ]
+    }
+  ]
+}

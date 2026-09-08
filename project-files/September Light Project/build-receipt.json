@@ -1,0 +1,73 @@
+{
+  "bpm": 118,
+  "arrangementBars": 88,
+  "renderBars": 92,
+  "tracks": [
+    {
+      "name": "SL Piano",
+      "clips": 8,
+      "notes": 316,
+      "devices": [
+        "Upright Piano",
+        "EQ Eight",
+        "Reverb"
+      ]
+    },
+    {
+      "name": "SL Air",
+      "clips": 6,
+      "notes": 140,
+      "devices": [
+        "Johnny's Soft Pad",
+        "EQ Eight",
+        "Reverb"
+      ]
+    },
+    {
+      "name": "SL Memory",
+      "clips": 6,
+      "notes": 97,
+      "devices": [
+        "E-Piano MKI Mellow",
+        "EQ Eight",
+        "Delay",
+        "Reverb"
+      ]
+    },
+    {
+      "name": "SL Sub",
+      "clips": 5,
+      "notes": 106,
+      "devices": [
+        "Operator"
+      ]
+    },
+    {
+      "name": "SL Kick",
+      "clips": 3,
+      "notes": 104,
+      "devices": [
+        "808 Core Kit"
+      ]
+    },
+    {
+      "name": "SL Snare",
+      "clips": 3,
+      "notes": 101,
+      "devices": [
+        "808 Core Kit",
+        "Reverb"
+      ]
+    },
+    {
+      "name": "SL Dust",
+      "clips": 6,
+      "notes": 344,
+      "devices": [
+        "808 Core Kit",
+        "EQ Eight",
+        "Reverb"
+      ]
+    }
+  ]
+}

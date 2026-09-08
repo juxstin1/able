@@ -1,0 +1,386 @@
+[
+  {
+    "track": "U5 Riff",
+    "device": "Bright SAW Lead",
+    "param": "Sub On",
+    "value": 0
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Bright SAW Lead",
+    "param": "Amp Attack",
+    "value": 0.05999999865889549
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Bright SAW Lead",
+    "param": "Amp Decay",
+    "value": 0.36000001430511475
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Bright SAW Lead",
+    "param": "Amp Sustain",
+    "value": 0.6000000238418579
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Bright SAW Lead",
+    "param": "Amp Release",
+    "value": 0.14000000059604645
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Bright SAW Lead",
+    "param": "Unison Amount",
+    "value": 0.20000000298023224
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Bright SAW Lead",
+    "param": "Glide",
+    "value": 0
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Bright SAW Lead",
+    "param": "Flt 1 Res",
+    "value": 0.20000000298023224
+  },
+  {
+    "track": "U5 Riff",
+    "device": "EQ Eight",
+    "param": "1 Filter On A",
+    "value": 1
+  },
+  {
+    "track": "U5 Riff",
+    "device": "EQ Eight",
+    "param": "1 Filter Type A",
+    "value": 1
+  },
+  {
+    "track": "U5 Riff",
+    "device": "EQ Eight",
+    "param": "1 Frequency A",
+    "value": 0.3474629521369934
+  },
+  {
+    "track": "U5 Riff",
+    "device": "EQ Eight",
+    "param": "8 Filter On A",
+    "value": 1
+  },
+  {
+    "track": "U5 Riff",
+    "device": "EQ Eight",
+    "param": "8 Filter Type A",
+    "value": 6
+  },
+  {
+    "track": "U5 Riff",
+    "device": "EQ Eight",
+    "param": "8 Frequency A",
+    "value": 0.8618938326835632
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Chorus-Ensemble",
+    "param": "Mode",
+    "value": 1
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Chorus-Ensemble",
+    "param": "Amount",
+    "value": 0.25999999046325684
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Chorus-Ensemble",
+    "param": "Rate",
+    "value": 0.23999999463558197
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Chorus-Ensemble",
+    "param": "Width",
+    "value": 0.6499999761581421
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Chorus-Ensemble",
+    "param": "Dry/Wet",
+    "value": 0.23999999463558197
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Reverb",
+    "param": "Dry/Wet",
+    "value": 0.1599999964237213
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Reverb",
+    "param": "Decay Time",
+    "value": 0.35999998450279236
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Reverb",
+    "param": "Room Size",
+    "value": 0.7000000476837158
+  },
+  {
+    "track": "U5 Riff",
+    "device": "Reverb",
+    "param": "In Lo Cut On",
+    "value": 1
+  },
+  {
+    "track": "U5 Chords",
+    "device": "EQ Eight",
+    "param": "1 Filter On A",
+    "value": 1
+  },
+  {
+    "track": "U5 Chords",
+    "device": "EQ Eight",
+    "param": "1 Filter Type A",
+    "value": 1
+  },
+  {
+    "track": "U5 Chords",
+    "device": "EQ Eight",
+    "param": "1 Frequency A",
+    "value": 0.37555769085884094
+  },
+  {
+    "track": "U5 Chords",
+    "device": "EQ Eight",
+    "param": "8 Filter On A",
+    "value": 1
+  },
+  {
+    "track": "U5 Chords",
+    "device": "EQ Eight",
+    "param": "8 Filter Type A",
+    "value": 6
+  },
+  {
+    "track": "U5 Chords",
+    "device": "EQ Eight",
+    "param": "8 Frequency A",
+    "value": 0.7848346829414368
+  },
+  {
+    "track": "U5 Chords",
+    "device": "Reverb",
+    "param": "Dry/Wet",
+    "value": 0.2800000011920929
+  },
+  {
+    "track": "U5 Chords",
+    "device": "Reverb",
+    "param": "Decay Time",
+    "value": 0.4300000071525574
+  },
+  {
+    "track": "U5 Chords",
+    "device": "Reverb",
+    "param": "Room Size",
+    "value": 0.800000011920929
+  },
+  {
+    "track": "U5 Chords",
+    "device": "Reverb",
+    "param": "In Lo Cut On",
+    "value": 1
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Osc-A Wave",
+    "value": 10
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Osc-A Level",
+    "value": 1
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Osc-B Level",
+    "value": 0
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Osc-C Level",
+    "value": 0
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Osc-D Level",
+    "value": 0
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Ae Attack",
+    "value": 0.07999999821186066
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Ae Sustain",
+    "value": 0.8700000047683716
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Ae Release",
+    "value": 0.15000000596046448
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Pe On",
+    "value": 0
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Glide On",
+    "value": 0
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Filter On",
+    "value": 0
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Operator",
+    "param": "Volume",
+    "value": 0.4000000059604645
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Saturator",
+    "param": "Type",
+    "value": 0
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Saturator",
+    "param": "Drive",
+    "value": 0.7200000286102295
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Saturator",
+    "param": "Color On",
+    "value": 0
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Saturator",
+    "param": "Pre Dc Filter",
+    "value": 1
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Saturator",
+    "param": "Output",
+    "value": 0.7200000286102295
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Saturator",
+    "param": "Dry/Wet",
+    "value": 1
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Saturator",
+    "param": "Post Clip Mode",
+    "value": 1
+  },
+  {
+    "track": "U5 Bass",
+    "device": "EQ Eight",
+    "param": "1 Filter On A",
+    "value": 1
+  },
+  {
+    "track": "U5 Bass",
+    "device": "EQ Eight",
+    "param": "1 Filter Type A",
+    "value": 0
+  },
+  {
+    "track": "U5 Bass",
+    "device": "EQ Eight",
+    "param": "1 Frequency A",
+    "value": 0.21912062168121338
+  },
+  {
+    "track": "U5 Bass",
+    "device": "EQ Eight",
+    "param": "8 Filter On A",
+    "value": 1
+  },
+  {
+    "track": "U5 Bass",
+    "device": "EQ Eight",
+    "param": "8 Filter Type A",
+    "value": 6
+  },
+  {
+    "track": "U5 Bass",
+    "device": "EQ Eight",
+    "param": "8 Frequency A",
+    "value": 0.5917035937309265
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Utility",
+    "param": "Mono",
+    "value": 1
+  },
+  {
+    "track": "U5 Bass",
+    "device": "Utility",
+    "param": "DC Filter",
+    "value": 1
+  },
+  {
+    "track": "U5 Clap",
+    "device": "Reverb",
+    "param": "Dry/Wet",
+    "value": 0.10000000149011612
+  },
+  {
+    "track": "U5 Clap",
+    "device": "Reverb",
+    "param": "Decay Time",
+    "value": 0.23000003397464752
+  },
+  {
+    "track": "U5 Clap",
+    "device": "Reverb",
+    "param": "Room Size",
+    "value": 0.5
+  },
+  {
+    "track": "U5 Clap",
+    "device": "Reverb",
+    "param": "In Lo Cut On",
+    "value": 1
+  }
+]
