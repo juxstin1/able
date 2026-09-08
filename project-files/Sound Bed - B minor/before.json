@@ -1,0 +1,46 @@
+{
+  "tempo": 120,
+  "loop": false,
+  "loopStart": 8,
+  "loopLength": 16,
+  "tracks": [
+    {
+      "id": "live_1549891432",
+      "name": "1-B_DEBOXED",
+      "mute": false,
+      "solo": false,
+      "devices": [],
+      "clips": [
+        {
+          "id": "live_1932841904",
+          "start": 360.5599582708958,
+          "end": 376.1738415230603
+        }
+      ]
+    },
+    {
+      "id": "live_1323098232",
+      "name": "2-MIDI",
+      "mute": false,
+      "solo": false,
+      "devices": [],
+      "clips": []
+    },
+    {
+      "id": "live_1323098592",
+      "name": "3-Audio",
+      "mute": false,
+      "solo": false,
+      "devices": [],
+      "clips": []
+    },
+    {
+      "id": "live_1690695912",
+      "name": "4-Audio",
+      "mute": false,
+      "solo": false,
+      "devices": [],
+      "clips": []
+    }
+  ]
+}
