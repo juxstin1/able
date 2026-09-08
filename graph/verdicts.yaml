@@ -24,3 +24,1147 @@ verdicts:
     date: 2026-09-03
     context: house keys
     note: a little defaulty, plucks
+  - subject: kick-909-core
+    v: keep
+    date: 2026-09-08
+    context: kick
+    note: fire
+  - subject: kick-707-core
+    v: keep
+    date: 2026-09-08
+    context: kick
+    note: in your face, honestly not bad
+  - subject: kick-606-core
+    v: meh
+    date: 2026-09-08
+    context: kick
+    note: sounds 808-y
+  - subject: kick-505-core
+    v: keep
+    date: 2026-09-08
+    context: kick
+    note: squashed but cool
+  - subject: kick-909-flavour
+    v: keep
+    date: 2026-09-08
+    context: kick
+    note: 808ville, favorite
+  - subject: kick-ag-techno
+    v: keep
+    date: 2026-09-08
+    context: kick
+    note: like someone slamming a door, not bad
+  - subject: kick-garage
+    v: keep
+    date: 2026-09-08
+    context: kick
+    note: squashing a kicked door, phat
+  - subject: kick-big-room
+    v: bin
+    date: 2026-09-08
+    context: kick
+    note: not a fan
+  - subject: kick-707-funky-beans
+    v: bin
+    date: 2026-09-08
+    context: kick
+    note: not a fan
+  - subject: lead-clubber
+    v: keep
+    date: 2026-09-08
+    context: lead
+    note: ear candy conditioning-bell sound; use sparse, one hit every 2-4 bars,
+      same pitch, never melodic - dies the second it plays a melody
+  - subject: lead-grime
+    v: keep
+    date: 2026-09-08
+    context: lead
+    note: bassline potential under a real track, same chords whole new meaning,
+      slept on - top pick
+  - subject: lead-acid-fertig
+    v: meh
+    date: 2026-09-08
+    context: lead
+    note: cool but not sure it's him; cutoff dropped to 58 turns it into a pre-drop
+      conditioning-bell sound
+  - subject: lead-thick-wave
+    v: keep
+    date: 2026-09-08
+    context: lead
+    note: not stock-sounding, likes it, but not as strong as Grime - don't need more
+      like it
+  - subject: lead-chiptune-dream
+    v: bin
+    date: 2026-09-08
+    context: lead
+    note: no
+  - subject: lead-8bit-quack
+    v: meh
+    date: 2026-09-08
+    context: lead
+    note: ok, likes the echo, unsure otherwise
+  - subject: lead-euphoria
+    v: keep
+    date: 2026-09-08
+    context: lead
+    note: cool, not as swag as Grime
+  - subject: lead-bell-airy
+    v: keep
+    date: 2026-09-08
+    context: lead
+    note: insane, dope conditioning call - top pick
+  - subject: lead-metallic-fm
+    v: keep
+    date: 2026-09-08
+    context: lead
+    note: sick, will reuse - perfect lead or pad, versatile - top pick
+  - subject: lead-grime
+    v: keep
+    date: 2026-09-08
+    context: lead
+    note: bassline candidate, drop an octave, re-audition in bass bank
+    tag: bass-candidate
+  - subject: lead-clubber
+    v: keep
+    date: 2026-09-08
+    context: lead
+    note: conditioning bell - sparse, on-grid, no melody, dies if it develops
+    tag: conditioning-bell
+  - subject: lead-bell-airy
+    v: keep
+    date: 2026-09-08
+    context: lead
+    note: conditioning bell, best of the three
+    tag: conditioning-bell
+  - subject: lead-acid-fertig
+    v: keep
+    date: 2026-09-08
+    context: lead
+    note: cutoff dropped to 58 = pre-drop conditioning bell; default patch as
+      shipped is meh
+    tag: conditioning-bell
+  - subject: lead-thick-wave
+    v: bin
+    date: 2026-09-08
+    context: lead
+    note: fine but not needed - bank is for unique, not adequate
+  - subject: lead-euphoria
+    v: bin
+    date: 2026-09-08
+    context: lead
+    note: fine but not needed - bank is for unique, not adequate
+  - subject: bass-grime-octave
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: good but a bit low/thin - wants a sub or 808 following the same pattern
+      underneath to bang
+  - subject: bass-reese
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: the classic reese
+  - subject: bass-808-pure
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: sounds like an 808; layered with Grime-octave (01) it sounds proper
+  - subject: bass-sub-sine
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: sounds proper, very low - hard to hear on current headphones but likes it
+  - subject: bass-itchy-sub
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: good, doesn't mind it, kinda leady character
+  - subject: bass-sidechain-fuzz
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: cool, more distorted
+  - subject: bass-dub-wob
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: cool, really low; layered with 808 Pure (03) really nice
+  - subject: bass-myloacid
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: loves it, so funny sounding - not really a bass, more an acid conditioning
+      call
+    tag: conditioning-bell
+  - subject: bass-fm-house
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: house pluck-keys vibe, a bit acidy, likes it
+  - subject: bass-sub-boom
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: classic low rumble; layered with 808 Pure (03) pretty good, weakest of the
+      pairings though
+  - subject: pair:bass-808-pure+bass-grime-octave
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: grime is thin alone, 808 fills under it
+    tag: layer
+  - subject: pair:bass-808-pure+bass-dub-wob
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: really nice, both low
+    tag: layer
+  - subject: pair:bass-808-pure+bass-sub-boom
+    v: meh
+    date: 2026-09-08
+    context: bass
+    note: pretty good, weakest of the three
+    tag: layer
+  - subject: pair:bass-808-pure+bass-grime-octave
+    v: keep
+    date: 2026-09-08
+    context: bass
+    note: confirmed live in Ableton, not just described - sounded fine, holds up
+    tag: layer
+  - subject: transitions-riser-basic
+    v: keep
+    date: 2026-09-08
+    context: transitions
+    note: sounds like a car, random and cool
+  - subject: transitions-riser-crisis
+    v: keep
+    date: 2026-09-08
+    context: transitions
+    note: insane, love it, like a techno riser
+  - subject: transitions-encom-riser
+    v: keep
+    date: 2026-09-08
+    context: transitions
+    note: INSANE, spaceship riser - top pick
+  - subject: transitions-boinky-saw-riser
+    v: keep
+    date: 2026-09-08
+    context: transitions
+    note: full signal robot vibe, batteries almost full
+  - subject: transitions-cymbal-crash-reverse
+    v: bin
+    date: 2026-09-08
+    context: transitions
+    note: can't hear it, sounds like air but bad
+  - subject: transitions-crash-kick-reverse
+    v: bin
+    date: 2026-09-08
+    context: transitions
+    note: bad
+  - subject: transitions-ballistic-boom
+    v: bin
+    date: 2026-09-08
+    context: transitions
+    note: bad single hit
+  - subject: transitions-bending-boom
+    v: keep
+    date: 2026-09-08
+    context: transitions
+    note: like a bell, cool, could be used - mild but real keep
+  - subject: transitions-command-boom-kick
+    v: keep
+    date: 2026-09-08
+    context: transitions
+    note: iffy, lowest of the keeps, close to binning - kept for being a unique sound
+  - subject: transitions-metal-impact-delay
+    v: bin
+    date: 2026-09-08
+    context: transitions
+    note: horrible, sounds like a shite clap
+  - subject: air-riser-white-noise
+    v: keep
+    date: 2026-09-08
+    context: air-risers
+    note: good but a bit basic
+  - subject: air-riser-whoosh-up
+    v: keep
+    date: 2026-09-08
+    context: air-risers
+    note: cool, weird that starting anywhere gives the whole sound, pretty good
+  - subject: air-whoosh-down-dark
+    v: bin
+    date: 2026-09-08
+    context: air-risers
+    note: mixed feelings, ultimately would drop
+  - subject: air-sweep-white-noise-fall
+    v: keep
+    date: 2026-09-08
+    context: air-risers
+    note: the OG, loves it
+  - subject: air-siren-wind
+    v: keep
+    date: 2026-09-08
+    context: air-risers
+    note: insane, loves it - like a Chernobyl watchtower siren - top pick
+  - subject: air-sweeper-otherworldly
+    v: keep
+    date: 2026-09-08
+    context: air-risers
+    note: cool as shit, pingponging around his head - top pick
+  - subject: air-sweep-shrill-noise
+    v: keep
+    date: 2026-09-08
+    context: air-risers
+    note: quite classic
+  - subject: air-riser-taka-breath
+    v: keep
+    date: 2026-09-08
+    context: air-risers
+    note: like a snake/cobra/ghost, medusa type
+  - subject: air-riser-noise-gated
+    v: keep
+    date: 2026-09-08
+    context: air-risers
+    note: dope but short, loves the gate
+  - subject: air-square-sweep
+    v: keep
+    date: 2026-09-08
+    context: air-risers
+    note: cool sound, a little annoying but still a keep
+  - subject: air-square-sweep
+    v: bin
+    date: 2026-09-08
+    context: air-risers
+    note: revised - wouldn't actually keep it, doesn't feel anything from it, maybe
+      a contrast/context issue
+  - subject: downlift-noisefall
+    v: keep
+    date: 2026-09-08
+    context: downlifters
+    note: fire, cool airy pff pff pff pff
+  - subject: downlift-hit-down
+    v: keep
+    date: 2026-09-08
+    context: downlifters
+    note: cool, single hit like a BOOM
+  - subject: downlift-downstairs-pad
+    v: bin
+    date: 2026-09-08
+    context: downlifters
+    note: cool and basic but wouldn't fit in a track
+  - subject: downlift-before-the-plunge
+    v: bin
+    date: 2026-09-08
+    context: downlifters
+    note: his ears want an apology, this sucks
+  - subject: downlift-tom-low-drop
+    v: bin
+    date: 2026-09-08
+    context: downlifters
+    note: just a tom really - curation getting lazy
+    tag: lazy-pick
+  - subject: downlift-perc-drop
+    v: bin
+    date: 2026-09-08
+    context: downlifters
+    note: a single perc - curation getting lazy
+    tag: lazy-pick
+  - subject: downlift-snare-flange-down
+    v: bin
+    date: 2026-09-08
+    context: downlifters
+    note: disappointed, lost any idea of groove
+    tag: lazy-pick
+  - subject: downlift-foley-drop
+    v: keep
+    date: 2026-09-08
+    context: downlifters
+    note: cool tiny foley noise, keep it but unclear use - ear candy
+  - subject: downlift-drop-tunnel
+    v: bin
+    date: 2026-09-08
+    context: downlifters
+    note: nope
+  - subject: downlift-acid-meltdown-bass
+    v: keep
+    date: 2026-09-08
+    context: downlifters
+    note: unclear where it goes but keep - unique, not because he knows where it fits
+  - subject: bed-asmr-cave
+    v: keep
+    date: 2026-09-08
+    context: sustained-beds
+    note: dope sci-fi
+  - subject: bed-drone-tapes
+    v: keep
+    date: 2026-09-08
+    context: sustained-beds
+    note: cool, fits well in a track, its dope
+  - subject: bed-crackle-storm
+    v: keep
+    date: 2026-09-08
+    context: sustained-beds
+    note: vinyly, not exactly vinyl but cool, could be chopped
+  - subject: bed-exoplanet-rain
+    v: keep
+    date: 2026-09-08
+    context: sustained-beds
+    note: holy shit this is dope, sounds trailery
+  - subject: bed-jarble-ambience
+    v: keep
+    date: 2026-09-08
+    context: sustained-beds
+    note: 1960s vibe, could be cool dropped under a track
+  - subject: bed-lab-ambient
+    v: keep
+    date: 2026-09-08
+    context: sustained-beds
+    note: fire, could be dropped before a drop
+  - subject: bed-echoic-chamber
+    v: bin
+    date: 2026-09-08
+    context: sustained-beds
+    note: no
+  - subject: bed-dark-swarm
+    v: keep
+    date: 2026-09-08
+    context: sustained-beds
+    note: tension building
+  - subject: bed-vinyl-rub
+    v: bin
+    date: 2026-09-08
+    context: sustained-beds
+    note: drop this
+  - subject: bed-martian-ham-radio
+    v: keep
+    date: 2026-09-08
+    context: sustained-beds
+    note: spaceship vibe, dope, unclear fit but keep
+  - subject: hat-909-core
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: likes this sound
+  - subject: hat-707-core
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: likes this too, both good hats
+  - subject: hat-606-core
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: "soft hat - condition: works better with a shittier boxy snarey two-step
+      drum (pairing claim, not yet tested)"
+  - subject: hat-808-core
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: same style as 606 but a bit more tinny - same pairing condition as 606
+  - subject: hat-505-core
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: tinny, sounds good
+  - subject: hat-909-flavour
+    v: bin
+    date: 2026-09-08
+    context: hats
+    note: more to the grid, louder - actually doesn't like this
+  - subject: hat-ag-techno
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: like a shaker hat, likes it
+  - subject: hat-garage
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: absolutely nasty, so much swing, bonks smooth - top pick
+  - subject: hat-big-room
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: not really a hihat - washed clap pretending to be a hihat, could make a
+      nasty buildup
+    tag: misfiled
+  - subject: hat-707-funky-beans
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: tinny, sounds good
+  - subject: downlift-foley-drop
+    v: keep
+    date: 2026-09-08
+    context: downlifters
+    note: ear candy, not really a downlifter - misfiled
+    tag: misfiled
+  - subject: downlift-acid-meltdown-bass
+    v: keep
+    date: 2026-09-08
+    context: downlifters
+    note: unique sound, doesn't behave like a downlifter - misfiled
+    tag: misfiled
+  - subject: clap-909-core
+    v: keep
+    date: 2026-09-08
+    context: claps
+    note: juicy, not too thick, just the way he likes it
+  - subject: clap-707-core
+    v: keep
+    date: 2026-09-08
+    context: claps
+    note: bit more dense, likes it
+  - subject: clap-606-core
+    v: bin
+    date: 2026-09-08
+    context: claps
+    note: horrible, sounds broken
+  - subject: clap-808-core
+    v: bin
+    date: 2026-09-08
+    context: claps
+    note: too clappy
+  - subject: clap-505-core
+    v: keep
+    date: 2026-09-08
+    context: claps
+    note: weirdly nice, lost something but likes it
+  - subject: clap-909-flavour
+    v: bin
+    date: 2026-09-08
+    context: claps
+    note: way too much, drop it
+  - subject: clap-ag-techno
+    v: bin
+    date: 2026-09-08
+    context: claps
+    note: god awful, drop it
+  - subject: clap-garage
+    v: bin
+    date: 2026-09-08
+    context: claps
+    note: god awful, doesn't even read as a clap
+  - subject: clap-big-room
+    v: keep
+    date: 2026-09-08
+    context: claps
+    note: sounds broken but unique and cool, some air to it
+  - subject: clap-707-funky-beans
+    v: bin
+    date: 2026-09-08
+    context: claps
+    note: no decay, too much upfront, not a fan
+  - subject: hat-big-room
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: not really a hihat - washed clap pretending to be one; redirect to
+      transitions/buildups
+    tag: misfiled
+  - subject: downlift-foley-drop
+    v: keep
+    date: 2026-09-08
+    context: downlifters
+    note: ear candy, not a downlifter; redirect near the conditioning-bell slot
+    tag: misfiled
+  - subject: downlift-acid-meltdown-bass
+    v: keep
+    date: 2026-09-08
+    context: downlifters
+    note: unplaced - unique on its own merit, no specific redirect target unlike the
+      other two misfiles
+    tag: misfiled
+  - subject: hat-606-core
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: soft hat - needs a boxy two-step snare to work; alone it just reads soft,
+      not a fault
+    tag: needs-pair
+  - subject: hat-808-core
+    v: keep
+    date: 2026-09-08
+    context: hats
+    note: same as 606 but tinnier - needs the same boxy two-step snare pairing
+    tag: needs-pair
+  - subject: fill-hat-roll32
+    v: keep
+    date: 2026-09-08
+    context: fills
+    note: likes it, wishes there was something before it so it's not
+      pattern-to-nothing - pattern issue not a sound issue
+  - subject: fill-hat-triplet
+    v: keep
+    date: 2026-09-08
+    context: fills
+    note: works as well
+  - subject: fill-hat-accelerando
+    v: bin
+    date: 2026-09-08
+    context: fills
+    note: not a fan
+  - subject: fill-hat-stutter-gate
+    v: bin
+    date: 2026-09-08
+    context: fills
+    note: not a fan, could be the pattern
+  - subject: fill-drum-snare-buildup
+    v: keep
+    date: 2026-09-08
+    context: fills
+    note: cool, boombox type
+  - subject: fill-drum-perc-cascade
+    v: bin
+    date: 2026-09-08
+    context: fills
+    note: the ending sound is redonk (in a bad way), not a fan
+  - subject: fill-drum-kick-snare-stutter
+    v: bin
+    date: 2026-09-08
+    context: fills
+    note: nope
+  - subject: fill-drum-snare-roll-sim
+    v: bin
+    date: 2026-09-08
+    context: fills
+    note: nope - likely the humanise jitter bug, not the concept, re-test after fix
+  - subject: fill-drum-perc-cascade
+    v: keep
+    date: 2026-09-08
+    context: fills
+    note: "flipped after the tom-ending fix - it's ear candy, not a last-beat fill:
+      sparse (every ~16 bars, not 4), wants a swung 16th feel"
+    tag: misfiled
+  - subject: fill-drum-kick-snare-stutter
+    v: bin
+    date: 2026-09-08
+    context: fills
+    note: still nope after the fix
+  - subject: fill-hat-roll32
+    v: keep
+    date: 2026-09-08
+    context: fills
+    note: reconfirmed after rebuild - nice
+  - subject: fill-hat-triplet
+    v: keep
+    date: 2026-09-08
+    context: fills
+    note: reconfirmed after rebuild - nice, sounds close to roll32
+  - subject: fill-hat-accelerando
+    v: keep
+    date: 2026-09-08
+    context: fills
+    note: flipped after rebuild - nice, sounds close to roll32/triplet
+  - subject: fill-hat-stutter-gate
+    v: bin
+    date: 2026-09-08
+    context: fills
+    note: reconfirmed - still the one he doesn't like
+  - subject: fill-drum-snare-buildup
+    v: keep
+    date: 2026-09-08
+    context: fills
+    note: reconfirmed - a win
+  - subject: fill-drum-kick-snare-stutter
+    v: bin
+    date: 2026-09-08
+    context: fills
+    note: reconfirmed still bad
+  - subject: fill-drum-snare-roll-sim
+    v: bin
+    date: 2026-09-08
+    context: fills
+    note: reconfirmed still bad
+  - subject: fill-drum-perc-cascade
+    v: keep
+    date: 2026-09-08
+    context: fills
+    note: "condition, not unconditional: sparse ear candy every ~16 bars as a swung
+      16th - same shape as the conditioning-bell keeps"
+    tag: conditioning-bell
+  - subject: pad-ambient-vocal
+    v: keep
+    date: 2026-09-08
+    context: pads
+    note: eerie and nostalgic, like a record player at the start of a song - loves it
+  - subject: pad-avantchord
+    v: bin
+    date: 2026-09-08
+    context: pads
+    note: nope
+  - subject: pad-bender-chord
+    v: keep
+    date: 2026-09-08
+    context: pads
+    note: cool effect - background FX in a track rather than a pad
+    tag: misfiled
+  - subject: pad-5ths-filter-sweep
+    v: bin
+    date: 2026-09-08
+    context: pads
+    note: cool but too basic, not a sound he likes
+  - subject: pad-analog-rising
+    v: keep
+    date: 2026-09-08
+    context: pads
+    note: cool, could be worked on
+  - subject: pad-bell-pad
+    v: keep
+    date: 2026-09-08
+    context: pads
+    note: likes it - as a 16-bar note loop it would sit nice underneath
+    tag: needs-pair
+  - subject: pad-axis-string-cluster
+    v: keep
+    date: 2026-09-08
+    context: pads
+    note: nostalgic but only reads as a riser, not a pad - so weird
+    tag: misfiled
+  - subject: pad-buzz-reso-stereo
+    v: keep
+    date: 2026-09-08
+    context: pads
+    note: could be built into a nice loop
+    tag: needs-pair
+  - subject: pad-brain-teaser
+    v: keep
+    date: 2026-09-08
+    context: pads
+    note: amazing, could really sit under a track
+  - subject: pad-basic-saw
+    v: keep
+    date: 2026-09-08
+    context: pads
+    note: fits nice
+  - subject: space-reverb-native
+    v: keep
+    date: 2026-09-08
+    context: space
+    note: cool, weird and attractive
+  - subject: space-hybrid-reverb
+    v: keep
+    date: 2026-09-08
+    context: space
+    note: nice
+  - subject: space-convolution-reverb
+    v: keep
+    date: 2026-09-08
+    context: space
+    note: cool, added something, not sure what
+  - subject: space-convolution-reverb-pro
+    v: keep
+    date: 2026-09-08
+    context: space
+    note: sounds similar to Convolution Reverb
+  - subject: space-delay-native
+    v: keep
+    date: 2026-09-08
+    context: space
+    note: cool but been there done that - lukewarm; wants ValhallaSupermassive added
+      back in, he does have it
+  - subject: pattern-hat-P1-garage-skip
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: good
+  - subject: pattern-hat-P2-triplet-roll
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: fire, insane - even before the roll kicks in - top pick
+  - subject: pattern-hat-P3-driving-16ths
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: the ending is shite, whatever it does there - rest wasn't called out as
+      bad, just the end
+  - subject: pattern-hat-P4-sparse-two-step
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: ay ok ok ok yuh thats fire - top pick
+  - subject: pattern-hat-P5-shuffled-rolls
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: isn't bad, hat skip halfway through is okay, roll at the end is aight
+  - subject: pattern-hat-P3-driving-16ths
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: fixed - dropped the open hat at beat 15.75 (108 velocity) that was
+      bleeding into the loop point, rest of the pattern stays
+  - subject: pattern-hat-H01-ukg-offbeat-bones
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool, not great but cool
+  - subject: pattern-hat-H02-ukg-skip
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: likes it
+  - subject: pattern-hat-H03-ukg-shuffle-16ths
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: the one - top pick
+  - subject: pattern-hat-H04-ukg-sparse-open
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: nah
+  - subject: pattern-hat-H05-tech-offbeat-ghosts
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool, he's with it
+  - subject: pattern-hat-H06-tech-ride-driver
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool rise, not much hat - reads as a riser not a hat pattern
+    tag: misfiled
+  - subject: pattern-hat-H07-tech-rolling-16ths
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: official, really likes it - top pick
+  - subject: pattern-hat-H08-house-open-every-and
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: good, keep it
+  - subject: pattern-hat-H09-house-8ths-pedal
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool, likes it
+  - subject: pattern-hat-H10-house-disco-16ths
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: dope - all a tad basic but fine as starters
+  - subject: pattern-bass-05-drone-octave-lift
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: sounds cool
+  - subject: pattern-bass-06-descending-walk
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: sounds cool
+  - subject: pattern-bass-07-fifth-pedal
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: aight
+  - subject: pattern-bass-08-scoop-roots
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: the one, loves it - top pick
+  - subject: pattern-bass-09-long-tension-bend
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: dope
+  - subject: pattern-bass-10-dotted-half-sync
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: pretty good, keep for sure
+  - subject: pattern-bass-11-octave-drop
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool
+  - subject: pattern-bass-12-minimal-vibrato
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: nah
+  - subject: pattern-bass-13-rising-slides
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: no
+  - subject: pattern-bass-14-wide-space
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: loves it - top pick
+  - subject: pattern-bass2-p1-held-roots
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: eh, its cool
+  - subject: pattern-bass2-p2-dotted
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: sick - top pick
+  - subject: pattern-bass2-p3-sparse
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool except one high note - needs the same surgical fix as hat P3
+  - subject: pattern-bass2-p4-tension
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: loves it, like really loves it - top pick
+  - subject: pattern-chords-C01
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: keep
+  - subject: pattern-chords-C02
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: keep
+  - subject: pattern-chords-C03-Dm7-G7-Cmaj7-Am7
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: dope
+  - subject: pattern-chords-C04-Am9-Fmaj9-wide
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: nah, not a fan
+  - subject: pattern-chords-C05-Am-F-C-G-minor-loop
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: a keeper - top pick
+  - subject: pattern-chords-C06-Em7-A7-Dm7-G7
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: nice, keep but not as good as C05
+  - subject: pattern-chords-C07-sus-resolutions
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: DOPE in a weird way - top pick
+  - subject: pattern-chords-C08-descending-Fmaj7-Cmaj7
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool, likes it, very lofi
+  - subject: pattern-chords-C09-C-Ab-Bb-C-lift
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: idk, probably not
+  - subject: pattern-chords-C10-two-chord-inner-movement
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: likes it, good rhythm
+  - subject: pattern-pads-D01-held-C-Am-F-G
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool, woah
+  - subject: pattern-pads-D02-held-7ths
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: sick, flowy
+  - subject: pattern-pads-D03-sus-movement
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: ehh, aight, probably not
+  - subject: pattern-pads-D04-9ths-lush
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: likes it
+  - subject: pattern-pads-D05-Am-F-C-G
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: really good
+  - subject: pattern-pads-D06-swell-retrigger
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: really good
+  - subject: pattern-pads-D07-offbeat-stabs
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: the pattern doesn't sound good on Ambient Vocal - retest on a different
+      instrument before writing it off
+    tag: misfiled
+  - subject: pattern-pads-D08-broken-chord-8ths
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool paddy noise
+  - subject: pattern-pads-D09-static-bed-moving-top
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: really cool, eerie
+  - subject: pattern-pads-D10-two-step-chord-skip
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: keep it, likes it
+  - subject: pattern-hat-H06-tech-ride-driver
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: flipped on relisten - nah
+  - subject: pattern-bass2-p2-dotted
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: picked up massively on relisten - still the top pick
+  - subject: pattern-ostinato-01-stepwise-rising
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: dope
+  - subject: pattern-ostinato-02-minor-arp-rising
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: dope as well
+  - subject: pattern-ostinato-03-major-arp-rising
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: INSANE - with Arpeggiator stacked on it, it's nuts - top pick
+    tag: needs-pair
+  - subject: pattern-ostinato-04-rocking-2note
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: good
+  - subject: pattern-ostinato-05-stepwise-run
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: stupidly good - explicitly flagged to make sure it's saved - top pick
+  - subject: pattern-ostinato-06-minor7-arp
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: stupidly good as well - top pick
+  - subject: pattern-ostinato-07-rocking-4note
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: aight
+  - subject: pattern-ostinato-08-motorik
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: a keeper as well
+  - subject: pattern-melody-M01-stepwise-hook
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: not bad
+  - subject: pattern-melody-M03-offbeat-topline
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: pattern's ok but really doesn't like the sound (Grime Lead) on it - retest
+      on a different instrument
+    tag: misfiled
+  - subject: pattern-melody-M04-long-sustained
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: really good
+  - subject: pattern-melody-M05-pentatonic-loop
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: dope
+  - subject: pattern-melody-M06-minor-flavour
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: dope
+  - subject: pattern-melody-M07-stab-melody
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: notes are good, sound is shit - the pattern's a keeper, Grime Lead isn't
+      the host
+    tag: misfiled
+  - subject: pattern-melody-M08-ascending-sequence
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: good, likes it
+  - subject: pattern-melody-M09-vocal-syllabic
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: no
+  - subject: pattern-melody-M10-sparse-two-note-motif
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: nope
+  - subject: pattern-ostinato-found-O01-three-note-rise-8ths
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: meh
+  - subject: pattern-ostinato-found-O02-three-note-rise-16ths
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool
+  - subject: pattern-ostinato-found-O03-rocking-two-note
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool
+  - subject: pattern-ostinato-found-O04-four-note-dotted-phase
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: dope
+  - subject: pattern-ostinato-found-O05-descending-wide
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: alright, wouldn't keep
+  - subject: pattern-ostinato-found-O06-pedal-upper-neighbour
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: no
+  - subject: pattern-ostinato-found-O07-fifths-quarters
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: nah
+  - subject: pattern-ostinato-found-O08-five-note-phase
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: ok
+  - subject: pattern-ostinato-found-O09-sus2-rock-16ths
+    v: bin
+    date: 2026-09-08
+    context: patterns
+    note: is shit
+  - subject: pattern-ostinato-found-O10-rise-octave-landing
+    v: keep
+    date: 2026-09-08
+    context: patterns
+    note: cool actually

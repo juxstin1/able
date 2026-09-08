@@ -29,3 +29,34 @@ chains:
       - v: keep
         date: 2026-09-03
         note: scene 1 cool
+  - id: 808-pure-bass-004
+    context: 808 pure bass
+    nodes:
+      - ref: drift-808-pure
+        slot: source
+    verdicts:
+      - v: keep
+        date: 2026-09-08
+        note: baseline alone, sounds like a proper 808, no complaints
+  - id: 808-pure-bass-005
+    context: 808 pure bass
+    nodes:
+      - ref: drift-808-pure
+        slot: source
+      - ref: saturator
+        slot: shape
+    verdicts:
+      - v: keep
+        date: 2026-09-08
+        note: favorite of the three - still sounds like an 808, just better
+  - id: 808-pure-bass-006
+    context: 808 pure bass
+    nodes:
+      - ref: drift-808-pure
+        slot: source
+      - ref: auto-filter
+        slot: shape
+    verdicts:
+      - v: keep
+        date: 2026-09-08
+        note: good, sounds like an 808, but not preferred over the Saturator version

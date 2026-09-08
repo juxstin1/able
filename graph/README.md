@@ -25,6 +25,43 @@ word so negatives actually get logged.
 Confidence: any edge with fewer than 3 chains behind it is reported `low_confidence`. Recommend off it
 only while saying so.
 
+## banks.yaml - the bar changes per bank
+
+`verdict.ts` logs single subjects (`sound-bank.ts` builds banks of alternatives: kick, lead, bass...).
+"Keep" doesn't mean the same thing in every bank - a lead is the thing people notice, so it has to
+be distinct or it's dead weight; bass mostly does a structural job, so ten decent low-end options
+that layer well beats two exceptional ones. `banks.yaml` writes that bar down per bank (`distinct` |
+`functional`, plus a note) so a verdict row can be read correctly without re-deriving the judgment
+call each time. Set when a bank is created or when the bar visibly shifts - not on every verdict.
+
+## Pairings (`pair:` subjects)
+
+A verdict subject is normally one thing. When two things were judged together (layered basslines,
+a device stacked on a kick), log it as its own row instead of burying it in prose, so it survives as
+a relation and not just a note: `verdict.ts pair:a+b keep "why" --context ctx --tag layer`. A subject
+that keeps appearing on the left of multiple `pair:` rows (e.g. `pair:808-pure+x`) is behaving as a
+foundation, not just another keep - `verdict.ts tag layer` surfaces the whole map.
+
+A keep reason that's actually a pairing condition ("this hat works better with a boxy two-step
+snare") isn't a real `pair:` row yet - there's no tested counterpart. Tag it `needs-pair` and put
+the condition in the note; once the specific counterpart is found or built and actually tested
+together, promote it to a real `pair:` row (`verdict.ts tag needs-pair` lists what's waiting).
+
+## `misfiled` - a keep in the wrong bank
+
+Sometimes the verdict is "keep, but this isn't what the bank says it is" - a hat that's really
+ear-candy buildup material, a downlifter that's really unplaced ear candy. Tag these `misfiled`
+(`verdict.ts tag misfiled`) instead of letting the reclassification live only in the note. It's
+happened across leads→bass (Grime), bass→lead (Myloacid as a conditioning bell), and within a
+single bank (a hat that isn't a hat) - common enough to be a real category, not a one-off.
+
+## `lazy-pick` - when the curation itself was the problem
+
+If a keep/bin round comes back weak, tag the weak items `lazy-pick` rather than just moving on -
+it marks "this batch was under-curated" as distinct from "this category is genuinely thin." Seen
+on a downlifters round where several picks were generic single-hit samples (a tom, a perc hit)
+with no real movement, picked because they matched the category name rather than the job.
+
 ## How this is allowed to learn (Justin, 2026-09-03)
 
 - Continuous, not batch. A verdict lands the moment he says it. No review sessions, no forms.
