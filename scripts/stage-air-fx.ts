@@ -1,12 +1,14 @@
 // Place generated FX options AFTER the current song as draggable audio clips.
-// usage: tsx scripts/stage-air-fx.ts
+// usage: tsx scripts/stage-air-fx.ts [--project "drum-groove-sept3 Project"]
 // Preserves the existing song loop, tempo, playback, tracks, clips and device settings.
 import fs from 'node:fs';
 import path from 'node:path';
 import { withLive,print } from '../lib/live.js';
 import { ROOT } from '../lib/paths.js';
 
-const latest=JSON.parse(fs.readFileSync(path.join(ROOT,'project-files','Untitled5 Study','FX Options','latest.json'),'utf8'));
+const argv=process.argv.slice(2);
+const PROJECT=argv.includes('--project')?argv[argv.indexOf('--project')+1]:'Untitled5 Study';
+const latest=JSON.parse(fs.readFileSync(path.join(ROOT,'project-files',PROJECT,'FX Options','latest.json'),'utf8'));
 const man=JSON.parse(fs.readFileSync(latest.manifest,'utf8'));
 const names:Record<string,string>={Risers:'FX Options - Risers',Swells:'FX Options - Swells',Falls:'FX Options - Downlifters',Hits:'FX Options - Impacts'};
 const colors:Record<string,number>={Risers:17,Swells:21,Falls:20,Hits:9};
@@ -43,8 +45,15 @@ print(await withLive(async live=>{
     for(const item of man.clips){
       const t=tracks.get(item.group);
       await t.createAudioClip(item.file,at);
-      const candidates=(await t.get('arrangement_clips')).filter((c:any)=>Math.abs(c.raw.start_time-at)<0.001);
-      if(candidates.length!==1)throw new Error('Could not uniquely identify new FX clip at beat '+at);
+      // Live answers slower than the reply arrives, so the new clip is not always in the list yet.
+      // Re-READING is safe to repeat (unlike re-creating), so give it a bounded number of looks.
+      let candidates:any[]=[];
+      for(let attempt=0;attempt<20;attempt++){
+        candidates=(await t.get('arrangement_clips')).filter((c:any)=>Math.abs(c.raw.start_time-at)<0.001);
+        if(candidates.length===1)break;
+        await new Promise(r=>setTimeout(r,100));
+      }
+      if(candidates.length!==1)throw new Error(`Could not uniquely identify new FX clip at beat ${at} (saw ${candidates.length}) after 2s`);
       const clip=candidates[0];
       // Non-warped audio markers are seconds. Confirm timeline length after the change.
       await clip.set('warping',false);

@@ -15,15 +15,23 @@ import soundfile as sf
 
 args = argparse.ArgumentParser()
 args.add_argument('--bpm', type=float, default=123.70)
+args.add_argument('--project', default='Untitled5 Study', help='folder under project-files/ to write into')
+args.add_argument('--key', default='Bm', help='root of the tonal swell, e.g. Em - the rest is untuned noise')
 opts = args.parse_args()
 if not 60 <= opts.bpm <= 200:
     raise ValueError('Expected musical tempo between 60 and 200 BPM')
 BPM = opts.bpm
+# Only 07_REVERSE_HALO is pitched; everything else is noise and stays key-agnostic.
+NOTE = {'C': 60, 'C#': 61, 'D': 62, 'D#': 63, 'E': 64, 'F': 65, 'F#': 66, 'G': 67, 'G#': 68, 'A': 69, 'A#': 70, 'B': 71}
+KEY = opts.key.rstrip('m') or 'B'
+if KEY not in NOTE:
+    raise ValueError(f'Unknown key root {opts.key!r}')
+KEY_ROOT = NOTE[KEY] + 12  # the octave the old hard-coded B4/F#5/D6 stack sat in
 SR = 48000
 BEAT = 60 / BPM
 ROOT = Path(__file__).resolve().parents[1]
 STAMP = datetime.now(timezone.utc).strftime('%Y%m%d-%H%M%S')
-DEST = ROOT / 'project-files' / 'Untitled5 Study' / 'FX Options' / STAMP
+DEST = ROOT / 'project-files' / opts.project / 'FX Options' / STAMP
 DEST.mkdir(parents=True, exist_ok=False)
 RNG = np.random.default_rng(90612370)
 
@@ -120,8 +128,8 @@ def reverse_air(beats, hollow=False):
 def halo(beats):
     n=round(beats*BEAT*SR); t=np.arange(n)/SR; u=np.linspace(0,1,n)
     x=np.zeros((n,2))
-    # B minor: B4, F#5, D6. Labelled tonal so it can be placed deliberately.
-    for j,midi in enumerate([71,78,86]):
+    # Root, fifth, minor third stacked over two octaves - the only pitched clip, so it follows --key.
+    for j,midi in enumerate([KEY_ROOT, KEY_ROOT+7, KEY_ROOT+15]):
         freq=440*2**((midi-69)/12)
         for side in [0,1]:
             detune=(-1 if side==0 else 1)*(j+1)*2.8
@@ -163,7 +171,7 @@ specs=[
     ('04_AIR_TRIPLETS_4bar',16,'Risers',lambda:rise(16,'triplet'),-10,'Three pulses per beat, opening into a continuous final wash.'),
     ('05_REVERSE_AIR_1bar',4,'Swells',lambda:reverse_air(4),-10,'Short inhale ending on a downbeat.'),
     ('06_REVERSE_HOLLOW_2bar',8,'Swells',lambda:reverse_air(8,True),-11,'Darker reverse swell with less bright hiss.'),
-    ('07_REVERSE_HALO_Bm_2bar',8,'Swells',lambda:halo(8),-12,'Tonal shimmer: B, F#, D. Try before a B-minor downbeat.'),
+    (f'07_REVERSE_HALO_{KEY}m_2bar',8,'Swells',lambda:halo(8),-12,f'Tonal shimmer on {KEY} minor. Try before a {KEY}-minor downbeat.'),
     ('08_STEREO_WHOOSH_1bar',4,'Swells',lambda:whoosh(4),-10,'Left-to-right sweep; peak sits halfway through the clip.'),
     ('09_AIR_FALL_2bar',8,'Falls',lambda:down(8),-11,'Start on the drop; bright air falls away.'),
     ('10_AIR_LONG_TAIL_4bar',16,'Falls',lambda:down(16,True),-12,'Long diffuse downlifter for a breakdown or final drop.'),

@@ -9,7 +9,7 @@ import { loadOnTrack, type Root } from "../lib/browser.js";
 import { replaceArrangementClip } from "../lib/midi.js";
 import { getOrCreateTrack, setParams } from "../lib/song.js";
 import { padsFor } from "../lib/kits.js";
-import { swing, type Note } from "../lib/midi.js";
+import { swing, pitch, type Note } from "../lib/midi.js";
 
 interface BankItem {
   label: string;
@@ -309,6 +309,10 @@ const bank = BANKS[bankName];
 if (!bank) throw new Error(`bank must be one of ${Object.keys(BANKS).join(", ")}`);
 const flag = (n: string, d: string) => (args.includes(`--${n}`) ? args[args.indexOf(`--${n}`) + 1] : d);
 const START_BAR = Number(flag("start", "1"));
+// Bank phrases are written around C (MIDI 60). A pad auditioned in the wrong key tells you nothing
+// about whether it sits under THIS track, so shift the whole phrase to the track's root.
+const ROOT_NOTE = flag("root", "");
+const TRANSPOSE = ROOT_NOTE ? pitch(ROOT_NOTE) - 60 : 0;
 const startBeat = (START_BAR - 1) * 4;
 const FROM = Number(flag("from", "1")) - 1; // resume a bank build from item index N (1-based)
 const LAYER = args.includes("--layer"); // leave every track unmuted (stack) instead of solo-one-at-a-time
@@ -331,6 +335,7 @@ print(
         results.push({ name, kit: item.kit, note, missing });
       } else if (item.path) {
         notes = item.notes ?? bank.baseNotes ?? (bank.oneShot ? oneShot(clipBeats) : MOTIF);
+        if (TRANSPOSE) notes = notes.map((n) => ({ ...n, pitch: n.pitch + TRANSPOSE }));
         const loadRoot = item.root ?? "instruments";
         const deviceName = item.path[0];
         const t = await getOrCreateTrack(live, name, async (tt) => {

@@ -1249,3 +1249,43 @@ verdicts:
     note: "Auto Pan-Tremolo gating a 57s D3 drone into rhythm. Justin: 'chop A is
       bad lol'. Uniform LFO tremolo is not the Bicep gate - that one is driven
       by a hi-hat's groove, which a steady LFO cannot fake"
+  - subject: sound:909-core-kit-for-ukg
+    v: bin
+    date: 2026-09-08
+    context: UKG 132 drums
+    note: "Swapped the Garage Kit out for it on a split. Justin: 'that aint it'. The
+      Garage Kit's Snare Trap IS the layered clap and Ride EDM Toned IS the
+      offbeat voice - padsFor reporting clap/ohat missing is a pad-NAME regex
+      gap, not a sonic one"
+  - subject: sound:909-kick-under-garage-kick
+    v: keep
+    date: 2026-09-08
+    context: UKG 132 drums
+    note: "909 Bass Drum layered under the Garage Kit's Kick TL. Justin: 'sounds
+      nice under it'. Sub weight the garage kick lacks, without EQ'ing one kick
+      into doing both jobs"
+  - subject: pattern-ostinato-06-minor7-arp-in-track
+    v: keep
+    date: 2026-09-08
+    context: UKG 132 Emin
+    note: "Em7 arp 16ths on Oscillation Guitar over the 132 UKG drums. Justin: 'the
+      ukg ostinato is cool asl'. First time a bank top-pick has been placed in a
+      real track rather than auditioned alone"
+  - subject: loop:ukg-chords-first-132-emin
+    v: keep
+    date: 2026-09-08
+    context: UKG 132 Emin
+    note: "Chords-first build at 132 in E minor: Em9/Cmaj9/Am11 family, garage
+      cluster voicing, 2-step Garage Kit drums, rolling sub, and an Em vocal
+      lead chopped across three tracks. Justin: 'this shit sounds like a real
+      song holay'. First time the chords were chosen BEFORE any other part - the
+      pitch set was decided rather than inherited"
+  - subject: loop:you-know-132-emin
+    v: keep
+    date: 2026-09-08
+    context: UKG 132 Emin
+    note: "Exported. Chords-first UKG at 132 in E minor - Em9/Cmaj9/Am11 cluster
+      voicings, 2-step Garage Kit drums, rolling sub, Em vocal lead chopped
+      across three tracks, air FX generated at tempo. Justin: 'exported not a
+      bad track honestly'. Out as i-tried-to-be-myself-mix.wav / you-know-2.wav
+      in Music/tracks/releases-sept"

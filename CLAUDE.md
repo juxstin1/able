@@ -181,4 +181,6 @@ Each of these was checked; don't spend time working around them:
   consolidated `Samples/`, and the generated `FX Options/` renders. A clone is the whole project,
   not a project minus its sound. Only what Live rebuilds by itself is excluded - the timestamped
   `Backup/` autosaves and the `.asd` analysis caches.
+- `releases/` holds finished masters, one wav per track - the deliverable, as distinct from the
+  working files under `project-files/`. Audit one with `audit-master.py` before it goes out.
 - Agents hub project: `obsidian-vault/agents/projects/able/`.
