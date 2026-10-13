@@ -133,6 +133,8 @@ generating drums; never assume the GM layout in `DRUM`.
 | `build-14.ts [--start 14] [--bars 8]` | a steady groove from bar 14 - snare run, kick between them, hats closed-closed-open. Not a build; nothing accelerates and nothing drops |
 | `build-ambient-tonight.ts [--files-only]` | the 88-bar September Light ambient arrangement at 118 |
 | `import-untitled5.ts` / `tune-untitled5.ts` / `inspect-u5-arrangement.ts` / `add-u5-mallet-layers.ts` | the Untitled5 study: import the source, finish the sounds and meter a loop, snapshot the set, then layer marimba + electric piano. The layer pass re-hashes the source clip notes and refuses if the arrangement moved under it |
+| `am9-halftime.ts [--scene N] [--chords main\|bright\|dark] [--kit "X.adg"] [--bass "X.adg"]` | the Am9 / 78 half-time idea into one Session scene from `project-files/Am9 Halftime - 78/`: Electric chords (8 bars), GM drums remapped through `padsFor`, bass locked behind the kick. Does not fire the scene |
+| `als-inspect.ts <set.als ...> [--json]` | a saved set read off disk, Live not needed: tempo, time sig, scale, locators, device chains, plugins (racks included), Session + Arrangement clips. Run it to see which VSTs a project needs before opening it |
 
 `songs/*.yaml` are section lists (`name`, `scene`, `bars`) consumed by `arrange.ts` and
 `arrange-build.ts`. `songs/ukg.yaml` is the worked example.
