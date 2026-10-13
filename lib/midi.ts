@@ -135,15 +135,19 @@ export function readMidi(file: string): { notes: Note[]; ppq: number; bpm?: numb
   const notes: Note[] = [];
   for (let t = 0; t < numTracks; t++) {
     if (str(4) !== "MTrk") throw new Error(`${file}: expected MTrk`);
-    const trackEnd = pos + u32();
+    // Read the length first: `pos + u32()` captures pos before u32 advances it, ending every
+    // track 4 bytes early - harmless on single-track files, "expected MTrk" on format 1.
+    const len = u32();
+    const trackEnd = pos + len;
     let tick = 0;
     let running = 0;
-    const active = new Map<number, { start: number; velocity: number }>();
+    // A FIFO per pitch: a humanized hat can retrigger before its previous note-off, and a single
+    // slot per pitch would silently drop the earlier hit.
+    const active = new Map<number, { start: number; velocity: number }[]>();
     const close = (note: number, endTick: number) => {
-      const a = active.get(note);
+      const a = active.get(note)?.shift();
       if (!a) return;
       notes.push({ pitch: note, time: a.start / ppq, duration: Math.max(endTick - a.start, 1) / ppq, velocity: a.velocity });
-      active.delete(note);
     };
     while (pos < trackEnd) {
       tick += vlqRead();
@@ -163,7 +167,7 @@ export function readMidi(file: string): { notes: Note[]; ppq: number; bpm?: numb
       } else if (type === 0x90 || type === 0x80) {
         const note = u8();
         const vel = u8();
-        if (type === 0x90 && vel > 0) active.set(note, { start: tick, velocity: vel });
+        if (type === 0x90 && vel > 0) active.set(note, [...(active.get(note) ?? []), { start: tick, velocity: vel }]);
         else close(note, tick);
       } else if (type === 0xa0 || type === 0xb0 || type === 0xe0) {
         pos += 2;
