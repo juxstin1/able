@@ -22,8 +22,9 @@ header comment. Read that header before running one.
   surface off/on (or restart Live) after either - a soft toggle doesn't always take:
   - `python remote-script/patch.py` - groove pool read/write. `lib/groove.ts` needs it.
   - `python remote-script/patch-automation.py` - clip automation envelopes. `lib/envelope.ts`
-    needs it, and it is genuinely unverified: an AttributeError means the API isn't reachable
-    from a Control Surface script, which is the final answer, not a bug to chase.
+    needs it. Confirmed working 2026-09-09 (`scripts/test-envelope.ts`): Session-clip envelopes
+    ARE reachable from a standard Control Surface script - no ableton-js fork needed, since
+    `Clip.sendCommand()` is already a generic passthrough.
 
 ## Architecture
 
@@ -108,7 +109,8 @@ generating drums; never assume the GM layout in `DRUM`.
 | `arrange-build.ts <song.yaml> [--start 1]` | scenes -> real Arrangement timeline |
 | `arrange.ts <song.yaml>` | performs the scene sequence live, with automation |
 | `automate.ts --track --device --param --points "[[0,0],[8,1]]"` | real-time knob move while the transport plays; bakes nothing |
-| `envelope.ts --track --device --param --scene N --steps "[[0,4,0]]"` | real clip envelope, Session only, needs the automation patch |
+| `envelope.ts --track --device --param --scene N --steps "[[0,4,0]]"` | real clip envelope, Session only, needs the automation patch (confirmed working 2026-09-09) |
+| `test-envelope.ts` | diagnostic: creates a throwaway track+clip and confirms the automation-envelope patch still works. Re-run after any ableton-js/Live upgrade |
 | `groove.ts pool\|global\|dial\|apply\|clear\|show\|justin` | groove pool; needs `patch.py`. Justin's default is `groove.ts justin "<groove>" --tracks a,b` (timing 60%, global 100%) |
 | `stop.ts` | stop the transport and all clips. Run it before handing back - never leave Live playing |
 | `levels.ts --scene N` | peak per track + master (1.0 = 0dBFS). Run before trusting a mix by ear |
@@ -147,8 +149,10 @@ Each of these was checked; don't spend time working around them:
   automation lane and that lane has no write API. The only route is moving the knob live while
   Arrangement records. `automate.ts` puppeteers the parameter in real time instead, and nothing
   is captured into the clip.
-- `Clip.createAutomationEnvelope` in `ableton-js` is a dead stub. `lib/envelope.ts` goes around it
-  via the patched Remote Script - Session clips only, and possibly not reachable at all.
+- `Clip.createAutomationEnvelope` in `ableton-js` is a dead stub, but irrelevant - `lib/envelope.ts`
+  goes around it via the patched Remote Script and `Clip.sendCommand()`'s generic passthrough.
+  Confirmed working 2026-09-09, Session clips only (Arrangement clips have no envelope at all,
+  see above).
 - The sidechain **Audio From** chooser is not exposed. `sidechain.ts` dials everything else; the
   source is picked once by hand, after which it saves with the set.
 - Grooves cannot be added to the pool by API. They must already be in the set (`Grooves.als`).

@@ -1,16 +1,12 @@
 """Idempotently patch the installed AbletonJS Remote Script with clip automation-envelope writing.
 
-This is genuinely uncertain, unlike the groove patch: ableton-js ships a stub
-(`Clip.createAutomationEnvelope`) that does nothing, and its own comment in
-scripts/automate.ts says there's "no way to bake a real automation envelope into a clip
-over this API." Whether `Live.Clip.Clip.automation_envelope` / `create_automation_envelope`
-and `Live.Clip.AutomationEnvelope.insert_step` are even reachable from a standard Control
-Surface script (vs. Max for Live's more privileged bridge, or requiring hacked LomTypes.pyc,
-per forum.ableton.com/viewtopic.php?t=214401) has NOT been verified here. Run this, restart
-Live, and try it - if it throws AttributeError, this API isn't exposed to us and there's no
-further workaround worth building (patching Live's own compiled internals is out of scope).
+CONFIRMED WORKING 2026-09-09 (scripts/test-envelope.ts, Live 12.4.5): `Live.Clip.Clip.
+automation_envelope` / `create_automation_envelope` and `Live.Clip.AutomationEnvelope.insert_step`
+ARE reachable from a standard Control Surface script - no Max for Live, no hacked LomTypes.pyc.
+ableton-js ships `Clip.createAutomationEnvelope` as a private dead stub, but that never mattered:
+`Clip.sendCommand()` is a generic passthrough, which is how this patch's methods get called at all.
 
-Even if it works: Live.Clip.Clip.automation_envelope() returns None for Arrangement clips -
+Live.Clip.Clip.automation_envelope() returns None for Arrangement clips -
 automation on an Arrangement clip lives on the track's automation lane, not in the clip, and
 that lane has no write API at all (also confirmed on that same forum thread, as an open
 feature request). So this only ever reaches Session-view clips.
